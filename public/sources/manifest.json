@@ -1,0 +1,114 @@
+{
+  "title": "Études épigraphiques sur l’architecture grecque",
+  "author": "Auguste Choisy (1841–1909)",
+  "year": 1884,
+  "publisher": "Librairie de la Société anonyme de publications périodiques, Paris",
+  "copy": "Getty Research Institute copy digitized by Internet Archive",
+  "catalogue": "https://archive.org/details/etudesepigraphiq00choi",
+  "pdf": "https://archive.org/download/etudesepigraphiq00choi/etudesepigraphiq00choi.pdf",
+  "pdfBytes": 21126116,
+  "pdfSha256": "418e65e07dbdec0e0e2adc5d8dbbb47ec8d9e00f46bb6d52c0e5eed4d7991d15",
+  "rights": "1884 publication; public domain in the United States. Choisy died in 1909. Whole pages retain the original French translation, Greek, notes and margins.",
+  "render": {
+    "program": "pdftoppm",
+    "poppler": "24.02.0",
+    "scaleTo": 2500,
+    "format": "jpeg",
+    "quality": 88
+  },
+  "ancientReference": "IG II² 1668",
+  "date": "347/6 BCE in the modern inscription catalogue",
+  "crossCheck": "https://inscriptions.packhum.org/text/3893",
+  "pages": [
+    {
+      "id": "15",
+      "file": "choisy-015.jpg",
+      "label": "Title, 1884",
+      "kind": "title",
+      "pdfPage": 15,
+      "bytes": 233090,
+      "sha256": "ebef48fa44da0c15cb8eae800688281f60bebeff4123d46c8d2b5920e6262717"
+    },
+    {
+      "id": "33",
+      "file": "choisy-033.jpg",
+      "label": "Printed p.5 · opening and units",
+      "kind": "text",
+      "pdfPage": 33,
+      "bytes": 342156,
+      "sha256": "e985f948069762f4ef20b9092c55db50628060d2a5bb9aff148a6e73394d0059"
+    },
+    {
+      "id": "34",
+      "file": "choisy-034.jpg",
+      "label": "Printed p.6 · inclusive widths and public passage",
+      "kind": "text",
+      "pdfPage": 34,
+      "bytes": 458638,
+      "sha256": "a31e6e1531790af5f982b35bae3bc836207822900f5e2e808e2082dc9c775bc1"
+    },
+    {
+      "id": "35",
+      "file": "choisy-035.jpg",
+      "label": "Printed p.7 · wall body",
+      "kind": "text",
+      "pdfPage": 35,
+      "bytes": 478658,
+      "sha256": "16c9592220eca66a3d8335ec57b31eaeede17cead921e5ce57ccbc433636dfb2"
+    },
+    {
+      "id": "36",
+      "file": "choisy-036.jpg",
+      "label": "Printed p.8 · pillar breadth",
+      "kind": "text",
+      "pdfPage": 36,
+      "bytes": 447940,
+      "sha256": "ccff03dcf5e3fe041755692dbc7dfa409325e3605d5a6cd6ad0c564c9bc1a001"
+    },
+    {
+      "id": "37",
+      "file": "choisy-037.jpg",
+      "label": "Printed p.9 · height and exceptional first segment",
+      "kind": "text",
+      "pdfPage": 37,
+      "bytes": 444558,
+      "sha256": "08a3f57de84e7d503a71c55c4b18e66cb2fe59bacaa8e1ec27d7ef12a452e11f"
+    },
+    {
+      "id": "46",
+      "file": "choisy-046.jpg",
+      "label": "Printed p.18 · Choisy’s pillar interpretation",
+      "kind": "commentary",
+      "pdfPage": 46,
+      "bytes": 396945,
+      "sha256": "433d4c8cb1bcef10ed9853147fcf767e919d9f0299208c9283171e4c235aaa60"
+    },
+    {
+      "id": "47",
+      "file": "choisy-047.jpg",
+      "label": "Printed p.19 · interpretation continued",
+      "kind": "commentary",
+      "pdfPage": 47,
+      "bytes": 449376,
+      "sha256": "fe9ef0961adbee5c07543a6eb78e9d77acca8afa1617893a2f98dde5a15ce84e"
+    },
+    {
+      "id": "73",
+      "file": "choisy-073.jpg",
+      "label": "Plate I · Choisy’s reconstruction",
+      "kind": "reconstruction",
+      "pdfPage": 73,
+      "bytes": 484013,
+      "sha256": "c9f26559e5fba66ffa7b3dc27a3ddf520cc733983dc925ca972e43724a697288"
+    },
+    {
+      "id": "75",
+      "file": "choisy-075.jpg",
+      "label": "Plate II · Choisy’s reconstruction",
+      "kind": "reconstruction",
+      "pdfPage": 75,
+      "bytes": 462285,
+      "sha256": "eaa3a61453bcf00bf77d921d41d9d06f5d13fe8aadb3da660b0d9209ac61d8ee"
+    }
+  ]
+}
