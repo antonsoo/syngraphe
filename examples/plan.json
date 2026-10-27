@@ -1,0 +1,14 @@
+{
+  "format": "syngraphe-plan",
+  "version": 1,
+  "scope": "selected-clauses",
+  "state": {
+    "side": "inclusive",
+    "first": 5,
+    "capital": 16,
+    "endGap": 83,
+    "pillar": 35,
+    "reading": 7,
+    "page": 37
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "scope": "Actual downloaded native files, independent exact fractions, embedded source/font/license identities and print extraction",
+  "configurations": [
+    {
+      "configuration": "chromium-1440",
+      "rows": 44,
+      "offlineRows": 44,
+      "exactCentersEach": 35,
+      "html": {
+        "sha256": "cd03bcaff96627a3669b464e911e4de37334a83fc8246f9c6ddb9f569c881b2c",
+        "bytes": 6275663,
+        "wholeSourceImages": 10,
+        "fontAndLicensesMatch": true
+      },
+      "offlineHtml": {
+        "sha256": "6c0e19d39db9665be3e4ed1c9c234fb3856c3124fbfd501e9ce6c61ca3967ffd",
+        "bytes": 6275659,
+        "wholeSourceImages": 10,
+        "fontAndLicensesMatch": true
+      },
+      "nativeEmbeddedDownloadsIdentical": true
+    },
+    {
+      "configuration": "chromium-375",
+      "rows": 44,
+      "offlineRows": 44,
+      "exactCentersEach": 35,
+      "html": {
+        "sha256": "cd03bcaff96627a3669b464e911e4de37334a83fc8246f9c6ddb9f569c881b2c",
+        "bytes": 6275663,
+        "wholeSourceImages": 10,
+        "fontAndLicensesMatch": true
+      },
+      "offlineHtml": {
+        "sha256": "6c0e19d39db9665be3e4ed1c9c234fb3856c3124fbfd501e9ce6c61ca3967ffd",
+        "bytes": 6275659,
+        "wholeSourceImages": 10,
+        "fontAndLicensesMatch": true
+      },
+      "nativeEmbeddedDownloadsIdentical": true
+    },
+    {
+      "configuration": "firefox-1440",
+      "rows": 44,
+      "offlineRows": 44,
+      "exactCentersEach": 35,
+      "html": {
+        "sha256": "cd03bcaff96627a3669b464e911e4de37334a83fc8246f9c6ddb9f569c881b2c",
+        "bytes": 6275663,
+        "wholeSourceImages": 10,
+        "fontAndLicensesMatch": true
+      },
+      "offlineHtml": {
+        "sha256": "6c0e19d39db9665be3e4ed1c9c234fb3856c3124fbfd501e9ce6c61ca3967ffd",
+        "bytes": 6275659,
+        "wholeSourceImages": 10,
+        "fontAndLicensesMatch": true
+      },
+      "nativeEmbeddedDownloadsIdentical": true
+    },
+    {
+      "configuration": "firefox-375",
+      "rows": 44,
+      "offlineRows": 44,
+      "exactCentersEach": 35,
+      "html": {
+        "sha256": "cd03bcaff96627a3669b464e911e4de37334a83fc8246f9c6ddb9f569c881b2c",
+        "bytes": 6275663,
+        "wholeSourceImages": 10,
+        "fontAndLicensesMatch": true
+      },
+      "offlineHtml": {
+        "sha256": "6c0e19d39db9665be3e4ed1c9c234fb3856c3124fbfd501e9ce6c61ca3967ffd",
+        "bytes": 6275659,
+        "wholeSourceImages": 10,
+        "fontAndLicensesMatch": true
+      },
+      "nativeEmbeddedDownloadsIdentical": true
+    }
+  ],
+  "pdf": {
+    "pages": 23,
+    "completeGreekAndEnglishPassages": 16,
+    "completeContextualWordNotes": 22,
+    "sourceCaptions": 10,
+    "wordsWithinMargins": 2052,
+    "sha256": "72a9534ac61fadbf73f588a3c51019a067dbc92bf0af0c9a44927520968246f0",
+    "untaggedPhysicalPrinterUnverified": true
+  }
+}

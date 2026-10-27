@@ -1,0 +1,17 @@
+{
+  "oracle": "Python fractions.Fraction, independent foot-based formulas",
+  "widthReadings": 2,
+  "firstSegmentCapitalCombinations": 130,
+  "endGaps": 129,
+  "exactSupportPositions": 4515,
+  "checks": [
+    "inclusive width closure",
+    "total matching with wrong segment exception",
+    "residual capital versus prescribed total",
+    "count",
+    "equal spacing",
+    "symmetry",
+    "non-overlap",
+    "both end clearances"
+  ]
+}
