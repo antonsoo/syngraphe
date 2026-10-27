@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-27T05:12:21.936Z",
+  "scope": "Local production source-response failures, export refusal, source selection race and retained snapshot",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "latePageCannotReplaceSelection": true,
+      "exportCapturesInitialSettings": true,
+      "http200WrongPageRefused": true,
+      "corruptExportDownloads": 0,
+      "corruptEditionCannotClaimReadiness": true,
+      "recoveryWithValidPage": true
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "latePageCannotReplaceSelection": true,
+      "exportCapturesInitialSettings": true,
+      "http200WrongPageRefused": true,
+      "corruptExportDownloads": 0,
+      "corruptEditionCannotClaimReadiness": true,
+      "recoveryWithValidPage": true
+    }
+  ]
+}

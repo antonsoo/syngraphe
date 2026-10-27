@@ -1,0 +1,90 @@
+{
+  "remote": "https://github.com/antonsoo/syngraphe.git",
+  "commit": "df73e49ddb22704079cf417ab3f2b64b20c7c9bc",
+  "node": "24.21.0",
+  "commands": ["git clone https://github.com/antonsoo/syngraphe.git", "npm ci", "npm run check"],
+  "checks": "lint, strict types, seven substantive tests, build",
+  "matches": 20,
+  "files": {
+    "sw.js": {
+      "bytes": 4674,
+      "sha256": "bbf3d0a3b7212bdb3593c61bb9728efe5abd1b78eb8dd1c67c858ddc244d1eef"
+    },
+    "icon.svg": {
+      "bytes": 290,
+      "sha256": "c0c207d5b1f7c134758481020e52f70134d78050eaf496de2670ca6b1ea51df8"
+    },
+    "index.html": {
+      "bytes": 1006,
+      "sha256": "64148147ad3f8332f291b06afbb1dd4247e0f07d63e4a1d224f470422625ac03"
+    },
+    "LICENSE.txt": {
+      "bytes": 1071,
+      "sha256": "e26144be8673d69c175126ad8dcd9ed78431464f0b97120b799dc75ec7edb647"
+    },
+    "manifest.webmanifest": {
+      "bytes": 342,
+      "sha256": "b8a51161dece3dfa8b1bbae1e07da8dabbdab0d9feb4987438afcadec8f44957"
+    },
+    "fonts/NotoSerif-Regular.ttf": {
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    "fonts/OFL.txt": {
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    "sources/choisy-015.jpg": {
+      "bytes": 233090,
+      "sha256": "ebef48fa44da0c15cb8eae800688281f60bebeff4123d46c8d2b5920e6262717"
+    },
+    "sources/choisy-033.jpg": {
+      "bytes": 342156,
+      "sha256": "e985f948069762f4ef20b9092c55db50628060d2a5bb9aff148a6e73394d0059"
+    },
+    "sources/choisy-046.jpg": {
+      "bytes": 396945,
+      "sha256": "433d4c8cb1bcef10ed9853147fcf767e919d9f0299208c9283171e4c235aaa60"
+    },
+    "sources/choisy-037.jpg": {
+      "bytes": 444558,
+      "sha256": "08a3f57de84e7d503a71c55c4b18e66cb2fe59bacaa8e1ec27d7ef12a452e11f"
+    },
+    "sources/manifest.json": {
+      "bytes": 3735,
+      "sha256": "c97d1402be88dfd12514f7a37e391e6a128dfb0d310d5fc2084423f8c1d3d15d"
+    },
+    "sources/choisy-073.jpg": {
+      "bytes": 484013,
+      "sha256": "c9f26559e5fba66ffa7b3dc27a3ddf520cc733983dc925ca972e43724a697288"
+    },
+    "sources/choisy-034.jpg": {
+      "bytes": 458638,
+      "sha256": "a31e6e1531790af5f982b35bae3bc836207822900f5e2e808e2082dc9c775bc1"
+    },
+    "sources/choisy-075.jpg": {
+      "bytes": 462285,
+      "sha256": "eaa3a61453bcf00bf77d921d41d9d06f5d13fe8aadb3da660b0d9209ac61d8ee"
+    },
+    "sources/choisy-047.jpg": {
+      "bytes": 449376,
+      "sha256": "fe9ef0961adbee5c07543a6eb78e9d77acca8afa1617893a2f98dde5a15ce84e"
+    },
+    "sources/choisy-036.jpg": {
+      "bytes": 447940,
+      "sha256": "ccff03dcf5e3fe041755692dbc7dfa409325e3605d5a6cd6ad0c564c9bc1a001"
+    },
+    "sources/choisy-035.jpg": {
+      "bytes": 478658,
+      "sha256": "16c9592220eca66a3d8335ec57b31eaeede17cead921e5ce57ccbc433636dfb2"
+    },
+    "assets/index-C8byUmw5.js": {
+      "bytes": 85689,
+      "sha256": "6dc0967aea2efade569855a9353e76c27cec3cd057d53f958417ca8963d70eed"
+    },
+    "assets/index-Brd7SAOb.css": {
+      "bytes": 10303,
+      "sha256": "3ba2883c0d486d215690065e230ccbc2a4afa2dc5bd53e8b8b97a63eebc5b98b"
+    }
+  }
+}

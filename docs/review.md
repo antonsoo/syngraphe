@@ -31,6 +31,7 @@ prescribed dimensions, derived values and modern choices separate.
 
 This records the local production edition reviewed on 2026-10-27 UTC. Public
 bytes, remote source, Pages delivery and remote CI are separate claims.
+The subsequent [publication review](publication.md) records them.
 
 | Boundary          | Observation                                                                                                                                                                                                                                                                                                    |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
