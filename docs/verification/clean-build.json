@@ -2,10 +2,7 @@
   "source": "4e53634",
   "kind": "fresh local clone with --no-local",
   "node": "24.21.0",
-  "commands": [
-    "npm ci",
-    "npm run check"
-  ],
+  "commands": ["npm ci", "npm run check"],
   "matchedFiles": 20,
   "files": {
     "sw.js": {
