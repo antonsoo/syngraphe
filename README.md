@@ -148,6 +148,6 @@ standard library only.
 
 See [Contributing](CONTRIBUTING.md). Bring a concrete learner improvement or a
 source/model correction with evidence. New code, English and diagrams are
-[MIT licensed](LICENSE), Copyright (c) 2026 Anton Soloviev. Historical pages are
+[MIT licensed](LICENSE), Copyright (c) 2026 Anthony Mercer. Historical pages are
 public domain; Noto Serif uses SIL OFL 1.1. See
 [third-party notices](THIRD_PARTY_NOTICES.md).

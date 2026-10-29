@@ -4,7 +4,7 @@
   "private": true,
   "description": "Read the Piraeus arsenal specification in Greek and build exact, source-accountable architectural diagrams.",
   "type": "module",
-  "author": "Anton Soloviev <anton@praviel.com>",
+  "author": "Anthony Mercer <anthony@praviel.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
