@@ -345,7 +345,7 @@ for (const [name, engine] of [
         );
         assert.equal(await retained.locator("script").count(), 0);
         assert.equal(await retained.locator(".reading").count(), 8);
-        assert.equal(await retained.locator(".source img").count(), 10);
+        assert.equal(await retained.locator(".source img").count(), manifest.pages.length);
         assert(
           await retained
             .locator(".source img")

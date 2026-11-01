@@ -98,7 +98,7 @@ export function validState(v: unknown): v is PlanState {
     integer("pillar", 1, 35) &&
     integer("reading", 0, 7) &&
     typeof s.page === "number" &&
-    [15, 33, 34, 35, 36, 37, 46, 47, 73, 75].includes(s.page)
+    [15, 33, 34, 35, 36, 37, 40, 41, 46, 47, 73, 75].includes(s.page)
   );
 }
 export function widthAccount(state: PlanState) {

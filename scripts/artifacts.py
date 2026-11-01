@@ -69,7 +69,7 @@ def csv_audit(file, plan):
 
 def html_audit(file, plan):
     html=file.read_text();p=ReadingParser();p.feed(html)
-    assert p.scripts==0 and not p.remote and len(p.images)==10
+    assert p.scripts==0 and not p.remote and len(p.images)==len(manifest["pages"])
     for src,entry in zip(p.images,manifest['pages'],strict=True):
         data=base64.b64decode(src.split(',',1)[1]);assert len(data)==entry['bytes'] and sha(data)==entry['sha256']
         assert data==Path('public/sources',entry['file']).read_bytes()
@@ -83,7 +83,7 @@ def html_audit(file, plan):
     assert 'selected-clauses' in embedded['syngraphe-measurements.csv']
     assert 'modern' in embedded['syngraphe-study.svg'].lower()
     assert 'not a complete reconstruction' in text
-    return {'sha256':sha(file.read_bytes()),'bytes':file.stat().st_size,'wholeSourceImages':10,'fontAndLicensesMatch':True}
+    return {'sha256':sha(file.read_bytes()),'bytes':file.stat().st_size,'wholeSourceImages':len(manifest['pages']),'fontAndLicensesMatch':True}
 
 reports=[]
 for folder in sorted(root.iterdir()):

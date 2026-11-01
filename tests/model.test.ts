@@ -112,3 +112,10 @@ test("mixed feet remain exact with singular and negative values", () => {
   assert.equal(feet(-88), "−5½");
   assert.equal(feet({ n: 9, d: 17 }), "9/272");
 });
+
+test("new printed chest pages remain valid in measurement-room records", () => {
+  for (const page of [40, 41]) {
+    const state = { ...initial, page };
+    assert.deepEqual(importPlan(planRecord(state)), state);
+  }
+});

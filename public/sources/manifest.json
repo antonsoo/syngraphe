@@ -75,6 +75,24 @@
       "sha256": "08a3f57de84e7d503a71c55c4b18e66cb2fe59bacaa8e1ec27d7ef12a452e11f"
     },
     {
+      "id": "40",
+      "file": "choisy-040.jpg",
+      "label": "Printed p.12 · chests, sails and the supplied pattern",
+      "kind": "text",
+      "pdfPage": 40,
+      "bytes": 457647,
+      "sha256": "d58ff0c4e938f5cab7a19ea51579980b41553690609c5c40b1e43a3d057d4538"
+    },
+    {
+      "id": "41",
+      "file": "choisy-041.jpg",
+      "label": "Printed p.13 · opening faces and seeing while passing",
+      "kind": "text",
+      "pdfPage": 41,
+      "bytes": 359766,
+      "sha256": "592c8f4f246e0d77e37cfaedb954840a861785e3360db76f9acbcd3c468a9c4f"
+    },
+    {
       "id": "46",
       "file": "choisy-046.jpg",
       "label": "Printed p.18 · Choisy’s pillar interpretation",
