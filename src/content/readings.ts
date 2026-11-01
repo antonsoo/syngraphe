@@ -111,7 +111,7 @@ export const readings: Reading[] = [
       "διαλείπων δ[ί]οδον τῶι δήμωι διὰ μέσ[η]ς τῆς σκευοθήκης. πλάτος τὸ μεταξὺ τῶν κιόνων εἴκοσι ποδῶν,",
     english:
       "Leaving a passage for the people through the middle of the storehouse. Width between the pillars: twenty feet.",
-    note: "“For the people” describes the passage in the text. The later storage and visibility arrangements are outside this selected-clause model. It does not simulate historical access, security or actual use. The punctuation follows Choisy; the modern IG transcript punctuates this stretch differently.",
+    note: "“For the people” describes the passage in the text. The later storage and visibility arrangements are outside this measurement model; the separate Seeing while passing room studies their selected opening-face clauses. It does not simulate historical access, security or actual use. The punctuation follows Choisy; the modern IG transcript punctuates this stretch differently.",
     words: [
       {
         form: "τῶι δήμωι",

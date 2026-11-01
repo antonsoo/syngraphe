@@ -1,0 +1,12 @@
+{
+  "format": "syngraphe-sightline",
+  "version": 1,
+  "scope": "illustrative-sightlines",
+  "state": {
+    "station": 20,
+    "wall": "front",
+    "pillar": "sides",
+    "reading": 4,
+    "page": 41
+  }
+}

@@ -8,15 +8,45 @@ storehouse programme gives fifteen feet **including** a pillar, thirty feet
 longer. Syngraphe lets an English-speaking beginner make those reading decisions,
 see their geometric consequences and inspect the printed evidence.
 
-[![CI](https://github.com/antonsoo/syngraphe/actions/workflows/ci.yml/badge.svg)](https://github.com/antonsoo/syngraphe/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-862e24)](LICENSE)
 [Live workshop](https://antonsoo.github.io/syngraphe/)
 
 ![The inclusive width reading closes the fifty-five-foot account](docs/assets/width.png)
 
+## See the stores while passing
+
+![Two chest samples seen from the end of the chosen path, with separate visibility and Greek-face results](docs/assets/seeing-desktop.png)
+
+The programme asks for chests that open differently: by the wall, at the front;
+by the pillars, at **both sides**, so people passing through can see the
+equipment. The new `seeing.html` room lets you choose those faces and move a
+viewer past an isolated support. Read five Greek passages with new English,
+fifteen contextual word notes and four complete printed pages.
+
+Try both fronts first. Both sample points can be seen somewhere along this
+chosen path, while the pillar opening still contradicts the instruction.
+Visibility and agreement with the words remain separate results. The two
+four-foot chests, sample points, height-free rays and viewer path are explicitly
+modern choices; this does not reconstruct all 134 chests or prove that all
+equipment was visible.
+
+Keep actual [JSON](examples/seeing/study.json), [station CSV](examples/seeing/stations.csv),
+[SVG](examples/seeing/study.svg), a [17-page PDF](examples/seeing/reading.pdf), or
+the [complete illustrated HTML, gzip](examples/seeing/reading.html.gz). The HTML
+embeds the verified page/font/license bytes and native downloads without scripts.
+Saving captures your starting settings and can be cancelled.
+
+```sh
+gzip -dc examples/seeing/reading.html.gz > /tmp/syngraphe-seeing.html
+```
+
+Build and preview below, then open `/syngraphe/seeing.html`. This room is
+prepared locally; public publication is a separate step.
+[Try the actual work and inspect the source/model boundary](docs/visibility.md).
+
 This is a source-and-constraint workshop, rather than a finished reconstruction.
 Eight short Greek readings have new English and twenty-two contextual word
-notes. Ten whole pages from Choisy's 1884 edition retain the Greek, his French,
+notes. Twelve whole pages from Choisy's 1884 edition retain the Greek, his French,
 notes and reconstruction plates. Those plates are identified as his
 interpretation, separately from the ancient clauses and the modern model.
 
@@ -57,13 +87,13 @@ Offline installation belongs to production, not the Vite development server.
 
 ## Keep an experiment
 
-| Artifact         | Contents                                                                                                                                                                       |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Editable JSON    | Versioned selected-clause settings; reopen through the file control                                                                                                            |
-| Measurement CSV  | Prescribed/derived values and all 35 centre positions, with exact finger fractions and experiment scope on every row                                                           |
-| Drawn SVG        | Scalable width, stack and grid study with source and assumption labels                                                                                                         |
-| Illustrated HTML | Current experiment, eight complete readings, all word notes, ten source images, local font, full licenses and native JSON/CSV/SVG downloads; no script or remote asset request |
-| Browser PDF      | Print the retained HTML; the reviewed example is included below                                                                                                                |
+| Artifact         | Contents                                                                                                                                                                          |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Editable JSON    | Versioned selected-clause settings; reopen through the file control                                                                                                               |
+| Measurement CSV  | Prescribed/derived values and all 35 centre positions, with exact finger fractions and experiment scope on every row                                                              |
+| Drawn SVG        | Scalable width, stack and grid study with source and assumption labels                                                                                                            |
+| Illustrated HTML | Current experiment, eight complete readings, all word notes, twelve source images, local font, full licenses and native JSON/CSV/SVG downloads; no script or remote asset request |
+| Browser PDF      | Print the retained HTML; the reviewed example is included below                                                                                                                   |
 
 [Actual editable example](examples/plan.json) · [Actual CSV](examples/measurements.csv) ·
 [Actual SVG](examples/study.svg) · [Retained HTML, gzip](examples/reading.html.gz) ·
@@ -109,7 +139,7 @@ identities, malformed imports, share links, genuine downloads and script-disable
 native reopening in Chromium and Firefox at desktop and 375 pixels. Native
 records and PDF text are audited separately from the model. The retained PDF
 contains all sixteen complete Greek/English passages, twenty-two complete word
-notes and ten source captions; extracted words stay within the checked margins.
+notes and twelve source captions; extracted words stay within the checked margins.
 
 See [the direct review](docs/review.md) for exact observed boundaries, screenshots
 and reproducible receipts. Public delivery and remote CI are separate claims.
@@ -118,9 +148,13 @@ and reproducible receipts. Public delivery and remote CI are separate claims.
 npm run check
 npm run verify:model
 npm run verify:sources
+npm run verify:visibility
 npx playwright install --with-deps chromium firefox
 npm run test:browser -- /tmp/syngraphe-review
 python3 scripts/artifacts.py /tmp/syngraphe-review
+npm run test:seeing -- /tmp/syngraphe-seeing-review
+npm run verify:seeing-artifacts -- /tmp/syngraphe-seeing-review
+npm run test:seeing-faults -- /tmp/syngraphe-seeing-faults
 ```
 
 Source reproduction and artifact/PDF checks require Python 3 and Poppler. The

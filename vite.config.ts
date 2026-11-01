@@ -22,6 +22,7 @@ export default defineConfig(async ({ command }) => {
     ...(await filesIn("src")),
     ...(await filesIn("public")),
     "index.html",
+    "seeing.html",
     "LICENSE",
     "vite.config.ts",
     "tsconfig.json",
@@ -55,6 +56,7 @@ export default defineConfig(async ({ command }) => {
   }
   return {
     base,
+    build: { rollupOptions: { input: { index: "index.html", seeing: "seeing.html" } } },
     define: {
       __EDITION__: JSON.stringify(edition),
       __SOURCE_FILES__: JSON.stringify(studyFiles),

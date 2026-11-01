@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-11-01T05:10:32.034Z",
+  "boundary": "Local production edition; real origin shutdown; optional prior-edition fixture",
+  "results": [
+    {
+      "engine": "chromium",
+      "substitutedSourceRefusedAndRetryRecovered": true,
+      "savingCapturesStartState": true,
+      "cancelledSaveEmitsNoLateDownloadAndNextSaveWorks": true,
+      "coldNewRoomInstallsBothRoomsForOriginStoppedReplay": true,
+      "evictionDoesNotClaimReadyOrExportMissingEvidence": true,
+      "previousEditionHandoverPreservesEditedMeasurementTab": true
+    },
+    {
+      "engine": "firefox",
+      "substitutedSourceRefusedAndRetryRecovered": true,
+      "savingCapturesStartState": true,
+      "cancelledSaveEmitsNoLateDownloadAndNextSaveWorks": true,
+      "coldNewRoomInstallsBothRoomsForOriginStoppedReplay": true,
+      "evictionDoesNotClaimReadyOrExportMissingEvidence": true,
+      "previousEditionHandoverPreservesEditedMeasurementTab": true
+    }
+  ]
+}

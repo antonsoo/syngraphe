@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 740" role="img" aria-label="Modern sightline study at station 20 feet. Wall chest: Sample point visible through an open face. Pillar chest: Sample point visible through an open face."><title>Seeing while passing: a modern sightline study</title><desc>Modern sightline study at station 20 feet. Wall chest: Sample point visible through an open face. Pillar chest: Sample point visible through an open face.. Two four-foot square chests and the sample points are illustrative. Closed corner contact blocks. Neighbouring bays and vertical geometry are omitted.</desc><style>
+text{font-family:Georgia,serif;fill:#302a22;font-size:19px}.v-small{font-size:15px}.v-note{font-size:17px}.panel{stroke:#302a22;stroke-width:4;fill:none}.opening{stroke:#4d5d30;stroke-width:3;stroke-dasharray:5 5;fill:none}.v-ray{stroke-width:3;fill:none}.v-guide{stroke:#862e24;stroke-width:1.5;stroke-dasharray:4 6;fill:none}.v-view{fill:#244b75}.v-route{stroke:#244b75;stroke-width:2}.v-good{stroke:#4d5d30;fill:#4d5d30}.v-bad{stroke:#862e24;fill:#862e24}
+</style><rect width="850" height="740" fill="#f6f0e4"/>
+<text x="32" y="29" class="v-small">Local study from above / chest sizes and positions chosen</text>
+<rect x="64" y="54" width="704" height="40" fill="#62594b"/><text x="82" y="80" fill="#f6f0e4" style="fill:#f6f0e4" class="v-small">Wall / upper-body width 2½ ft</text>
+<rect x="64" y="94" width="704" height="240" fill="#e8dfca"/>
+<rect x="64" y="334" width="704" height="320" fill="#dbe2c5"/>
+<path d="M64 334 H768" stroke="#8d7e65" stroke-dasharray="4 5"/>
+<text x="84" y="374">Passage</text><text x="84" y="399" class="v-small">20 ft clear across</text>
+<rect x="496" y="94" width="64" height="64" fill="#f6f0e4"/><path class="opening" d="M496.000 158.000 L560.000 158.000"/><path class="panel" d="M496.000 94.000 L560.000 94.000"/><path class="panel" d="M496.000 158.000 L496.000 94.000"/><path class="panel" d="M560.000 158.000 L560.000 94.000"/><rect x="384" y="226" width="64" height="64" fill="#f6f0e4"/><path class="panel" d="M384.000 290.000 L448.000 290.000"/><path class="panel" d="M384.000 226.000 L448.000 226.000"/><path class="opening" d="M384.000 290.000 L384.000 226.000"/><path class="opening" d="M448.000 290.000 L448.000 226.000"/>
+<rect x="394" y="290" width="44" height="44" fill="#62594b" stroke="#302a22" stroke-width="2"/>
+<path d="M394 334 L438 290 M394 290 L438 334" stroke="#b8aa91"/>
+<text x="577" y="120">A / wall chest</text><text x="577" y="145" class="v-small">Front faces the passage</text>
+<text x="84" y="250">B / pillar chest</text>
+<text x="84" y="274" class="v-small">Sides face left and right</text>
+<text x="84" y="317" class="v-small">Isolated support / 2¾ ft</text>
+<path class="v-ray v-good" d="M736.000 494.000 L528.000 126.000"/><circle cx="528" cy="126" r="10" fill="#f6f0e4" stroke="#4d5d30" stroke-width="2"/><text x="528" y="131" text-anchor="middle" class="v-small">A</text><path class="v-ray v-good" d="M736.000 494.000 L416.000 258.000"/><circle cx="416" cy="258" r="10" fill="#f6f0e4" stroke="#4d5d30" stroke-width="2"/><text x="416" y="263" text-anchor="middle" class="v-small">B</text>
+<path class="v-route" d="M96 494 H736"/>
+<path d="M96 489 v10" stroke="#244b75"/><text x="96" y="526" text-anchor="middle" class="v-small">-20 ft</text><path d="M256 489 v10" stroke="#244b75"/><text x="256" y="526" text-anchor="middle" class="v-small">-10 ft</text><path d="M416 489 v10" stroke="#244b75"/><text x="416" y="526" text-anchor="middle" class="v-small">0 ft</text><path d="M576 489 v10" stroke="#244b75"/><text x="576" y="526" text-anchor="middle" class="v-small">10 ft</text><path d="M736 489 v10" stroke="#244b75"/><text x="736" y="526" text-anchor="middle" class="v-small">20 ft</text>
+<circle cx="736" cy="494" r="11" class="v-view"/><circle cx="736" cy="494" r="4" fill="#f6f0e4"/>
+<text x="416" y="563" text-anchor="middle" style="fill:#244b75">Viewer / 20 ft right of the support</text>
+<text x="32" y="696" class="v-note">Solid ray: visible path or first obstruction. Dots: blocked continuation.</text>
+<text x="32" y="721" class="v-small">Two sample points are not all the equipment. No height or lighting is modelled.</text></svg>

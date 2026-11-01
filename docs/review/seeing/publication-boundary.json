@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-11-01T05:09:57.648967+00:00",
+  "boundary": "Read-only publication check; no source or Pages mutation",
+  "repositories": [
+    {
+      "name": "syngraphe",
+      "startingLocalHead": "732e706abfd92c9cfbfd8f3861e6ce1fb0503c7e",
+      "remoteMain": "732e706abfd92c9cfbfd8f3861e6ce1fb0503c7e"
+    },
+    {
+      "name": "officina",
+      "startingLocalHead": "9cc72d9bf2791b8ba5ef0252e684327b0a46451c",
+      "remoteMain": "9cc72d9bf2791b8ba5ef0252e684327b0a46451c"
+    }
+  ],
+  "newRoomURL": {
+    "url": "https://antonsoo.github.io/syngraphe/seeing.html",
+    "status": 404
+  }
+}

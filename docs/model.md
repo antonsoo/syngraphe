@@ -104,7 +104,7 @@ choices. The 35 centre rows describe one row's longitudinal positions; the
 second row repeats those positions across the passage.
 
 The standalone SVG is a modern drawn study with source and assumption labels.
-The illustrated HTML embeds all eight readings and contextual notes, ten whole
+The illustrated HTML embeds all eight readings and contextual notes, twelve whole
 source images, font and full licenses. Native JSON, CSV and SVG downloads inside
 it need no JavaScript. Saving captures settings when the action begins, even if
 a control changes while source bytes are being gathered.

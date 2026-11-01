@@ -1,5 +1,18 @@
 # Changelog
 
+## Unreleased
+
+- Open front and side faces of two illustrative chests, move a viewer along a
+  chosen path and separate sample visibility from the Greek face requirements.
+- Read the public passage, chest pattern, front, both sides and purpose clauses
+  beside new English, fifteen word notes and four whole printed pages.
+- Retain exact station observations, editable sightline JSON, standalone SVG
+  and a script-free illustrated reading with verified source/font/license bytes.
+- Keep both rooms in one complete offline edition; preserve measurement records
+  while a newer edition takes over. Report missing cached evidence on inspection.
+- Wrap long source hashes in portable readings on phones and use the current
+  author name in newly generated measurement readings.
+
 ## 0.1.0 — 2026-10-27
 
 - Read eight selected Greek clauses of the Piraeus arsenal specification with

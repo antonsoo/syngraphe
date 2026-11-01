@@ -840,3 +840,30 @@ button[hidden] {
 .drawing .bad text {
   fill: var(--red);
 }
+
+.seeing-invitation {
+  margin: 0 var(--space) 35px;
+  padding: 20px 24px;
+  border-left: 3px solid #244b75;
+  background: var(--paper);
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 30px;
+  align-items: center;
+}
+.seeing-invitation a {
+  font-size: 24px;
+  color: #244b75;
+}
+.seeing-invitation p {
+  margin: 0;
+  font-size: 15px;
+}
+@media (max-width: 650px) {
+  .seeing-invitation {
+    display: block;
+  }
+  .seeing-invitation p {
+    margin-top: 14px;
+  }
+}
