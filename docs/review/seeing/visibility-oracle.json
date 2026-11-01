@@ -1,0 +1,5 @@
+{
+  "scope": "Independent exact foot-based vector intersections; two samples at all 41 stations for all 25 face pairs",
+  "rays": 2050,
+  "allVisibilityAndFirstObstructionsAgree": true
+}

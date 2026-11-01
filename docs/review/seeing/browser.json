@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T05:03:38.271Z",
+  "checkedAt": "2026-11-01T05:13:17.795Z",
   "boundary": "Local production edition; local origin stopped before offline replay",
   "configurations": [
     {
@@ -72,16 +72,16 @@
           "sha256": "eee6fc759115c8545169b1db7802781003754692d155df0ac487211b8dcbfaa4"
         },
         "study.svg": {
-          "bytes": 4242,
-          "sha256": "5d5c79fc960028faefb9999a7bd632af9969b9dcfd97084d8ac7aa975cd6b1c6"
+          "bytes": 4441,
+          "sha256": "95eb7b6f216838e3e42a71515093543c2aa30033faa402147b03d63c92f89419"
         },
         "reading.html": {
-          "bytes": 2662076,
-          "sha256": "da174588b060bf7ea93abdccb1b921a7d8551eccda5c2cafb82e520a12cc46b2"
+          "bytes": 2662946,
+          "sha256": "87dc3db3bd1b5c5bd66c23f5ef08f4a361a2b751d1da77b7d20ae69fa082e77a"
         },
         "offline-reading.html": {
-          "bytes": 2662314,
-          "sha256": "d09256118a1a7b735c2196934c2b400c2a092b8a8ee7c02860bf3782237a53f8"
+          "bytes": 2663184,
+          "sha256": "d8f948a273ed134df0888bc41e0b5a1fecf341372dbcf6b1d7b7397a710b9f58"
         }
       },
       "sharedLinkRestored": true,
@@ -165,16 +165,16 @@
           "sha256": "eee6fc759115c8545169b1db7802781003754692d155df0ac487211b8dcbfaa4"
         },
         "study.svg": {
-          "bytes": 4242,
-          "sha256": "5d5c79fc960028faefb9999a7bd632af9969b9dcfd97084d8ac7aa975cd6b1c6"
+          "bytes": 4441,
+          "sha256": "95eb7b6f216838e3e42a71515093543c2aa30033faa402147b03d63c92f89419"
         },
         "reading.html": {
-          "bytes": 2662076,
-          "sha256": "da174588b060bf7ea93abdccb1b921a7d8551eccda5c2cafb82e520a12cc46b2"
+          "bytes": 2662946,
+          "sha256": "87dc3db3bd1b5c5bd66c23f5ef08f4a361a2b751d1da77b7d20ae69fa082e77a"
         },
         "offline-reading.html": {
-          "bytes": 2662314,
-          "sha256": "d09256118a1a7b735c2196934c2b400c2a092b8a8ee7c02860bf3782237a53f8"
+          "bytes": 2663184,
+          "sha256": "d8f948a273ed134df0888bc41e0b5a1fecf341372dbcf6b1d7b7397a710b9f58"
         }
       },
       "sharedLinkRestored": true,
@@ -258,16 +258,16 @@
           "sha256": "eee6fc759115c8545169b1db7802781003754692d155df0ac487211b8dcbfaa4"
         },
         "study.svg": {
-          "bytes": 4242,
-          "sha256": "5d5c79fc960028faefb9999a7bd632af9969b9dcfd97084d8ac7aa975cd6b1c6"
+          "bytes": 4441,
+          "sha256": "95eb7b6f216838e3e42a71515093543c2aa30033faa402147b03d63c92f89419"
         },
         "reading.html": {
-          "bytes": 2662076,
-          "sha256": "da174588b060bf7ea93abdccb1b921a7d8551eccda5c2cafb82e520a12cc46b2"
+          "bytes": 2662946,
+          "sha256": "87dc3db3bd1b5c5bd66c23f5ef08f4a361a2b751d1da77b7d20ae69fa082e77a"
         },
         "offline-reading.html": {
-          "bytes": 2662314,
-          "sha256": "d09256118a1a7b735c2196934c2b400c2a092b8a8ee7c02860bf3782237a53f8"
+          "bytes": 2663184,
+          "sha256": "d8f948a273ed134df0888bc41e0b5a1fecf341372dbcf6b1d7b7397a710b9f58"
         }
       },
       "sharedLinkRestored": true,
@@ -351,16 +351,16 @@
           "sha256": "eee6fc759115c8545169b1db7802781003754692d155df0ac487211b8dcbfaa4"
         },
         "study.svg": {
-          "bytes": 4242,
-          "sha256": "5d5c79fc960028faefb9999a7bd632af9969b9dcfd97084d8ac7aa975cd6b1c6"
+          "bytes": 4441,
+          "sha256": "95eb7b6f216838e3e42a71515093543c2aa30033faa402147b03d63c92f89419"
         },
         "reading.html": {
-          "bytes": 2662076,
-          "sha256": "da174588b060bf7ea93abdccb1b921a7d8551eccda5c2cafb82e520a12cc46b2"
+          "bytes": 2662946,
+          "sha256": "87dc3db3bd1b5c5bd66c23f5ef08f4a361a2b751d1da77b7d20ae69fa082e77a"
         },
         "offline-reading.html": {
-          "bytes": 2662314,
-          "sha256": "d09256118a1a7b735c2196934c2b400c2a092b8a8ee7c02860bf3782237a53f8"
+          "bytes": 2663184,
+          "sha256": "d8f948a273ed134df0888bc41e0b5a1fecf341372dbcf6b1d7b7397a710b9f58"
         }
       },
       "sharedLinkRestored": true,

@@ -3,3 +3,6 @@
 *.jpg binary
 *.ttf binary
 *.gz binary
+
+# Preserve actual downloaded record bytes, including RFC 4180 CRLF.
+examples/seeing/* -text whitespace=cr-at-eol

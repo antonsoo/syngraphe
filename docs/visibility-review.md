@@ -74,8 +74,23 @@ python3 scripts/artifacts.py /tmp/syngraphe-measurement-review
 
 Python 3 and Poppler are required for source/print audits. Use existing local
 Playwright Chromium/Firefox installations; no browser installation was needed
-in this review. An optional third argument to `scripts/seeing-faults.mjs` supplies
-a previous production directory for the two-tab handover check.
+in this review. After the output directory, an optional previous-production directory enables
+the two-tab handover check in `scripts/seeing-faults.mjs`.
+
+## Independent checkout
+
+A fresh local clone at `1a7aade` installed with `npm ci` and passed lint,
+typecheck, all eleven unit checks, both independent model oracles, the four
+new-room browser configurations, the portable artifact audit, both recovery
+browsers and the pre-existing fault review. Its complete 26-file build is
+byte-identical to the current checkout's build. The worker inventory contains
+25 files because the generated worker itself is not cached.
+[Clean-build receipt](review/seeing/clean-build.json).
+
+The current example JSON, CSV, SVG, compressed HTML and PDF were copied from
+those real clean-checkout downloads. CSV keeps its actual RFC 4180 line endings;
+Git attributes preserve those bytes on checkout. The later documentation and
+example refresh does not change build inputs.
 
 ## Publication boundary
 
