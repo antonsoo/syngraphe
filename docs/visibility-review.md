@@ -89,6 +89,37 @@ edition. Current PDF content has sixteen complete Greek/English passages,
 twenty-two notes and twelve source captions. The source account lists both new
 printed pages. The Pages workflow now matches the configured branch deployment.
 
+## Slow-connection correction
+
+A later shared-bandwidth review reproduced two timeout failures. At a nominal
+128,000 bytes/s across all concurrent responses, the 25-second offline batch
+limit aborted installation, while a fixed 15-second source timer aborted the
+twelve-page measurement reading. The smaller four-page reading succeeded.
+The source loader now distinguishes connection delay, body inactivity and total
+time; an active body can continue beyond fifteen seconds. It checks the exact
+length and SHA-256 and rejects excess bytes before allocating beyond the known
+file size. Offline installation/repair allows a bounded three-minute batch.
+
+Both browsers now finish installation after about 55 seconds and the twelve-page
+reading after about 40 seconds under that same shared limit. Settings remain
+operable, the reading captures its starting settings, and the installed rooms
+work after their actual server stops. A twenty-second body stall is still
+refused at the fifteen-second inactivity limit; authentic retry and download
+recover. These are controlled local transfer observations, not a mobile-device
+or public-network speed benchmark:
+[before offline](review/seeing/slow/offline-before.json),
+[before reading](review/seeing/slow/reading-before.json),
+[smaller reading](review/seeing/slow/smaller-reading-before.json),
+[after](review/seeing/slow/after.json),
+[stalled body](review/seeing/slow/body-inactivity.json).
+The runner uses Node 26.7.0 on the local WSL2 Linux host, with two independent
+browser/server pairs. Each server shares one 128,000-byte/s budget across all
+responses. Its queue intentionally has no per-connection bandwidth multiplier.
+
+```sh
+node scripts/slow-connection.mjs /tmp/syngraphe-slow-connection
+```
+
 ## Reproduce the review
 
 ```sh

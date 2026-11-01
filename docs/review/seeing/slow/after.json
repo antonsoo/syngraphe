@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-11-01T06:07:14.100Z",
+  "boundary": "Local production edition; one shared HTTP response budget across all concurrent requests, real source bytes, no worker in reading test, actual origin shutdown in offline test",
+  "results": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "sharedBytesPerSecond": 128000,
+      "installedMs": 54430,
+      "installedAfterOldDeadline": true,
+      "installPreservesSettings": true,
+      "originStoppedOfflineReloadAndDownload": true,
+      "readingMs": 40124,
+      "readingBeyondOldAssetDeadline": true,
+      "wholeReadingImages": 12,
+      "readingCapturesStartingSettings": true
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "sharedBytesPerSecond": 128000,
+      "installedMs": 55120,
+      "installedAfterOldDeadline": true,
+      "installPreservesSettings": true,
+      "originStoppedOfflineReloadAndDownload": true,
+      "readingMs": 40576,
+      "readingBeyondOldAssetDeadline": true,
+      "wholeReadingImages": 12,
+      "readingCapturesStartingSettings": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-11-01T06:07:02.417Z",
+  "boundary": "Real production asset fetch; correct source starts then body stalls for twenty seconds; independent browser retries",
+  "results": [
+    {
+      "engine": "chromium",
+      "elapsedMs": 15312,
+      "bodyInactivityRefused": true,
+      "retryWithAuthenticBytesAndDownload": true
+    },
+    {
+      "engine": "firefox",
+      "elapsedMs": 15725,
+      "bodyInactivityRefused": true,
+      "retryWithAuthenticBytesAndDownload": true
+    }
+  ]
+}

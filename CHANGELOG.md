@@ -20,6 +20,11 @@
 - Distinguish openable faces in the Greek from faces held open by the experiment.
 - Refresh the measurement reading's twelve source pages and current author.
 
+- Allow a complete offline copy to finish on a slow connection instead of
+  aborting its multi-megabyte batch after twenty-five seconds.
+- Verify streamed source bytes with separate connection, body-inactivity and
+  overall deadlines; reject oversized responses before buffering extra bytes.
+
 ## 0.1.0 — 2026-10-27
 
 - Read eight selected Greek clauses of the Piraeus arsenal specification with

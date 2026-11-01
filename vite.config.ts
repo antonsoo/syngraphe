@@ -101,7 +101,9 @@ async function complete() {
 }
 async function save() {
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 25000);
+  // Whole scans make this a multi-megabyte edition. Allow a slow connection
+  // to finish its complete batch, while bounding an unresponsive repair.
+  const timeout = setTimeout(() => controller.abort(), 180000);
   try {
     const cache = await caches.open(CACHE);
     const requests = FILES.map(url => new Request(url, { cache: "reload", integrity: INTEGRITY[url], signal: controller.signal }));

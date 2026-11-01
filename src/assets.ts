@@ -17,13 +17,37 @@ async function verifiedBytes(file: string): Promise<Uint8Array<ArrayBuffer>> {
   if (existing) return existing;
   const task = (async () => {
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 15000);
+    // Twelve full scans can take longer than fifteen seconds on a slow link.
+    // Bound connection time, body inactivity and total time separately.
+    const deadline = setTimeout(() => controller.abort(), 180000);
+    let idle = setTimeout(() => controller.abort(), 60000);
     try {
       const response = await fetch(`${import.meta.env.BASE_URL}${file}`, {
         signal: controller.signal,
       });
       if (!response.ok) throw new Error(`Could not read ${file}. Reconnect and try saving again.`);
-      const bytes = new Uint8Array(await response.arrayBuffer());
+      clearTimeout(idle);
+      const storage = new Uint8Array(identity.bytes);
+      let length = 0;
+      const reader = response.body?.getReader();
+      if (!reader) throw new Error(`Could not read ${file}. Reconnect and try saving again.`);
+      try {
+        for (;;) {
+          idle = setTimeout(() => controller.abort(), 15000);
+          const { done, value } = await reader.read();
+          clearTimeout(idle);
+          if (done) break;
+          if (length + value.length > identity.bytes) {
+            await reader.cancel();
+            throw new Error(`${file} does not match this edition. Reload and try again.`);
+          }
+          storage.set(value, length);
+          length += value.length;
+        }
+      } finally {
+        reader.releaseLock();
+      }
+      const bytes = storage.subarray(0, length);
       const digest = Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256", bytes)), (b) =>
         b.toString(16).padStart(2, "0"),
       ).join("");
@@ -37,7 +61,8 @@ async function verifiedBytes(file: string): Promise<Uint8Array<ArrayBuffer>> {
         throw new Error(`Timed out reading ${file}. Reconnect and try saving again.`);
       throw error;
     } finally {
-      clearTimeout(timeout);
+      clearTimeout(idle);
+      clearTimeout(deadline);
     }
   })();
   pending.set(file, task);

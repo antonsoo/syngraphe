@@ -15,7 +15,7 @@ function inspectWorker(worker: ServiceWorker, repair = false): Promise<EditionRe
     };
     // Older published workers may not implement these messages. Silence does
     // not establish readiness. A repair has its own bounded network deadline.
-    const timeout = setTimeout(() => finish(null), repair ? 30000 : 5000);
+    const timeout = setTimeout(() => finish(null), repair ? 190000 : 5000);
     channel.port1.onmessage = (event: MessageEvent<unknown>) => {
       const data = event.data;
       if (
