@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-11-01T06:10:50.772Z",
+  "sourceCommit": "233bf83f3de68b6b7d09a2609ddb053f35ded9c7",
+  "refs": [
+    "dee6a56531717f46674a2821d44482a9b522c92d\trefs/heads/gh-pages",
+    "233bf83f3de68b6b7d09a2609ddb053f35ded9c7\trefs/heads/main"
+  ],
+  "files": [
+    {
+      "file": "src/assets.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/233bf83f3de68b6b7d09a2609ddb053f35ded9c7/src/assets.ts",
+      "bytes": 3409,
+      "sha256": "57896405990e0a7674dec12e2bfe474adccea05962aef38de09af1689ff72f77",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "src/offline.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/233bf83f3de68b6b7d09a2609ddb053f35ded9c7/src/offline.ts",
+      "bytes": 7267,
+      "sha256": "2f556b37a0787f0d41a8a41c2b96fde20bd155b2d694be758543fadf3a322d96",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "vite.config.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/233bf83f3de68b6b7d09a2609ddb053f35ded9c7/vite.config.ts",
+      "bytes": 6986,
+      "sha256": "290a42c46637c4c479347b8bcb1019c4ece8ebf9097bbd49e5062125bba1b406",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "scripts/slow-server.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/233bf83f3de68b6b7d09a2609ddb053f35ded9c7/scripts/slow-server.mjs",
+      "bytes": 2166,
+      "sha256": "4b253b035b55e890f5ad5189c094d744ec214baf067cd4804e662f33e15b5041",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "scripts/slow-connection.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/233bf83f3de68b6b7d09a2609ddb053f35ded9c7/scripts/slow-connection.mjs",
+      "bytes": 4685,
+      "sha256": "d9112beed60f37d9cb7bf027069644f7958a73c548a8f1b55da866106e026655",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "docs/visibility-review.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/233bf83f3de68b6b7d09a2609ddb053f35ded9c7/docs/visibility-review.md",
+      "bytes": 12233,
+      "sha256": "15b713b45d7da0aa9b4f3f6de28e1d3822ce78ddc6ed2bc2f01516e681568fc5",
+      "matchesCommittedBytes": true
+    }
+  ],
+  "boundary": "Immutable changed source and slow-transfer review bytes, with exact observed remote heads",
+  "workflows": [
+    {
+      "id": 41279679318,
+      "name": "pages build and deployment",
+      "head": "dee6a56531717f46674a2821d44482a9b522c92d",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "name": "build",
+          "status": "completed",
+          "conclusion": "success",
+          "executedSteps": 5
+        },
+        {
+          "name": "deploy",
+          "status": "completed",
+          "conclusion": "success",
+          "executedSteps": 3
+        },
+        {
+          "name": "report-build-status",
+          "status": "completed",
+          "conclusion": "success",
+          "executedSteps": 3
+        }
+      ]
+    },
+    {
+      "id": 41279668797,
+      "name": "Pages",
+      "head": "233bf83f3de68b6b7d09a2609ddb053f35ded9c7",
+      "status": "completed",
+      "conclusion": "failure",
+      "jobs": [
+        {
+          "name": "deploy",
+          "status": "completed",
+          "conclusion": "failure",
+          "executedSteps": 0
+        }
+      ]
+    },
+    {
+      "id": 41279668721,
+      "name": "CI",
+      "head": "233bf83f3de68b6b7d09a2609ddb053f35ded9c7",
+      "status": "completed",
+      "conclusion": "failure",
+      "jobs": [
+        {
+          "name": "check",
+          "status": "completed",
+          "conclusion": "failure",
+          "executedSteps": 0
+        }
+      ]
+    }
+  ]
+}

@@ -6,6 +6,40 @@ alongside the existing measurement workshop. Both use the same offline edition.
 The [source/model review](visibility-review.md#try-the-actual-work) explains what
 the chosen two-point geometry can establish and what it leaves open.
 
+## Slow-connection update
+
+The current application is the correction at
+`233bf83f3de68b6b7d09a2609ddb053f35ded9c7`, deployed to `gh-pages` at
+`dee6a56531717f46674a2821d44482a9b522c92d`. A fresh Node 24.22.1 installation and
+full check produce the same 26 files as the working build; all 26 canonical
+hosted files match that corrected build:
+[clean build](review/seeing/slow/clean-build.json),
+[hosted bytes](review/seeing/slow/hosted-bytes.json),
+[immutable changed source and workflow observations](review/seeing/slow/source-and-workflows.json).
+
+Both rooms repeat their actual public journeys in Chromium and Firefox at
+1440 and 375 pixels. Every offline replay cuts real TLS connections and proves
+that a fresh worker-free page cannot load. The public repair sequence also
+passes in both engines. Actual script-free downloads retain the complete
+source/font/license bytes and native files; both PDF content audits pass:
+[seeing](review/seeing/slow/seeing-browser.json),
+[measurements](review/seeing/slow/measurement-browser.json),
+[repair](review/seeing/slow/public-repair.json),
+[seeing artifacts](review/seeing/slow/seeing-artifacts.json),
+[measurement artifacts](review/seeing/slow/measurement-artifacts.json).
+All four new sightline screenshots are byte-identical to the previously
+inspected views; this correction changes transfer handling, not the drawing.
+
+The [controlled shared-bandwidth review](visibility-review.md#slow-connection-correction)
+records the reproduced 25-second installation failure and 15-second reading
+failure, successful ~55-second installation and ~40-second reading afterward,
+and continued refusal of a stalled body. The retained examples keep the same
+Greek, geometry and source files. The earlier publication observations below
+remain a record of the first hosted edition. Repository CI still executed no
+steps at the corrected source revision; Pages delivery is recorded separately.
+
+## Initial publication observations
+
 | Boundary              | Observed evidence                                                                                                                                                                                                                                         | Receipt                                                                                                                                  |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | Reviewed application  | Independent clone of `fad6ed369f0514fb617a7485054db951f7f68738`; clean installs and full checks on Node 26.7.0 and 24.22.1 produce the same 26 files                                                                                                      | [Clean build](review/seeing/audited-clean-build.json)                                                                                    |

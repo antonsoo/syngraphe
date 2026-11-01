@@ -1,0 +1,33 @@
+{
+  "boundary": "Actual native slow-transfer and origin-stopped downloads; independently parsed source/font/license byte identity",
+  "artifacts": [
+    {
+      "file": "chromium-offline-seeing.html",
+      "bytes": 2664382,
+      "sha256": "772c34f6503114ab5aa247744609ff4e8ad916d8b038af9193d0505ec286ce26",
+      "wholeSourceImages": 4,
+      "sourceFontAndLicenseBytesMatch": true
+    },
+    {
+      "file": "chromium-slow-measurements.html",
+      "bytes": 7365969,
+      "sha256": "c12ab90a444eab9bb2156b04172c9bbfbffcb49c071e451aebcaff0afc93376f",
+      "wholeSourceImages": 12,
+      "sourceFontAndLicenseBytesMatch": true
+    },
+    {
+      "file": "firefox-offline-seeing.html",
+      "bytes": 2664382,
+      "sha256": "772c34f6503114ab5aa247744609ff4e8ad916d8b038af9193d0505ec286ce26",
+      "wholeSourceImages": 4,
+      "sourceFontAndLicenseBytesMatch": true
+    },
+    {
+      "file": "firefox-slow-measurements.html",
+      "bytes": 7365969,
+      "sha256": "c12ab90a444eab9bb2156b04172c9bbfbffcb49c071e451aebcaff0afc93376f",
+      "wholeSourceImages": 12,
+      "sourceFontAndLicenseBytesMatch": true
+    }
+  ]
+}

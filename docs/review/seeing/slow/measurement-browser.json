@@ -1,0 +1,970 @@
+{
+  "checkedAt": "2026-11-01T06:10:47.525Z",
+  "scope": "Canonical HTTPS through unchanged TLS CONNECT; existing tunnels closed and new connections refused; fresh worker-free navigation fails.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "sourceReadings": [
+        {
+          "reading": 1,
+          "title": "The walls belong inside the fifty-five",
+          "greek": "μῆκος τεττάρων πλέθρων, πλάτος πεντήκοντα ποδῶν καὶ πέντε σὺν τοῖς τοίχοις.",
+          "english": "Length: four plethra. Width: fifty-five feet, including the walls.",
+          "wordNotes": 3
+        },
+        {
+          "reading": 2,
+          "title": "Fifteen includes the pillar",
+          "greek": "ἀπολείπων ἀπὸ τοῦ τοίχου ἑκατέρου πέντε κ[αὶ δέκα] πόδας σὺν τῶι πάχει τοῦ κίονος.",
+          "english": "Leaving from each wall fifteen feet, including the thickness of the pillar.",
+          "wordNotes": 4
+        },
+        {
+          "reading": 3,
+          "title": "Thirty-five in each row",
+          "greek": "ἀριθμὸς τῶν κιόνων ἑκατέρου τοῦ στοίχου πέντε καὶ τριάκοντα,",
+          "english": "Number of pillars in each row: thirty-five.",
+          "wordNotes": 2
+        },
+        {
+          "reading": 4,
+          "title": "A passage for the people",
+          "greek": "διαλείπων δ[ί]οδον τῶι δήμωι διὰ μέσ[η]ς τῆς σκευοθήκης. πλάτος τὸ μεταξὺ τῶν κιόνων εἴκοσι ποδῶν,",
+          "english": "Leaving a passage for the people through the middle of the storehouse. Width between the pillars: twenty feet.",
+          "wordNotes": 3
+        },
+        {
+          "reading": 5,
+          "title": "Five half-feet in the wall body",
+          "greek": "ἐπὶ δὲ τοῦ ὀρθοστάτου πλινθίσιν οἰκοδομήσει τοὺς τοίχους, μῆκος τετράποσιν, πλάτος πέντε ἡμιποδίων,",
+          "english": "Above the orthostat, build the walls with blocks four feet in length and five half-feet in width.",
+          "wordNotes": 2
+        },
+        {
+          "reading": 6,
+          "title": "Two feet and three palms",
+          "greek": "πάχος τῶν κιόνων κάτωθεν δυοῖν ποδοῖν καὶ τριῶν παλαστῶν,",
+          "english": "Thickness of the pillars at the bottom: two feet and three palms.",
+          "wordNotes": 3
+        },
+        {
+          "reading": 7,
+          "title": "The capital is inside the thirty",
+          "greek": "μῆκος σὺν τῶι ἐπικράνωι τριάκοντα ποδῶν,",
+          "english": "Length, including the capital: thirty feet.",
+          "wordNotes": 1
+        },
+        {
+          "reading": 8,
+          "title": "Seven segments, except the first",
+          "greek": "σφονδύλων ἕκαστον ἑπτὰ, μῆκος τετραπόδων, τοῦ δὲ πρώτου πεντέποδος.",
+          "english": "Each [pillar] of seven stack segments, four feet long, but the first five feet long.",
+          "wordNotes": 4
+        }
+      ],
+      "sources": [
+        {
+          "page": 15,
+          "bytes": 233090,
+          "sha256": "ebef48fa44da0c15cb8eae800688281f60bebeff4123d46c8d2b5920e6262717",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 33,
+          "bytes": 342156,
+          "sha256": "e985f948069762f4ef20b9092c55db50628060d2a5bb9aff148a6e73394d0059",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 34,
+          "bytes": 458638,
+          "sha256": "a31e6e1531790af5f982b35bae3bc836207822900f5e2e808e2082dc9c775bc1",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 35,
+          "bytes": 478658,
+          "sha256": "16c9592220eca66a3d8335ec57b31eaeede17cead921e5ce57ccbc433636dfb2",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 36,
+          "bytes": 447940,
+          "sha256": "ccff03dcf5e3fe041755692dbc7dfa409325e3605d5a6cd6ad0c564c9bc1a001",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 37,
+          "bytes": 444558,
+          "sha256": "08a3f57de84e7d503a71c55c4b18e66cb2fe59bacaa8e1ec27d7ef12a452e11f",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 40,
+          "bytes": 457647,
+          "sha256": "d58ff0c4e938f5cab7a19ea51579980b41553690609c5c40b1e43a3d057d4538",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 41,
+          "bytes": 359766,
+          "sha256": "592c8f4f246e0d77e37cfaedb954840a861785e3360db76f9acbcd3c468a9c4f",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 46,
+          "bytes": 396945,
+          "sha256": "433d4c8cb1bcef10ed9853147fcf767e919d9f0299208c9283171e4c235aaa60",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 47,
+          "bytes": 449376,
+          "sha256": "fe9ef0961adbee5c07543a6eb78e9d77acca8afa1617893a2f98dde5a15ce84e",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 73,
+          "bytes": 484013,
+          "sha256": "c9f26559e5fba66ffa7b3dc27a3ddf520cc733983dc925ca972e43724a697288",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 75,
+          "bytes": 462285,
+          "sha256": "eaa3a61453bcf00bf77d921d41d9d06f5d13fe8aadb3da660b0d9209ac61d8ee",
+          "width": 1918,
+          "height": 2500
+        }
+      ],
+      "native": {
+        "json": {
+          "suggested": "syngraphe-plan.json",
+          "bytes": 227,
+          "sha256": "9c6889c7a148f5683aa04c7185219d3f7ee601f4351a453ec2e2a6a31b01d504"
+        },
+        "csv": {
+          "suggested": "syngraphe-measurements.csv",
+          "bytes": 6358,
+          "sha256": "8147fc602edfa2ee09abdd262af4c2270ce0d951dd87f5faa36875349b571033"
+        },
+        "svg": {
+          "suggested": "syngraphe-study.svg",
+          "bytes": 19663,
+          "sha256": "fac48866e877a9f5365be153b5ca36308778a42b382829eb9cc18194748167fd"
+        },
+        "html": {
+          "suggested": "syngraphe-reading.html",
+          "bytes": 7366193,
+          "sha256": "8a7745c940a52585b715ddce0087589f5247e67ea81669334fc7af412bf8052f"
+        },
+        "offlineJson": {
+          "suggested": "syngraphe-plan.json",
+          "bytes": 226,
+          "sha256": "6fc17172d7e2ac01a3d69ef22fc369ca3dceedd4735b15ff9a5200a1364980eb"
+        },
+        "offlineCsv": {
+          "suggested": "syngraphe-measurements.csv",
+          "bytes": 6358,
+          "sha256": "60c80593c17a9467ea3c90fa08a84b5cde66aded307e4a261ffd0e00e549b6e7"
+        },
+        "offlineHtml": {
+          "suggested": "syngraphe-reading.html",
+          "bytes": 7366189,
+          "sha256": "5db45a2561f8089d7515c8a822151dadf6dfa73aa2c7631594771099be24e134"
+        },
+        "embeddedJson": {
+          "suggested": "syngraphe-plan.json",
+          "bytes": 227,
+          "sha256": "9c6889c7a148f5683aa04c7185219d3f7ee601f4351a453ec2e2a6a31b01d504"
+        },
+        "embeddedCsv": {
+          "suggested": "syngraphe-measurements.csv",
+          "bytes": 6358,
+          "sha256": "8147fc602edfa2ee09abdd262af4c2270ce0d951dd87f5faa36875349b571033"
+        },
+        "embeddedSvg": {
+          "suggested": "syngraphe-study.svg",
+          "bytes": 19663,
+          "sha256": "fac48866e877a9f5365be153b5ca36308778a42b382829eb9cc18194748167fd"
+        }
+      },
+      "shareLink": "https://antonsoo.github.io/syngraphe/?side=inclusive&first=5&capital=16&endGap=83&pillar=35&reading=7&page=37",
+      "axeViolations": [],
+      "cache": {
+        "name": "syngraphe-52153a44451fb76259c89c63dbd4f0b82b375a9c729616af4a4329f1e2af24da",
+        "files": [
+          "/syngraphe/LICENSE.txt",
+          "/syngraphe/assets/index-CwFOYY4l.js",
+          "/syngraphe/assets/seeing-BB4L_Ras.js",
+          "/syngraphe/assets/seeing-xll1RZI1.css",
+          "/syngraphe/assets/source-view-Cy7XrlA8.css",
+          "/syngraphe/assets/source-view-vmso6lbS.js",
+          "/syngraphe/fonts/NotoSerif-Regular.ttf",
+          "/syngraphe/fonts/OFL.txt",
+          "/syngraphe/icon.svg",
+          "/syngraphe/index.html",
+          "/syngraphe/manifest.webmanifest",
+          "/syngraphe/seeing.html",
+          "/syngraphe/sources/choisy-015.jpg",
+          "/syngraphe/sources/choisy-033.jpg",
+          "/syngraphe/sources/choisy-034.jpg",
+          "/syngraphe/sources/choisy-035.jpg",
+          "/syngraphe/sources/choisy-036.jpg",
+          "/syngraphe/sources/choisy-037.jpg",
+          "/syngraphe/sources/choisy-040.jpg",
+          "/syngraphe/sources/choisy-041.jpg",
+          "/syngraphe/sources/choisy-046.jpg",
+          "/syngraphe/sources/choisy-047.jpg",
+          "/syngraphe/sources/choisy-073.jpg",
+          "/syngraphe/sources/choisy-075.jpg",
+          "/syngraphe/sources/manifest.json"
+        ],
+        "controller": "https://antonsoo.github.io/syngraphe/sw.js"
+      },
+      "originStopped": false,
+      "offlineTransportProof": {
+        "workerFreeFreshNavigationFailed": true,
+        "refusedConnections": 2
+      },
+      "offlineNewEndGapFingers": 97,
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "sourceReadings": [
+        {
+          "reading": 1,
+          "title": "The walls belong inside the fifty-five",
+          "greek": "μῆκος τεττάρων πλέθρων, πλάτος πεντήκοντα ποδῶν καὶ πέντε σὺν τοῖς τοίχοις.",
+          "english": "Length: four plethra. Width: fifty-five feet, including the walls.",
+          "wordNotes": 3
+        },
+        {
+          "reading": 2,
+          "title": "Fifteen includes the pillar",
+          "greek": "ἀπολείπων ἀπὸ τοῦ τοίχου ἑκατέρου πέντε κ[αὶ δέκα] πόδας σὺν τῶι πάχει τοῦ κίονος.",
+          "english": "Leaving from each wall fifteen feet, including the thickness of the pillar.",
+          "wordNotes": 4
+        },
+        {
+          "reading": 3,
+          "title": "Thirty-five in each row",
+          "greek": "ἀριθμὸς τῶν κιόνων ἑκατέρου τοῦ στοίχου πέντε καὶ τριάκοντα,",
+          "english": "Number of pillars in each row: thirty-five.",
+          "wordNotes": 2
+        },
+        {
+          "reading": 4,
+          "title": "A passage for the people",
+          "greek": "διαλείπων δ[ί]οδον τῶι δήμωι διὰ μέσ[η]ς τῆς σκευοθήκης. πλάτος τὸ μεταξὺ τῶν κιόνων εἴκοσι ποδῶν,",
+          "english": "Leaving a passage for the people through the middle of the storehouse. Width between the pillars: twenty feet.",
+          "wordNotes": 3
+        },
+        {
+          "reading": 5,
+          "title": "Five half-feet in the wall body",
+          "greek": "ἐπὶ δὲ τοῦ ὀρθοστάτου πλινθίσιν οἰκοδομήσει τοὺς τοίχους, μῆκος τετράποσιν, πλάτος πέντε ἡμιποδίων,",
+          "english": "Above the orthostat, build the walls with blocks four feet in length and five half-feet in width.",
+          "wordNotes": 2
+        },
+        {
+          "reading": 6,
+          "title": "Two feet and three palms",
+          "greek": "πάχος τῶν κιόνων κάτωθεν δυοῖν ποδοῖν καὶ τριῶν παλαστῶν,",
+          "english": "Thickness of the pillars at the bottom: two feet and three palms.",
+          "wordNotes": 3
+        },
+        {
+          "reading": 7,
+          "title": "The capital is inside the thirty",
+          "greek": "μῆκος σὺν τῶι ἐπικράνωι τριάκοντα ποδῶν,",
+          "english": "Length, including the capital: thirty feet.",
+          "wordNotes": 1
+        },
+        {
+          "reading": 8,
+          "title": "Seven segments, except the first",
+          "greek": "σφονδύλων ἕκαστον ἑπτὰ, μῆκος τετραπόδων, τοῦ δὲ πρώτου πεντέποδος.",
+          "english": "Each [pillar] of seven stack segments, four feet long, but the first five feet long.",
+          "wordNotes": 4
+        }
+      ],
+      "sources": [
+        {
+          "page": 15,
+          "bytes": 233090,
+          "sha256": "ebef48fa44da0c15cb8eae800688281f60bebeff4123d46c8d2b5920e6262717",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 33,
+          "bytes": 342156,
+          "sha256": "e985f948069762f4ef20b9092c55db50628060d2a5bb9aff148a6e73394d0059",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 34,
+          "bytes": 458638,
+          "sha256": "a31e6e1531790af5f982b35bae3bc836207822900f5e2e808e2082dc9c775bc1",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 35,
+          "bytes": 478658,
+          "sha256": "16c9592220eca66a3d8335ec57b31eaeede17cead921e5ce57ccbc433636dfb2",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 36,
+          "bytes": 447940,
+          "sha256": "ccff03dcf5e3fe041755692dbc7dfa409325e3605d5a6cd6ad0c564c9bc1a001",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 37,
+          "bytes": 444558,
+          "sha256": "08a3f57de84e7d503a71c55c4b18e66cb2fe59bacaa8e1ec27d7ef12a452e11f",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 40,
+          "bytes": 457647,
+          "sha256": "d58ff0c4e938f5cab7a19ea51579980b41553690609c5c40b1e43a3d057d4538",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 41,
+          "bytes": 359766,
+          "sha256": "592c8f4f246e0d77e37cfaedb954840a861785e3360db76f9acbcd3c468a9c4f",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 46,
+          "bytes": 396945,
+          "sha256": "433d4c8cb1bcef10ed9853147fcf767e919d9f0299208c9283171e4c235aaa60",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 47,
+          "bytes": 449376,
+          "sha256": "fe9ef0961adbee5c07543a6eb78e9d77acca8afa1617893a2f98dde5a15ce84e",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 73,
+          "bytes": 484013,
+          "sha256": "c9f26559e5fba66ffa7b3dc27a3ddf520cc733983dc925ca972e43724a697288",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 75,
+          "bytes": 462285,
+          "sha256": "eaa3a61453bcf00bf77d921d41d9d06f5d13fe8aadb3da660b0d9209ac61d8ee",
+          "width": 1918,
+          "height": 2500
+        }
+      ],
+      "native": {
+        "json": {
+          "suggested": "syngraphe-plan.json",
+          "bytes": 227,
+          "sha256": "9c6889c7a148f5683aa04c7185219d3f7ee601f4351a453ec2e2a6a31b01d504"
+        },
+        "csv": {
+          "suggested": "syngraphe-measurements.csv",
+          "bytes": 6358,
+          "sha256": "8147fc602edfa2ee09abdd262af4c2270ce0d951dd87f5faa36875349b571033"
+        },
+        "svg": {
+          "suggested": "syngraphe-study.svg",
+          "bytes": 19663,
+          "sha256": "fac48866e877a9f5365be153b5ca36308778a42b382829eb9cc18194748167fd"
+        },
+        "html": {
+          "suggested": "syngraphe-reading.html",
+          "bytes": 7366193,
+          "sha256": "8a7745c940a52585b715ddce0087589f5247e67ea81669334fc7af412bf8052f"
+        },
+        "offlineJson": {
+          "suggested": "syngraphe-plan.json",
+          "bytes": 226,
+          "sha256": "6fc17172d7e2ac01a3d69ef22fc369ca3dceedd4735b15ff9a5200a1364980eb"
+        },
+        "offlineCsv": {
+          "suggested": "syngraphe-measurements.csv",
+          "bytes": 6358,
+          "sha256": "60c80593c17a9467ea3c90fa08a84b5cde66aded307e4a261ffd0e00e549b6e7"
+        },
+        "offlineHtml": {
+          "suggested": "syngraphe-reading.html",
+          "bytes": 7366189,
+          "sha256": "5db45a2561f8089d7515c8a822151dadf6dfa73aa2c7631594771099be24e134"
+        },
+        "embeddedJson": {
+          "suggested": "syngraphe-plan.json",
+          "bytes": 227,
+          "sha256": "9c6889c7a148f5683aa04c7185219d3f7ee601f4351a453ec2e2a6a31b01d504"
+        },
+        "embeddedCsv": {
+          "suggested": "syngraphe-measurements.csv",
+          "bytes": 6358,
+          "sha256": "8147fc602edfa2ee09abdd262af4c2270ce0d951dd87f5faa36875349b571033"
+        },
+        "embeddedSvg": {
+          "suggested": "syngraphe-study.svg",
+          "bytes": 19663,
+          "sha256": "fac48866e877a9f5365be153b5ca36308778a42b382829eb9cc18194748167fd"
+        }
+      },
+      "shareLink": "https://antonsoo.github.io/syngraphe/?side=inclusive&first=5&capital=16&endGap=83&pillar=35&reading=7&page=37",
+      "axeViolations": [],
+      "cache": {
+        "name": "syngraphe-52153a44451fb76259c89c63dbd4f0b82b375a9c729616af4a4329f1e2af24da",
+        "files": [
+          "/syngraphe/LICENSE.txt",
+          "/syngraphe/assets/index-CwFOYY4l.js",
+          "/syngraphe/assets/seeing-BB4L_Ras.js",
+          "/syngraphe/assets/seeing-xll1RZI1.css",
+          "/syngraphe/assets/source-view-Cy7XrlA8.css",
+          "/syngraphe/assets/source-view-vmso6lbS.js",
+          "/syngraphe/fonts/NotoSerif-Regular.ttf",
+          "/syngraphe/fonts/OFL.txt",
+          "/syngraphe/icon.svg",
+          "/syngraphe/index.html",
+          "/syngraphe/manifest.webmanifest",
+          "/syngraphe/seeing.html",
+          "/syngraphe/sources/choisy-015.jpg",
+          "/syngraphe/sources/choisy-033.jpg",
+          "/syngraphe/sources/choisy-034.jpg",
+          "/syngraphe/sources/choisy-035.jpg",
+          "/syngraphe/sources/choisy-036.jpg",
+          "/syngraphe/sources/choisy-037.jpg",
+          "/syngraphe/sources/choisy-040.jpg",
+          "/syngraphe/sources/choisy-041.jpg",
+          "/syngraphe/sources/choisy-046.jpg",
+          "/syngraphe/sources/choisy-047.jpg",
+          "/syngraphe/sources/choisy-073.jpg",
+          "/syngraphe/sources/choisy-075.jpg",
+          "/syngraphe/sources/manifest.json"
+        ],
+        "controller": "https://antonsoo.github.io/syngraphe/sw.js"
+      },
+      "originStopped": false,
+      "offlineTransportProof": {
+        "workerFreeFreshNavigationFailed": true,
+        "refusedConnections": 1
+      },
+      "offlineNewEndGapFingers": 97,
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "sourceReadings": [
+        {
+          "reading": 1,
+          "title": "The walls belong inside the fifty-five",
+          "greek": "μῆκος τεττάρων πλέθρων, πλάτος πεντήκοντα ποδῶν καὶ πέντε σὺν τοῖς τοίχοις.",
+          "english": "Length: four plethra. Width: fifty-five feet, including the walls.",
+          "wordNotes": 3
+        },
+        {
+          "reading": 2,
+          "title": "Fifteen includes the pillar",
+          "greek": "ἀπολείπων ἀπὸ τοῦ τοίχου ἑκατέρου πέντε κ[αὶ δέκα] πόδας σὺν τῶι πάχει τοῦ κίονος.",
+          "english": "Leaving from each wall fifteen feet, including the thickness of the pillar.",
+          "wordNotes": 4
+        },
+        {
+          "reading": 3,
+          "title": "Thirty-five in each row",
+          "greek": "ἀριθμὸς τῶν κιόνων ἑκατέρου τοῦ στοίχου πέντε καὶ τριάκοντα,",
+          "english": "Number of pillars in each row: thirty-five.",
+          "wordNotes": 2
+        },
+        {
+          "reading": 4,
+          "title": "A passage for the people",
+          "greek": "διαλείπων δ[ί]οδον τῶι δήμωι διὰ μέσ[η]ς τῆς σκευοθήκης. πλάτος τὸ μεταξὺ τῶν κιόνων εἴκοσι ποδῶν,",
+          "english": "Leaving a passage for the people through the middle of the storehouse. Width between the pillars: twenty feet.",
+          "wordNotes": 3
+        },
+        {
+          "reading": 5,
+          "title": "Five half-feet in the wall body",
+          "greek": "ἐπὶ δὲ τοῦ ὀρθοστάτου πλινθίσιν οἰκοδομήσει τοὺς τοίχους, μῆκος τετράποσιν, πλάτος πέντε ἡμιποδίων,",
+          "english": "Above the orthostat, build the walls with blocks four feet in length and five half-feet in width.",
+          "wordNotes": 2
+        },
+        {
+          "reading": 6,
+          "title": "Two feet and three palms",
+          "greek": "πάχος τῶν κιόνων κάτωθεν δυοῖν ποδοῖν καὶ τριῶν παλαστῶν,",
+          "english": "Thickness of the pillars at the bottom: two feet and three palms.",
+          "wordNotes": 3
+        },
+        {
+          "reading": 7,
+          "title": "The capital is inside the thirty",
+          "greek": "μῆκος σὺν τῶι ἐπικράνωι τριάκοντα ποδῶν,",
+          "english": "Length, including the capital: thirty feet.",
+          "wordNotes": 1
+        },
+        {
+          "reading": 8,
+          "title": "Seven segments, except the first",
+          "greek": "σφονδύλων ἕκαστον ἑπτὰ, μῆκος τετραπόδων, τοῦ δὲ πρώτου πεντέποδος.",
+          "english": "Each [pillar] of seven stack segments, four feet long, but the first five feet long.",
+          "wordNotes": 4
+        }
+      ],
+      "sources": [
+        {
+          "page": 15,
+          "bytes": 233090,
+          "sha256": "ebef48fa44da0c15cb8eae800688281f60bebeff4123d46c8d2b5920e6262717",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 33,
+          "bytes": 342156,
+          "sha256": "e985f948069762f4ef20b9092c55db50628060d2a5bb9aff148a6e73394d0059",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 34,
+          "bytes": 458638,
+          "sha256": "a31e6e1531790af5f982b35bae3bc836207822900f5e2e808e2082dc9c775bc1",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 35,
+          "bytes": 478658,
+          "sha256": "16c9592220eca66a3d8335ec57b31eaeede17cead921e5ce57ccbc433636dfb2",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 36,
+          "bytes": 447940,
+          "sha256": "ccff03dcf5e3fe041755692dbc7dfa409325e3605d5a6cd6ad0c564c9bc1a001",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 37,
+          "bytes": 444558,
+          "sha256": "08a3f57de84e7d503a71c55c4b18e66cb2fe59bacaa8e1ec27d7ef12a452e11f",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 40,
+          "bytes": 457647,
+          "sha256": "d58ff0c4e938f5cab7a19ea51579980b41553690609c5c40b1e43a3d057d4538",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 41,
+          "bytes": 359766,
+          "sha256": "592c8f4f246e0d77e37cfaedb954840a861785e3360db76f9acbcd3c468a9c4f",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 46,
+          "bytes": 396945,
+          "sha256": "433d4c8cb1bcef10ed9853147fcf767e919d9f0299208c9283171e4c235aaa60",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 47,
+          "bytes": 449376,
+          "sha256": "fe9ef0961adbee5c07543a6eb78e9d77acca8afa1617893a2f98dde5a15ce84e",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 73,
+          "bytes": 484013,
+          "sha256": "c9f26559e5fba66ffa7b3dc27a3ddf520cc733983dc925ca972e43724a697288",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 75,
+          "bytes": 462285,
+          "sha256": "eaa3a61453bcf00bf77d921d41d9d06f5d13fe8aadb3da660b0d9209ac61d8ee",
+          "width": 1918,
+          "height": 2500
+        }
+      ],
+      "native": {
+        "json": {
+          "suggested": "syngraphe-plan.json",
+          "bytes": 227,
+          "sha256": "9c6889c7a148f5683aa04c7185219d3f7ee601f4351a453ec2e2a6a31b01d504"
+        },
+        "csv": {
+          "suggested": "syngraphe-measurements.csv",
+          "bytes": 6358,
+          "sha256": "8147fc602edfa2ee09abdd262af4c2270ce0d951dd87f5faa36875349b571033"
+        },
+        "svg": {
+          "suggested": "syngraphe-study.svg",
+          "bytes": 19663,
+          "sha256": "fac48866e877a9f5365be153b5ca36308778a42b382829eb9cc18194748167fd"
+        },
+        "html": {
+          "suggested": "syngraphe-reading.html",
+          "bytes": 7366193,
+          "sha256": "8a7745c940a52585b715ddce0087589f5247e67ea81669334fc7af412bf8052f"
+        },
+        "offlineJson": {
+          "suggested": "syngraphe-plan.json",
+          "bytes": 226,
+          "sha256": "6fc17172d7e2ac01a3d69ef22fc369ca3dceedd4735b15ff9a5200a1364980eb"
+        },
+        "offlineCsv": {
+          "suggested": "syngraphe-measurements.csv",
+          "bytes": 6358,
+          "sha256": "60c80593c17a9467ea3c90fa08a84b5cde66aded307e4a261ffd0e00e549b6e7"
+        },
+        "offlineHtml": {
+          "suggested": "syngraphe-reading.html",
+          "bytes": 7366189,
+          "sha256": "5db45a2561f8089d7515c8a822151dadf6dfa73aa2c7631594771099be24e134"
+        },
+        "embeddedJson": {
+          "suggested": "syngraphe-plan.json",
+          "bytes": 227,
+          "sha256": "9c6889c7a148f5683aa04c7185219d3f7ee601f4351a453ec2e2a6a31b01d504"
+        },
+        "embeddedCsv": {
+          "suggested": "syngraphe-measurements.csv",
+          "bytes": 6358,
+          "sha256": "8147fc602edfa2ee09abdd262af4c2270ce0d951dd87f5faa36875349b571033"
+        },
+        "embeddedSvg": {
+          "suggested": "syngraphe-study.svg",
+          "bytes": 19663,
+          "sha256": "fac48866e877a9f5365be153b5ca36308778a42b382829eb9cc18194748167fd"
+        }
+      },
+      "shareLink": "https://antonsoo.github.io/syngraphe/?side=inclusive&first=5&capital=16&endGap=83&pillar=35&reading=7&page=37",
+      "axeViolations": [],
+      "cache": {
+        "name": "syngraphe-52153a44451fb76259c89c63dbd4f0b82b375a9c729616af4a4329f1e2af24da",
+        "files": [
+          "/syngraphe/LICENSE.txt",
+          "/syngraphe/assets/index-CwFOYY4l.js",
+          "/syngraphe/assets/seeing-BB4L_Ras.js",
+          "/syngraphe/assets/seeing-xll1RZI1.css",
+          "/syngraphe/assets/source-view-Cy7XrlA8.css",
+          "/syngraphe/assets/source-view-vmso6lbS.js",
+          "/syngraphe/fonts/NotoSerif-Regular.ttf",
+          "/syngraphe/fonts/OFL.txt",
+          "/syngraphe/icon.svg",
+          "/syngraphe/index.html",
+          "/syngraphe/manifest.webmanifest",
+          "/syngraphe/seeing.html",
+          "/syngraphe/sources/choisy-015.jpg",
+          "/syngraphe/sources/choisy-033.jpg",
+          "/syngraphe/sources/choisy-034.jpg",
+          "/syngraphe/sources/choisy-035.jpg",
+          "/syngraphe/sources/choisy-036.jpg",
+          "/syngraphe/sources/choisy-037.jpg",
+          "/syngraphe/sources/choisy-040.jpg",
+          "/syngraphe/sources/choisy-041.jpg",
+          "/syngraphe/sources/choisy-046.jpg",
+          "/syngraphe/sources/choisy-047.jpg",
+          "/syngraphe/sources/choisy-073.jpg",
+          "/syngraphe/sources/choisy-075.jpg",
+          "/syngraphe/sources/manifest.json"
+        ],
+        "controller": "https://antonsoo.github.io/syngraphe/sw.js"
+      },
+      "originStopped": false,
+      "offlineTransportProof": {
+        "workerFreeFreshNavigationFailed": true,
+        "refusedConnections": 1
+      },
+      "offlineNewEndGapFingers": 97,
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "sourceReadings": [
+        {
+          "reading": 1,
+          "title": "The walls belong inside the fifty-five",
+          "greek": "μῆκος τεττάρων πλέθρων, πλάτος πεντήκοντα ποδῶν καὶ πέντε σὺν τοῖς τοίχοις.",
+          "english": "Length: four plethra. Width: fifty-five feet, including the walls.",
+          "wordNotes": 3
+        },
+        {
+          "reading": 2,
+          "title": "Fifteen includes the pillar",
+          "greek": "ἀπολείπων ἀπὸ τοῦ τοίχου ἑκατέρου πέντε κ[αὶ δέκα] πόδας σὺν τῶι πάχει τοῦ κίονος.",
+          "english": "Leaving from each wall fifteen feet, including the thickness of the pillar.",
+          "wordNotes": 4
+        },
+        {
+          "reading": 3,
+          "title": "Thirty-five in each row",
+          "greek": "ἀριθμὸς τῶν κιόνων ἑκατέρου τοῦ στοίχου πέντε καὶ τριάκοντα,",
+          "english": "Number of pillars in each row: thirty-five.",
+          "wordNotes": 2
+        },
+        {
+          "reading": 4,
+          "title": "A passage for the people",
+          "greek": "διαλείπων δ[ί]οδον τῶι δήμωι διὰ μέσ[η]ς τῆς σκευοθήκης. πλάτος τὸ μεταξὺ τῶν κιόνων εἴκοσι ποδῶν,",
+          "english": "Leaving a passage for the people through the middle of the storehouse. Width between the pillars: twenty feet.",
+          "wordNotes": 3
+        },
+        {
+          "reading": 5,
+          "title": "Five half-feet in the wall body",
+          "greek": "ἐπὶ δὲ τοῦ ὀρθοστάτου πλινθίσιν οἰκοδομήσει τοὺς τοίχους, μῆκος τετράποσιν, πλάτος πέντε ἡμιποδίων,",
+          "english": "Above the orthostat, build the walls with blocks four feet in length and five half-feet in width.",
+          "wordNotes": 2
+        },
+        {
+          "reading": 6,
+          "title": "Two feet and three palms",
+          "greek": "πάχος τῶν κιόνων κάτωθεν δυοῖν ποδοῖν καὶ τριῶν παλαστῶν,",
+          "english": "Thickness of the pillars at the bottom: two feet and three palms.",
+          "wordNotes": 3
+        },
+        {
+          "reading": 7,
+          "title": "The capital is inside the thirty",
+          "greek": "μῆκος σὺν τῶι ἐπικράνωι τριάκοντα ποδῶν,",
+          "english": "Length, including the capital: thirty feet.",
+          "wordNotes": 1
+        },
+        {
+          "reading": 8,
+          "title": "Seven segments, except the first",
+          "greek": "σφονδύλων ἕκαστον ἑπτὰ, μῆκος τετραπόδων, τοῦ δὲ πρώτου πεντέποδος.",
+          "english": "Each [pillar] of seven stack segments, four feet long, but the first five feet long.",
+          "wordNotes": 4
+        }
+      ],
+      "sources": [
+        {
+          "page": 15,
+          "bytes": 233090,
+          "sha256": "ebef48fa44da0c15cb8eae800688281f60bebeff4123d46c8d2b5920e6262717",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 33,
+          "bytes": 342156,
+          "sha256": "e985f948069762f4ef20b9092c55db50628060d2a5bb9aff148a6e73394d0059",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 34,
+          "bytes": 458638,
+          "sha256": "a31e6e1531790af5f982b35bae3bc836207822900f5e2e808e2082dc9c775bc1",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 35,
+          "bytes": 478658,
+          "sha256": "16c9592220eca66a3d8335ec57b31eaeede17cead921e5ce57ccbc433636dfb2",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 36,
+          "bytes": 447940,
+          "sha256": "ccff03dcf5e3fe041755692dbc7dfa409325e3605d5a6cd6ad0c564c9bc1a001",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 37,
+          "bytes": 444558,
+          "sha256": "08a3f57de84e7d503a71c55c4b18e66cb2fe59bacaa8e1ec27d7ef12a452e11f",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 40,
+          "bytes": 457647,
+          "sha256": "d58ff0c4e938f5cab7a19ea51579980b41553690609c5c40b1e43a3d057d4538",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 41,
+          "bytes": 359766,
+          "sha256": "592c8f4f246e0d77e37cfaedb954840a861785e3360db76f9acbcd3c468a9c4f",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 46,
+          "bytes": 396945,
+          "sha256": "433d4c8cb1bcef10ed9853147fcf767e919d9f0299208c9283171e4c235aaa60",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 47,
+          "bytes": 449376,
+          "sha256": "fe9ef0961adbee5c07543a6eb78e9d77acca8afa1617893a2f98dde5a15ce84e",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 73,
+          "bytes": 484013,
+          "sha256": "c9f26559e5fba66ffa7b3dc27a3ddf520cc733983dc925ca972e43724a697288",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 75,
+          "bytes": 462285,
+          "sha256": "eaa3a61453bcf00bf77d921d41d9d06f5d13fe8aadb3da660b0d9209ac61d8ee",
+          "width": 1918,
+          "height": 2500
+        }
+      ],
+      "native": {
+        "json": {
+          "suggested": "syngraphe-plan.json",
+          "bytes": 227,
+          "sha256": "9c6889c7a148f5683aa04c7185219d3f7ee601f4351a453ec2e2a6a31b01d504"
+        },
+        "csv": {
+          "suggested": "syngraphe-measurements.csv",
+          "bytes": 6358,
+          "sha256": "8147fc602edfa2ee09abdd262af4c2270ce0d951dd87f5faa36875349b571033"
+        },
+        "svg": {
+          "suggested": "syngraphe-study.svg",
+          "bytes": 19663,
+          "sha256": "fac48866e877a9f5365be153b5ca36308778a42b382829eb9cc18194748167fd"
+        },
+        "html": {
+          "suggested": "syngraphe-reading.html",
+          "bytes": 7366193,
+          "sha256": "8a7745c940a52585b715ddce0087589f5247e67ea81669334fc7af412bf8052f"
+        },
+        "offlineJson": {
+          "suggested": "syngraphe-plan.json",
+          "bytes": 226,
+          "sha256": "6fc17172d7e2ac01a3d69ef22fc369ca3dceedd4735b15ff9a5200a1364980eb"
+        },
+        "offlineCsv": {
+          "suggested": "syngraphe-measurements.csv",
+          "bytes": 6358,
+          "sha256": "60c80593c17a9467ea3c90fa08a84b5cde66aded307e4a261ffd0e00e549b6e7"
+        },
+        "offlineHtml": {
+          "suggested": "syngraphe-reading.html",
+          "bytes": 7366189,
+          "sha256": "5db45a2561f8089d7515c8a822151dadf6dfa73aa2c7631594771099be24e134"
+        },
+        "embeddedJson": {
+          "suggested": "syngraphe-plan.json",
+          "bytes": 227,
+          "sha256": "9c6889c7a148f5683aa04c7185219d3f7ee601f4351a453ec2e2a6a31b01d504"
+        },
+        "embeddedCsv": {
+          "suggested": "syngraphe-measurements.csv",
+          "bytes": 6358,
+          "sha256": "8147fc602edfa2ee09abdd262af4c2270ce0d951dd87f5faa36875349b571033"
+        },
+        "embeddedSvg": {
+          "suggested": "syngraphe-study.svg",
+          "bytes": 19663,
+          "sha256": "fac48866e877a9f5365be153b5ca36308778a42b382829eb9cc18194748167fd"
+        }
+      },
+      "shareLink": "https://antonsoo.github.io/syngraphe/?side=inclusive&first=5&capital=16&endGap=83&pillar=35&reading=7&page=37",
+      "axeViolations": [],
+      "cache": {
+        "name": "syngraphe-52153a44451fb76259c89c63dbd4f0b82b375a9c729616af4a4329f1e2af24da",
+        "files": [
+          "/syngraphe/LICENSE.txt",
+          "/syngraphe/assets/index-CwFOYY4l.js",
+          "/syngraphe/assets/seeing-BB4L_Ras.js",
+          "/syngraphe/assets/seeing-xll1RZI1.css",
+          "/syngraphe/assets/source-view-Cy7XrlA8.css",
+          "/syngraphe/assets/source-view-vmso6lbS.js",
+          "/syngraphe/fonts/NotoSerif-Regular.ttf",
+          "/syngraphe/fonts/OFL.txt",
+          "/syngraphe/icon.svg",
+          "/syngraphe/index.html",
+          "/syngraphe/manifest.webmanifest",
+          "/syngraphe/seeing.html",
+          "/syngraphe/sources/choisy-015.jpg",
+          "/syngraphe/sources/choisy-033.jpg",
+          "/syngraphe/sources/choisy-034.jpg",
+          "/syngraphe/sources/choisy-035.jpg",
+          "/syngraphe/sources/choisy-036.jpg",
+          "/syngraphe/sources/choisy-037.jpg",
+          "/syngraphe/sources/choisy-040.jpg",
+          "/syngraphe/sources/choisy-041.jpg",
+          "/syngraphe/sources/choisy-046.jpg",
+          "/syngraphe/sources/choisy-047.jpg",
+          "/syngraphe/sources/choisy-073.jpg",
+          "/syngraphe/sources/choisy-075.jpg",
+          "/syngraphe/sources/manifest.json"
+        ],
+        "controller": "https://antonsoo.github.io/syngraphe/sw.js"
+      },
+      "originStopped": false,
+      "offlineTransportProof": {
+        "workerFreeFreshNavigationFailed": true,
+        "refusedConnections": 1
+      },
+      "offlineNewEndGapFingers": 97,
+      "applicationErrors": []
+    }
+  ]
+}

@@ -112,6 +112,14 @@ or public-network speed benchmark:
 [smaller reading](review/seeing/slow/smaller-reading-before.json),
 [after](review/seeing/slow/after.json),
 [stalled body](review/seeing/slow/body-inactivity.json).
+The four actual slow/offline HTML downloads retain exact source, font and
+license bytes: [artifact check](review/seeing/slow/slow-artifacts.json).
+An independent checkout at `233bf83` passes fresh `npm ci` and the full check on
+Node 24.22.1, with all 26 build files byte-identical to the working build:
+[clean build](review/seeing/slow/clean-build.json).
+The latest [public delivery update](seeing-publication.md#slow-connection-update)
+identifies this corrected edition separately from the initial public receipts.
+
 The runner uses Node 26.7.0 on the local WSL2 Linux host, with two independent
 browser/server pairs. Each server shares one 128,000-byte/s budget across all
 responses. Its queue intentionally has no per-connection bandwidth multiplier.
