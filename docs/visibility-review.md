@@ -111,6 +111,9 @@ the two-tab handover check in `scripts/seeing-faults.mjs`.
 
 ## Independent checkout and publication
 
+The [public delivery audit](seeing-publication.md) records the canonical hosted
+files, immutable source bytes, real browser journeys and transport-cut recovery.
+
 The earlier clean-checkout receipt at `1a7aade` predates the audit corrections
 above: [original clean-build receipt](review/seeing/clean-build.json). Its
 26-file inventory is historical evidence, not the current edition's identity.

@@ -6,6 +6,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import AxeBuilder from "@axe-core/playwright";
 import { chromium, firefox } from "playwright";
+import { publicTransport } from "./public-transport.mjs";
 
 const out = path.resolve(process.argv[2] ?? "/tmp/syngraphe-browser"),
   publicBase = process.argv[3];
@@ -121,7 +122,7 @@ async function verifiedSource(page, p) {
 const report = {
   checkedAt: new Date().toISOString(),
   scope: publicBase
-    ? "Public HTTPS operation and browser-network-disabled reload. Remote origin was not stopped."
+    ? "Canonical HTTPS through unchanged TLS CONNECT; existing tunnels closed and new connections refused; fresh worker-free navigation fails."
     : "Production build, actual native downloads, retained files and offline replay with the local origin refusing connections.",
   configurations: [],
 };
@@ -130,9 +131,11 @@ for (const [name, engine] of [
   ["firefox", firefox],
 ]) {
   if (process.env.REVIEW_ENGINE && process.env.REVIEW_ENGINE !== name) continue;
-  const browser = await engine.launch();
+  const transport = publicBase ? await publicTransport(publicBase) : null;
+  const browser = await engine.launch(transport ? { proxy: transport.proxy } : {});
   try {
     for (const width of [1440, 375]) {
+      transport?.restore();
       if (process.env.REVIEW_WIDTH && Number(process.env.REVIEW_WIDTH) !== width) continue;
       console.log(name, width);
       const folder = path.join(out, `${name}-${width}`);
@@ -300,7 +303,11 @@ for (const [name, engine] of [
           stopped = true;
           await assert.rejects(() => fetch(server.base));
         }
-        await context.setOffline(true);
+        let outage = null;
+        if (transport) {
+          transport.cut();
+          outage = await transport.proveUnavailable(browser);
+        } else await context.setOffline(true);
         await page.reload();
         await contains(page, "#width-result", /60½ feet/);
         await contains(page, "#offline", /^Edition ready offline/);
@@ -394,6 +401,7 @@ for (const [name, engine] of [
           axeViolations: axe,
           cache,
           originStopped: !publicBase,
+          offlineTransportProof: outage,
           offlineNewEndGapFingers: 97,
           applicationErrors: errors,
         });
@@ -412,6 +420,7 @@ for (const [name, engine] of [
     }
   } finally {
     await browser.close();
+    await transport?.close();
   }
 }
 await writeFile(path.join(out, "review.json"), JSON.stringify(report, null, 2) + "\n");

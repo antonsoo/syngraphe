@@ -1,0 +1,82 @@
+{
+  "scope": "Actual browser downloads; independent vector oracle; embedded binary identity; complete PDF language and margin checks",
+  "configurations": [
+    {
+      "configuration": "chromium-1440",
+      "independentlyCheckedStationRows": 82,
+      "html": {
+        "bytes": 2663809,
+        "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18",
+        "wholeSourceImages": 4,
+        "sourceFontAndLicenseBytesMatch": true
+      },
+      "offlineHtml": {
+        "bytes": 2664047,
+        "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608",
+        "wholeSourceImages": 4,
+        "sourceFontAndLicenseBytesMatch": true
+      },
+      "nativeEmbeddedDownloadsIdentical": true
+    },
+    {
+      "configuration": "chromium-375",
+      "independentlyCheckedStationRows": 82,
+      "html": {
+        "bytes": 2663809,
+        "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18",
+        "wholeSourceImages": 4,
+        "sourceFontAndLicenseBytesMatch": true
+      },
+      "offlineHtml": {
+        "bytes": 2664047,
+        "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608",
+        "wholeSourceImages": 4,
+        "sourceFontAndLicenseBytesMatch": true
+      },
+      "nativeEmbeddedDownloadsIdentical": true
+    },
+    {
+      "configuration": "firefox-1440",
+      "independentlyCheckedStationRows": 82,
+      "html": {
+        "bytes": 2663809,
+        "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18",
+        "wholeSourceImages": 4,
+        "sourceFontAndLicenseBytesMatch": true
+      },
+      "offlineHtml": {
+        "bytes": 2664047,
+        "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608",
+        "wholeSourceImages": 4,
+        "sourceFontAndLicenseBytesMatch": true
+      },
+      "nativeEmbeddedDownloadsIdentical": true
+    },
+    {
+      "configuration": "firefox-375",
+      "independentlyCheckedStationRows": 82,
+      "html": {
+        "bytes": 2663809,
+        "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18",
+        "wholeSourceImages": 4,
+        "sourceFontAndLicenseBytesMatch": true
+      },
+      "offlineHtml": {
+        "bytes": 2664047,
+        "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608",
+        "wholeSourceImages": 4,
+        "sourceFontAndLicenseBytesMatch": true
+      },
+      "nativeEmbeddedDownloadsIdentical": true
+    }
+  ],
+  "pdf": {
+    "pages": 17,
+    "completeGreekAndEnglishPassages": 10,
+    "completeWordNotes": 15,
+    "sourceCaptions": 4,
+    "wordsWithinMargins": 2331,
+    "sha256": "a7e42df4676bcbdd163a295929f56ba3ae5338fa20349fd83608213324668c02",
+    "untaggedPhysicalPrinterUnverified": true
+  }
+}

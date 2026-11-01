@@ -40,8 +40,8 @@ Saving captures your starting settings and can be cancelled.
 gzip -dc examples/seeing/reading.html.gz > /tmp/syngraphe-seeing.html
 ```
 
-Build and preview below, then open `/syngraphe/seeing.html`. This room is
-prepared locally; public publication is a separate step.
+[Open the sightline room](https://antonsoo.github.io/syngraphe/seeing.html#sightline).
+[Public delivery and recovery audit](docs/seeing-publication.md).
 [Try the actual work and inspect the source/model boundary](docs/visibility.md).
 
 This is a source-and-constraint workshop, rather than a finished reconstruction.
@@ -80,8 +80,7 @@ cd syngraphe && npm ci
 npm run dev
 ```
 
-Open `http://127.0.0.1:4351/syngraphe/`. This is a new repository; no npm package
-release is asserted. `npm run build` writes the production edition to `dist/`;
+Open `http://127.0.0.1:4351/syngraphe/`. No npm package release is asserted. `npm run build` writes the production edition to `dist/`;
 `npm run preview` serves that edition at the same address after stopping dev.
 Offline installation belongs to production, not the Vite development server.
 

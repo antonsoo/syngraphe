@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-11-01T05:45:32.006Z",
+  "base": "https://antonsoo.github.io/syngraphe/",
+  "boundary": "Canonical public edition; browser-local Cache Storage faults; real network repair; unchanged TLS CONNECT tunnels closed and new connections refused; independent fresh worker-free navigation fails",
+  "results": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "currentInventory": {
+        "key": "syngraphe-3040f82790c94bbb4d681243d5fa0aa27111ed04772d9e5e5d8b173a0dea15ba",
+        "files": [
+          "/syngraphe/LICENSE.txt",
+          "/syngraphe/assets/index-CpGdod8o.js",
+          "/syngraphe/assets/seeing-DM7ktX5e.js",
+          "/syngraphe/assets/seeing-xll1RZI1.css",
+          "/syngraphe/assets/source-view-CXC0zelf.js",
+          "/syngraphe/assets/source-view-Cy7XrlA8.css",
+          "/syngraphe/fonts/NotoSerif-Regular.ttf",
+          "/syngraphe/fonts/OFL.txt",
+          "/syngraphe/icon.svg",
+          "/syngraphe/index.html",
+          "/syngraphe/manifest.webmanifest",
+          "/syngraphe/seeing.html",
+          "/syngraphe/sources/choisy-015.jpg",
+          "/syngraphe/sources/choisy-033.jpg",
+          "/syngraphe/sources/choisy-034.jpg",
+          "/syngraphe/sources/choisy-035.jpg",
+          "/syngraphe/sources/choisy-036.jpg",
+          "/syngraphe/sources/choisy-037.jpg",
+          "/syngraphe/sources/choisy-040.jpg",
+          "/syngraphe/sources/choisy-041.jpg",
+          "/syngraphe/sources/choisy-046.jpg",
+          "/syngraphe/sources/choisy-047.jpg",
+          "/syngraphe/sources/choisy-073.jpg",
+          "/syngraphe/sources/choisy-075.jpg",
+          "/syngraphe/sources/manifest.json"
+        ]
+      },
+      "outage": {
+        "workerFreeFreshNavigationFailed": true,
+        "refusedConnections": 1
+      },
+      "missingPageDetected": true,
+      "offlineRepairFailureKeepsSettings": true,
+      "actualNetworkRepairKeepsSettings": true,
+      "cachedWrongPageDetectedAndRepaired": true,
+      "fullEvictionAndRepair": true,
+      "inspectionDoesNotRecreateCache": true,
+      "offlineReloadAndPortableDownloadAfterRepair": true
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "currentInventory": {
+        "key": "syngraphe-3040f82790c94bbb4d681243d5fa0aa27111ed04772d9e5e5d8b173a0dea15ba",
+        "files": [
+          "/syngraphe/LICENSE.txt",
+          "/syngraphe/assets/index-CpGdod8o.js",
+          "/syngraphe/assets/seeing-DM7ktX5e.js",
+          "/syngraphe/assets/seeing-xll1RZI1.css",
+          "/syngraphe/assets/source-view-CXC0zelf.js",
+          "/syngraphe/assets/source-view-Cy7XrlA8.css",
+          "/syngraphe/fonts/NotoSerif-Regular.ttf",
+          "/syngraphe/fonts/OFL.txt",
+          "/syngraphe/icon.svg",
+          "/syngraphe/index.html",
+          "/syngraphe/manifest.webmanifest",
+          "/syngraphe/seeing.html",
+          "/syngraphe/sources/choisy-015.jpg",
+          "/syngraphe/sources/choisy-033.jpg",
+          "/syngraphe/sources/choisy-034.jpg",
+          "/syngraphe/sources/choisy-035.jpg",
+          "/syngraphe/sources/choisy-036.jpg",
+          "/syngraphe/sources/choisy-037.jpg",
+          "/syngraphe/sources/choisy-040.jpg",
+          "/syngraphe/sources/choisy-041.jpg",
+          "/syngraphe/sources/choisy-046.jpg",
+          "/syngraphe/sources/choisy-047.jpg",
+          "/syngraphe/sources/choisy-073.jpg",
+          "/syngraphe/sources/choisy-075.jpg",
+          "/syngraphe/sources/manifest.json"
+        ]
+      },
+      "outage": {
+        "workerFreeFreshNavigationFailed": true,
+        "refusedConnections": 1
+      },
+      "missingPageDetected": true,
+      "offlineRepairFailureKeepsSettings": true,
+      "actualNetworkRepairKeepsSettings": true,
+      "cachedWrongPageDetectedAndRepaired": true,
+      "fullEvictionAndRepair": true,
+      "inspectionDoesNotRecreateCache": true,
+      "offlineReloadAndPortableDownloadAfterRepair": true
+    }
+  ]
+}

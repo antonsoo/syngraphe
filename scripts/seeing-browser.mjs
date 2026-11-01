@@ -5,6 +5,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import AxeBuilder from "@axe-core/playwright";
 import { chromium, firefox } from "playwright";
+import { publicTransport } from "./public-transport.mjs";
 import { serve } from "./seeing-server.mjs";
 
 const output = path.resolve(process.argv[2] ?? "test-results/seeing");
@@ -54,7 +55,7 @@ const expected = (await allFiles("dist"))
 const report = {
   checkedAt: new Date().toISOString(),
   boundary: publicBase
-    ? "Hosted browser operation; offline network emulation only"
+    ? "Canonical public operation through unchanged TLS CONNECT; offline tunnels closed and new connections refused; fresh worker-free context fails"
     : "Local production edition; local origin stopped before offline replay",
   configurations: [],
 };
@@ -62,9 +63,11 @@ for (const [engine, api] of [
   ["chromium", chromium],
   ["firefox", firefox],
 ]) {
-  const browser = await api.launch();
+  const transport = publicBase ? await publicTransport(publicBase) : null;
+  const browser = await api.launch(transport ? { proxy: transport.proxy } : {});
   try {
     for (const width of [1440, 375]) {
+      transport?.restore();
       const server = publicBase ? { base: publicBase, stop: async () => {} } : await serve();
       const folder = path.join(output, `${engine}-${width}`);
       await mkdir(folder, { recursive: true });
@@ -202,7 +205,11 @@ for (const [engine, api] of [
         assert.equal(cache.keys.length, 1);
         assert.deepEqual(cache.files, expected);
         await server.stop();
-        if (publicBase) await context.setOffline(true);
+        let outage = null;
+        if (transport) {
+          transport.cut();
+          outage = await transport.proveUnavailable(browser);
+        }
         await page.reload();
         await contains(page, "#offline-status", /^Edition ready offline/);
         await page.locator("#stated-faces").click();
@@ -264,6 +271,7 @@ for (const [engine, api] of [
           axeViolations: axe.violations.length,
           inventoryFiles: cache.files.length,
           offlineOriginStopped: !publicBase,
+          offlineTransportProof: outage,
           portableJavaScriptDisabled: true,
           nativeEmbeddedDownloadsIdentical: true,
           portableRemoteRequests: requests,
@@ -279,6 +287,7 @@ for (const [engine, api] of [
     }
   } finally {
     await browser.close();
+    await transport?.close();
   }
 }
 await mkdir(output, { recursive: true });

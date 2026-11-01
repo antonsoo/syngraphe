@@ -1,0 +1,189 @@
+{
+  "checkedAt": "2026-11-01T05:43:31.968Z",
+  "sourceCommit": "ababe527e6057ac72705f76734d9aadb8d8a146e",
+  "remoteRefs": [
+    "3afba2a4fe65772d65381ca49b89e918d77741a5\trefs/heads/gh-pages",
+    "ababe527e6057ac72705f76734d9aadb8d8a146e\trefs/heads/main"
+  ],
+  "boundary": "Immutable raw committed source/artifact bytes and observed workflow jobs; separate from hosted browser operation",
+  "files": [
+    {
+      "file": "docs/visibility-review.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/docs/visibility-review.md",
+      "bytes": 10327,
+      "sha256": "2a81fc5f62ccc4103eb0c16f7b751401ac31c601f1ec49203faee9b4d4fbcf31",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "docs/visibility.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/docs/visibility.md",
+      "bytes": 9126,
+      "sha256": "a71c06e5e5e59ca6eeefd9847224ea86629a65c417ee79e158d455a6e0c053f8",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "public/sources/manifest.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/public/sources/manifest.json",
+      "bytes": 4305,
+      "sha256": "4d52d5c62dcfacf11fe3e5937c658080cc50f9fcda8e15dc66f031af912b5204",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "public/sources/choisy-015.jpg",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/public/sources/choisy-015.jpg",
+      "bytes": 233090,
+      "sha256": "ebef48fa44da0c15cb8eae800688281f60bebeff4123d46c8d2b5920e6262717",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "public/sources/choisy-034.jpg",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/public/sources/choisy-034.jpg",
+      "bytes": 458638,
+      "sha256": "a31e6e1531790af5f982b35bae3bc836207822900f5e2e808e2082dc9c775bc1",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "public/sources/choisy-040.jpg",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/public/sources/choisy-040.jpg",
+      "bytes": 457647,
+      "sha256": "d58ff0c4e938f5cab7a19ea51579980b41553690609c5c40b1e43a3d057d4538",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "public/sources/choisy-041.jpg",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/public/sources/choisy-041.jpg",
+      "bytes": 359766,
+      "sha256": "592c8f4f246e0d77e37cfaedb954840a861785e3360db76f9acbcd3c468a9c4f",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "public/fonts/NotoSerif-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/public/fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "public/fonts/OFL.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/public/fonts/OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/LICENSE",
+      "bytes": 1071,
+      "sha256": "f4cec46403514e2601f3b917ad36bfc8cd9a6d97359ac2f9bb554d2062a251eb",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "examples/seeing/reading.html.gz",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/examples/seeing/reading.html.gz",
+      "bytes": 1718616,
+      "sha256": "da21d1224174a1485884af0db492448e64dc0f66fee5b8c1f6d6e55269cb0501",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "examples/seeing/reading.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/examples/seeing/reading.pdf",
+      "bytes": 1765372,
+      "sha256": "5d45fbe0736a6a926f878945dcab294df4119aec2480d164e80ff2a78f0def02",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "examples/seeing/study.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/examples/seeing/study.json",
+      "bytes": 206,
+      "sha256": "462ad1b8ab14e5c77ac28e09eefbe8a8369285467eb0504a3b165b992d15f614",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "examples/seeing/stations.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/examples/seeing/stations.csv",
+      "bytes": 7538,
+      "sha256": "eee6fc759115c8545169b1db7802781003754692d155df0ac487211b8dcbfaa4",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "examples/seeing/study.svg",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/examples/seeing/study.svg",
+      "bytes": 4572,
+      "sha256": "22633ac847b1cb21e7b3edc7d8f0b4372f5ddebc04b045f519455750cbe0be21",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "examples/reading.html.gz",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/examples/reading.html.gz",
+      "bytes": 5095829,
+      "sha256": "c1edee54ab2e9c71a3a5d5cf69b7efb8b9b2e6f82b4334906a2535f84ac44e3f",
+      "matchesCommittedBytes": true
+    },
+    {
+      "file": "examples/reading.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/ababe527e6057ac72705f76734d9aadb8d8a146e/examples/reading.pdf",
+      "bytes": 5326468,
+      "sha256": "45bf4360657dc2b88409b568cb59e4deb7679c2ab6c8ef915beb65aee616dd50",
+      "matchesCommittedBytes": true
+    }
+  ],
+  "workflows": [
+    {
+      "id": 41277873271,
+      "name": "Pages",
+      "head": "ababe527e6057ac72705f76734d9aadb8d8a146e",
+      "status": "completed",
+      "conclusion": "failure",
+      "jobs": [
+        {
+          "name": "deploy",
+          "status": "completed",
+          "conclusion": "failure",
+          "executedSteps": 0
+        }
+      ]
+    },
+    {
+      "id": 41277873241,
+      "name": "CI",
+      "head": "ababe527e6057ac72705f76734d9aadb8d8a146e",
+      "status": "completed",
+      "conclusion": "failure",
+      "jobs": [
+        {
+          "name": "check",
+          "status": "completed",
+          "conclusion": "failure",
+          "executedSteps": 0
+        }
+      ]
+    },
+    {
+      "id": 41277848282,
+      "name": "pages build and deployment",
+      "head": "3afba2a4fe65772d65381ca49b89e918d77741a5",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "name": "build",
+          "status": "completed",
+          "conclusion": "success",
+          "executedSteps": 5
+        },
+        {
+          "name": "report-build-status",
+          "status": "completed",
+          "conclusion": "success",
+          "executedSteps": 3
+        },
+        {
+          "name": "deploy",
+          "status": "completed",
+          "conclusion": "success",
+          "executedSteps": 3
+        }
+      ]
+    }
+  ]
+}

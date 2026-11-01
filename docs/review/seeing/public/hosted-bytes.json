@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "node": "v26.7.0",
+  "requestTimeoutMs": 10000,
+  "retryWindowMs": 180000,
+  "pollIntervalMs": 5000,
+  "concurrency": 6,
+  "baseURL": "https://antonsoo.github.io/syngraphe/",
+  "state": "verified",
+  "attempts": 6,
+  "startedAtUtc": "2026-11-01T05:40:32.352Z",
+  "checkedAtUtc": "2026-11-01T05:41:02.971Z",
+  "buildManifestSha256": "a6f5729e884de91fc372429e0c1ae43927d875a0c5f4982b11f2477c13772d37",
+  "expectedFileCount": 26,
+  "checkedFileCount": 26,
+  "verifiedFileCount": 26,
+  "rootBefore": {
+    "path": "index.html",
+    "bytes": 1102,
+    "sha256": "fbaf48c02787182b94635972371c6469f027c7742b4424f490baf60d92f8beaa",
+    "url": "https://antonsoo.github.io/syngraphe/",
+    "httpStatus": 200,
+    "observedBytes": 1102,
+    "observedSha256": "fbaf48c02787182b94635972371c6469f027c7742b4424f490baf60d92f8beaa",
+    "state": "verified"
+  },
+  "rootAfter": {
+    "path": "index.html",
+    "bytes": 1102,
+    "sha256": "fbaf48c02787182b94635972371c6469f027c7742b4424f490baf60d92f8beaa",
+    "url": "https://antonsoo.github.io/syngraphe/",
+    "httpStatus": 200,
+    "observedBytes": 1102,
+    "observedSha256": "fbaf48c02787182b94635972371c6469f027c7742b4424f490baf60d92f8beaa",
+    "state": "verified"
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1071,
+      "sha256": "f4cec46403514e2601f3b917ad36bfc8cd9a6d97359ac2f9bb554d2062a251eb",
+      "url": "https://antonsoo.github.io/syngraphe/LICENSE.txt",
+      "httpStatus": 200,
+      "observedBytes": 1071,
+      "observedSha256": "f4cec46403514e2601f3b917ad36bfc8cd9a6d97359ac2f9bb554d2062a251eb",
+      "state": "verified"
+    },
+    {
+      "path": "assets/index-CpGdod8o.js",
+      "bytes": 26833,
+      "sha256": "ded66944672c9f3331c5ff32eed5cd87e35c26c0e8c4a5887a5792994ba2280e",
+      "url": "https://antonsoo.github.io/syngraphe/assets/index-CpGdod8o.js",
+      "httpStatus": 200,
+      "observedBytes": 26833,
+      "observedSha256": "ded66944672c9f3331c5ff32eed5cd87e35c26c0e8c4a5887a5792994ba2280e",
+      "state": "verified"
+    },
+    {
+      "path": "assets/seeing-DM7ktX5e.js",
+      "bytes": 56905,
+      "sha256": "3511ebf38acf17fa37496289a9beb02b0e30463645e1c2126c4caf6ef5bf9967",
+      "url": "https://antonsoo.github.io/syngraphe/assets/seeing-DM7ktX5e.js",
+      "httpStatus": 200,
+      "observedBytes": 56905,
+      "observedSha256": "3511ebf38acf17fa37496289a9beb02b0e30463645e1c2126c4caf6ef5bf9967",
+      "state": "verified"
+    },
+    {
+      "path": "assets/seeing-xll1RZI1.css",
+      "bytes": 4438,
+      "sha256": "19fd0bd310dc60ee2ce552addd7ab0448f046301d7a00f1cb0f5095e12dadb0f",
+      "url": "https://antonsoo.github.io/syngraphe/assets/seeing-xll1RZI1.css",
+      "httpStatus": 200,
+      "observedBytes": 4438,
+      "observedSha256": "19fd0bd310dc60ee2ce552addd7ab0448f046301d7a00f1cb0f5095e12dadb0f",
+      "state": "verified"
+    },
+    {
+      "path": "assets/source-view-CXC0zelf.js",
+      "bytes": 68784,
+      "sha256": "a124bdaa35d677240a3d1ebb186dec9c09d44b1f6986c3e90a676fb673bdd3af",
+      "url": "https://antonsoo.github.io/syngraphe/assets/source-view-CXC0zelf.js",
+      "httpStatus": 200,
+      "observedBytes": 68784,
+      "observedSha256": "a124bdaa35d677240a3d1ebb186dec9c09d44b1f6986c3e90a676fb673bdd3af",
+      "state": "verified"
+    },
+    {
+      "path": "assets/source-view-Cy7XrlA8.css",
+      "bytes": 10682,
+      "sha256": "a6ffabe16c80c494d37a8f670620d8c2a1650618ba21ef6dbb8ad3fdf8215669",
+      "url": "https://antonsoo.github.io/syngraphe/assets/source-view-Cy7XrlA8.css",
+      "httpStatus": 200,
+      "observedBytes": 10682,
+      "observedSha256": "a6ffabe16c80c494d37a8f670620d8c2a1650618ba21ef6dbb8ad3fdf8215669",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "url": "https://antonsoo.github.io/syngraphe/fonts/NotoSerif-Regular.ttf",
+      "httpStatus": 200,
+      "observedBytes": 444064,
+      "observedSha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "url": "https://antonsoo.github.io/syngraphe/fonts/OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4396,
+      "observedSha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "state": "verified"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 290,
+      "sha256": "c0c207d5b1f7c134758481020e52f70134d78050eaf496de2670ca6b1ea51df8",
+      "url": "https://antonsoo.github.io/syngraphe/icon.svg",
+      "httpStatus": 200,
+      "observedBytes": 290,
+      "observedSha256": "c0c207d5b1f7c134758481020e52f70134d78050eaf496de2670ca6b1ea51df8",
+      "state": "verified"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1102,
+      "sha256": "fbaf48c02787182b94635972371c6469f027c7742b4424f490baf60d92f8beaa",
+      "url": "https://antonsoo.github.io/syngraphe/index.html",
+      "httpStatus": 200,
+      "observedBytes": 1102,
+      "observedSha256": "fbaf48c02787182b94635972371c6469f027c7742b4424f490baf60d92f8beaa",
+      "state": "verified"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 342,
+      "sha256": "b8a51161dece3dfa8b1bbae1e07da8dabbdab0d9feb4987438afcadec8f44957",
+      "url": "https://antonsoo.github.io/syngraphe/manifest.webmanifest",
+      "httpStatus": 200,
+      "observedBytes": 342,
+      "observedSha256": "b8a51161dece3dfa8b1bbae1e07da8dabbdab0d9feb4987438afcadec8f44957",
+      "state": "verified"
+    },
+    {
+      "path": "seeing.html",
+      "bytes": 1145,
+      "sha256": "4b78fe545af11311a9ac5f219218feea568d13ae53ff84e1d67d33362186a65b",
+      "url": "https://antonsoo.github.io/syngraphe/seeing.html",
+      "httpStatus": 200,
+      "observedBytes": 1145,
+      "observedSha256": "4b78fe545af11311a9ac5f219218feea568d13ae53ff84e1d67d33362186a65b",
+      "state": "verified"
+    },
+    {
+      "path": "sources/choisy-015.jpg",
+      "bytes": 233090,
+      "sha256": "ebef48fa44da0c15cb8eae800688281f60bebeff4123d46c8d2b5920e6262717",
+      "url": "https://antonsoo.github.io/syngraphe/sources/choisy-015.jpg",
+      "httpStatus": 200,
+      "observedBytes": 233090,
+      "observedSha256": "ebef48fa44da0c15cb8eae800688281f60bebeff4123d46c8d2b5920e6262717",
+      "state": "verified"
+    },
+    {
+      "path": "sources/choisy-033.jpg",
+      "bytes": 342156,
+      "sha256": "e985f948069762f4ef20b9092c55db50628060d2a5bb9aff148a6e73394d0059",
+      "url": "https://antonsoo.github.io/syngraphe/sources/choisy-033.jpg",
+      "httpStatus": 200,
+      "observedBytes": 342156,
+      "observedSha256": "e985f948069762f4ef20b9092c55db50628060d2a5bb9aff148a6e73394d0059",
+      "state": "verified"
+    },
+    {
+      "path": "sources/choisy-034.jpg",
+      "bytes": 458638,
+      "sha256": "a31e6e1531790af5f982b35bae3bc836207822900f5e2e808e2082dc9c775bc1",
+      "url": "https://antonsoo.github.io/syngraphe/sources/choisy-034.jpg",
+      "httpStatus": 200,
+      "observedBytes": 458638,
+      "observedSha256": "a31e6e1531790af5f982b35bae3bc836207822900f5e2e808e2082dc9c775bc1",
+      "state": "verified"
+    },
+    {
+      "path": "sources/choisy-035.jpg",
+      "bytes": 478658,
+      "sha256": "16c9592220eca66a3d8335ec57b31eaeede17cead921e5ce57ccbc433636dfb2",
+      "url": "https://antonsoo.github.io/syngraphe/sources/choisy-035.jpg",
+      "httpStatus": 200,
+      "observedBytes": 478658,
+      "observedSha256": "16c9592220eca66a3d8335ec57b31eaeede17cead921e5ce57ccbc433636dfb2",
+      "state": "verified"
+    },
+    {
+      "path": "sources/choisy-036.jpg",
+      "bytes": 447940,
+      "sha256": "ccff03dcf5e3fe041755692dbc7dfa409325e3605d5a6cd6ad0c564c9bc1a001",
+      "url": "https://antonsoo.github.io/syngraphe/sources/choisy-036.jpg",
+      "httpStatus": 200,
+      "observedBytes": 447940,
+      "observedSha256": "ccff03dcf5e3fe041755692dbc7dfa409325e3605d5a6cd6ad0c564c9bc1a001",
+      "state": "verified"
+    },
+    {
+      "path": "sources/choisy-037.jpg",
+      "bytes": 444558,
+      "sha256": "08a3f57de84e7d503a71c55c4b18e66cb2fe59bacaa8e1ec27d7ef12a452e11f",
+      "url": "https://antonsoo.github.io/syngraphe/sources/choisy-037.jpg",
+      "httpStatus": 200,
+      "observedBytes": 444558,
+      "observedSha256": "08a3f57de84e7d503a71c55c4b18e66cb2fe59bacaa8e1ec27d7ef12a452e11f",
+      "state": "verified"
+    },
+    {
+      "path": "sources/choisy-040.jpg",
+      "bytes": 457647,
+      "sha256": "d58ff0c4e938f5cab7a19ea51579980b41553690609c5c40b1e43a3d057d4538",
+      "url": "https://antonsoo.github.io/syngraphe/sources/choisy-040.jpg",
+      "httpStatus": 200,
+      "observedBytes": 457647,
+      "observedSha256": "d58ff0c4e938f5cab7a19ea51579980b41553690609c5c40b1e43a3d057d4538",
+      "state": "verified"
+    },
+    {
+      "path": "sources/choisy-041.jpg",
+      "bytes": 359766,
+      "sha256": "592c8f4f246e0d77e37cfaedb954840a861785e3360db76f9acbcd3c468a9c4f",
+      "url": "https://antonsoo.github.io/syngraphe/sources/choisy-041.jpg",
+      "httpStatus": 200,
+      "observedBytes": 359766,
+      "observedSha256": "592c8f4f246e0d77e37cfaedb954840a861785e3360db76f9acbcd3c468a9c4f",
+      "state": "verified"
+    },
+    {
+      "path": "sources/choisy-046.jpg",
+      "bytes": 396945,
+      "sha256": "433d4c8cb1bcef10ed9853147fcf767e919d9f0299208c9283171e4c235aaa60",
+      "url": "https://antonsoo.github.io/syngraphe/sources/choisy-046.jpg",
+      "httpStatus": 200,
+      "observedBytes": 396945,
+      "observedSha256": "433d4c8cb1bcef10ed9853147fcf767e919d9f0299208c9283171e4c235aaa60",
+      "state": "verified"
+    },
+    {
+      "path": "sources/choisy-047.jpg",
+      "bytes": 449376,
+      "sha256": "fe9ef0961adbee5c07543a6eb78e9d77acca8afa1617893a2f98dde5a15ce84e",
+      "url": "https://antonsoo.github.io/syngraphe/sources/choisy-047.jpg",
+      "httpStatus": 200,
+      "observedBytes": 449376,
+      "observedSha256": "fe9ef0961adbee5c07543a6eb78e9d77acca8afa1617893a2f98dde5a15ce84e",
+      "state": "verified"
+    },
+    {
+      "path": "sources/choisy-073.jpg",
+      "bytes": 484013,
+      "sha256": "c9f26559e5fba66ffa7b3dc27a3ddf520cc733983dc925ca972e43724a697288",
+      "url": "https://antonsoo.github.io/syngraphe/sources/choisy-073.jpg",
+      "httpStatus": 200,
+      "observedBytes": 484013,
+      "observedSha256": "c9f26559e5fba66ffa7b3dc27a3ddf520cc733983dc925ca972e43724a697288",
+      "state": "verified"
+    },
+    {
+      "path": "sources/choisy-075.jpg",
+      "bytes": 462285,
+      "sha256": "eaa3a61453bcf00bf77d921d41d9d06f5d13fe8aadb3da660b0d9209ac61d8ee",
+      "url": "https://antonsoo.github.io/syngraphe/sources/choisy-075.jpg",
+      "httpStatus": 200,
+      "observedBytes": 462285,
+      "observedSha256": "eaa3a61453bcf00bf77d921d41d9d06f5d13fe8aadb3da660b0d9209ac61d8ee",
+      "state": "verified"
+    },
+    {
+      "path": "sources/manifest.json",
+      "bytes": 4305,
+      "sha256": "4d52d5c62dcfacf11fe3e5937c658080cc50f9fcda8e15dc66f031af912b5204",
+      "url": "https://antonsoo.github.io/syngraphe/sources/manifest.json",
+      "httpStatus": 200,
+      "observedBytes": 4305,
+      "observedSha256": "4d52d5c62dcfacf11fe3e5937c658080cc50f9fcda8e15dc66f031af912b5204",
+      "state": "verified"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 6945,
+      "sha256": "9ae4c13a2e089ce6da3c41cb2130421722b5680139b54c05f51e314c20685bb2",
+      "url": "https://antonsoo.github.io/syngraphe/sw.js",
+      "httpStatus": 200,
+      "observedBytes": 6945,
+      "observedSha256": "9ae4c13a2e089ce6da3c41cb2130421722b5680139b54c05f51e314c20685bb2",
+      "state": "verified"
+    }
+  ],
+  "scope": "Compares canonical responses with this captured build inventory during the recorded pass. Extra hosted files, browser behavior, public source, registry releases and deployment provenance are not established."
+}

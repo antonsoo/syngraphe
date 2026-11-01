@@ -1,0 +1,394 @@
+{
+  "checkedAt": "2026-11-01T05:45:38.279Z",
+  "boundary": "Canonical public operation through unchanged TLS CONNECT; offline tunnels closed and new connections refused; fresh worker-free context fails",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "readings": [
+        {
+          "greek": "διαλείπων δ[ί]οδον τῶι δήμωι διὰ μέσ[η]ς τῆς σκευοθήκης. πλάτος τὸ μεταξὺ τῶν κιόνων εἴκοσι ποδῶν,",
+          "english": "Leaving a passage for the people through the middle of the storehouse. Width between the pillars: twenty feet.",
+          "words": 3
+        },
+        {
+          "greek": "ποιήσει δὲ καὶ κιβωτοὺς τοῖς ἱστίοις καὶ τοῖς παραρρύμασιν τοῖς λευκοῖς, ἀριθμὸν ἑκατὸν τριάκοντα τέτταρας, πρὸς τὸ παράδειγμα ποιήσας,",
+          "english": "Make chests too, for the sails and the white side-hangings, one hundred and thirty-four in number, making them according to the pattern.",
+          "words": 3
+        },
+        {
+          "greek": "καὶ ποιήσει ἀνοιγνυμένας, τῶμ μὲν πρὸς τῶι τοίχωι κειμένων τὸμ πρόσθιον τοῖχον,",
+          "english": "And make them so that they open: for those lying by the wall, [through] the front wall.",
+          "words": 3
+        },
+        {
+          "greek": "τῶν δὲ κατὰ τοὺς κίονας κειμένων ἀμφοτέρους τοὺς πλαγίους τοίχους,",
+          "english": "But for those lying by the pillars, [through] both side walls.",
+          "words": 3
+        },
+        {
+          "greek": "ὅπως ἂν ἦι ὁρᾶν ἅπαντα τὰ σκεύη διεξιοῦσιν,",
+          "english": "So that those passing through can see all the equipment.",
+          "words": 3
+        }
+      ],
+      "sources": [
+        {
+          "page": 15,
+          "bytes": 233090,
+          "sha256": "ebef48fa44da0c15cb8eae800688281f60bebeff4123d46c8d2b5920e6262717",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 34,
+          "bytes": 458638,
+          "sha256": "a31e6e1531790af5f982b35bae3bc836207822900f5e2e808e2082dc9c775bc1",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 40,
+          "bytes": 457647,
+          "sha256": "d58ff0c4e938f5cab7a19ea51579980b41553690609c5c40b1e43a3d057d4538",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 41,
+          "bytes": 359766,
+          "sha256": "592c8f4f246e0d77e37cfaedb954840a861785e3360db76f9acbcd3c468a9c4f",
+          "width": 1918,
+          "height": 2500
+        }
+      ],
+      "downloads": {
+        "study.json": {
+          "bytes": 206,
+          "sha256": "462ad1b8ab14e5c77ac28e09eefbe8a8369285467eb0504a3b165b992d15f614"
+        },
+        "stations.csv": {
+          "bytes": 7538,
+          "sha256": "eee6fc759115c8545169b1db7802781003754692d155df0ac487211b8dcbfaa4"
+        },
+        "study.svg": {
+          "bytes": 4572,
+          "sha256": "22633ac847b1cb21e7b3edc7d8f0b4372f5ddebc04b045f519455750cbe0be21"
+        },
+        "reading.html": {
+          "bytes": 2663809,
+          "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18"
+        },
+        "offline-reading.html": {
+          "bytes": 2664047,
+          "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608"
+        }
+      },
+      "sharedLinkRestored": true,
+      "malformedImportAtomic": true,
+      "keyboardWordFocusRetained": true,
+      "axeViolations": 0,
+      "inventoryFiles": 25,
+      "offlineOriginStopped": false,
+      "offlineTransportProof": {
+        "workerFreeFreshNavigationFailed": true,
+        "refusedConnections": 1
+      },
+      "portableJavaScriptDisabled": true,
+      "nativeEmbeddedDownloadsIdentical": true,
+      "portableRemoteRequests": [],
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "readings": [
+        {
+          "greek": "διαλείπων δ[ί]οδον τῶι δήμωι διὰ μέσ[η]ς τῆς σκευοθήκης. πλάτος τὸ μεταξὺ τῶν κιόνων εἴκοσι ποδῶν,",
+          "english": "Leaving a passage for the people through the middle of the storehouse. Width between the pillars: twenty feet.",
+          "words": 3
+        },
+        {
+          "greek": "ποιήσει δὲ καὶ κιβωτοὺς τοῖς ἱστίοις καὶ τοῖς παραρρύμασιν τοῖς λευκοῖς, ἀριθμὸν ἑκατὸν τριάκοντα τέτταρας, πρὸς τὸ παράδειγμα ποιήσας,",
+          "english": "Make chests too, for the sails and the white side-hangings, one hundred and thirty-four in number, making them according to the pattern.",
+          "words": 3
+        },
+        {
+          "greek": "καὶ ποιήσει ἀνοιγνυμένας, τῶμ μὲν πρὸς τῶι τοίχωι κειμένων τὸμ πρόσθιον τοῖχον,",
+          "english": "And make them so that they open: for those lying by the wall, [through] the front wall.",
+          "words": 3
+        },
+        {
+          "greek": "τῶν δὲ κατὰ τοὺς κίονας κειμένων ἀμφοτέρους τοὺς πλαγίους τοίχους,",
+          "english": "But for those lying by the pillars, [through] both side walls.",
+          "words": 3
+        },
+        {
+          "greek": "ὅπως ἂν ἦι ὁρᾶν ἅπαντα τὰ σκεύη διεξιοῦσιν,",
+          "english": "So that those passing through can see all the equipment.",
+          "words": 3
+        }
+      ],
+      "sources": [
+        {
+          "page": 15,
+          "bytes": 233090,
+          "sha256": "ebef48fa44da0c15cb8eae800688281f60bebeff4123d46c8d2b5920e6262717",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 34,
+          "bytes": 458638,
+          "sha256": "a31e6e1531790af5f982b35bae3bc836207822900f5e2e808e2082dc9c775bc1",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 40,
+          "bytes": 457647,
+          "sha256": "d58ff0c4e938f5cab7a19ea51579980b41553690609c5c40b1e43a3d057d4538",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 41,
+          "bytes": 359766,
+          "sha256": "592c8f4f246e0d77e37cfaedb954840a861785e3360db76f9acbcd3c468a9c4f",
+          "width": 1918,
+          "height": 2500
+        }
+      ],
+      "downloads": {
+        "study.json": {
+          "bytes": 206,
+          "sha256": "462ad1b8ab14e5c77ac28e09eefbe8a8369285467eb0504a3b165b992d15f614"
+        },
+        "stations.csv": {
+          "bytes": 7538,
+          "sha256": "eee6fc759115c8545169b1db7802781003754692d155df0ac487211b8dcbfaa4"
+        },
+        "study.svg": {
+          "bytes": 4572,
+          "sha256": "22633ac847b1cb21e7b3edc7d8f0b4372f5ddebc04b045f519455750cbe0be21"
+        },
+        "reading.html": {
+          "bytes": 2663809,
+          "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18"
+        },
+        "offline-reading.html": {
+          "bytes": 2664047,
+          "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608"
+        }
+      },
+      "sharedLinkRestored": true,
+      "malformedImportAtomic": true,
+      "keyboardWordFocusRetained": true,
+      "axeViolations": 0,
+      "inventoryFiles": 25,
+      "offlineOriginStopped": false,
+      "offlineTransportProof": {
+        "workerFreeFreshNavigationFailed": true,
+        "refusedConnections": 1
+      },
+      "portableJavaScriptDisabled": true,
+      "nativeEmbeddedDownloadsIdentical": true,
+      "portableRemoteRequests": [],
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "readings": [
+        {
+          "greek": "διαλείπων δ[ί]οδον τῶι δήμωι διὰ μέσ[η]ς τῆς σκευοθήκης. πλάτος τὸ μεταξὺ τῶν κιόνων εἴκοσι ποδῶν,",
+          "english": "Leaving a passage for the people through the middle of the storehouse. Width between the pillars: twenty feet.",
+          "words": 3
+        },
+        {
+          "greek": "ποιήσει δὲ καὶ κιβωτοὺς τοῖς ἱστίοις καὶ τοῖς παραρρύμασιν τοῖς λευκοῖς, ἀριθμὸν ἑκατὸν τριάκοντα τέτταρας, πρὸς τὸ παράδειγμα ποιήσας,",
+          "english": "Make chests too, for the sails and the white side-hangings, one hundred and thirty-four in number, making them according to the pattern.",
+          "words": 3
+        },
+        {
+          "greek": "καὶ ποιήσει ἀνοιγνυμένας, τῶμ μὲν πρὸς τῶι τοίχωι κειμένων τὸμ πρόσθιον τοῖχον,",
+          "english": "And make them so that they open: for those lying by the wall, [through] the front wall.",
+          "words": 3
+        },
+        {
+          "greek": "τῶν δὲ κατὰ τοὺς κίονας κειμένων ἀμφοτέρους τοὺς πλαγίους τοίχους,",
+          "english": "But for those lying by the pillars, [through] both side walls.",
+          "words": 3
+        },
+        {
+          "greek": "ὅπως ἂν ἦι ὁρᾶν ἅπαντα τὰ σκεύη διεξιοῦσιν,",
+          "english": "So that those passing through can see all the equipment.",
+          "words": 3
+        }
+      ],
+      "sources": [
+        {
+          "page": 15,
+          "bytes": 233090,
+          "sha256": "ebef48fa44da0c15cb8eae800688281f60bebeff4123d46c8d2b5920e6262717",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 34,
+          "bytes": 458638,
+          "sha256": "a31e6e1531790af5f982b35bae3bc836207822900f5e2e808e2082dc9c775bc1",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 40,
+          "bytes": 457647,
+          "sha256": "d58ff0c4e938f5cab7a19ea51579980b41553690609c5c40b1e43a3d057d4538",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 41,
+          "bytes": 359766,
+          "sha256": "592c8f4f246e0d77e37cfaedb954840a861785e3360db76f9acbcd3c468a9c4f",
+          "width": 1918,
+          "height": 2500
+        }
+      ],
+      "downloads": {
+        "study.json": {
+          "bytes": 206,
+          "sha256": "462ad1b8ab14e5c77ac28e09eefbe8a8369285467eb0504a3b165b992d15f614"
+        },
+        "stations.csv": {
+          "bytes": 7538,
+          "sha256": "eee6fc759115c8545169b1db7802781003754692d155df0ac487211b8dcbfaa4"
+        },
+        "study.svg": {
+          "bytes": 4572,
+          "sha256": "22633ac847b1cb21e7b3edc7d8f0b4372f5ddebc04b045f519455750cbe0be21"
+        },
+        "reading.html": {
+          "bytes": 2663809,
+          "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18"
+        },
+        "offline-reading.html": {
+          "bytes": 2664047,
+          "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608"
+        }
+      },
+      "sharedLinkRestored": true,
+      "malformedImportAtomic": true,
+      "keyboardWordFocusRetained": true,
+      "axeViolations": 0,
+      "inventoryFiles": 25,
+      "offlineOriginStopped": false,
+      "offlineTransportProof": {
+        "workerFreeFreshNavigationFailed": true,
+        "refusedConnections": 1
+      },
+      "portableJavaScriptDisabled": true,
+      "nativeEmbeddedDownloadsIdentical": true,
+      "portableRemoteRequests": [],
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "readings": [
+        {
+          "greek": "διαλείπων δ[ί]οδον τῶι δήμωι διὰ μέσ[η]ς τῆς σκευοθήκης. πλάτος τὸ μεταξὺ τῶν κιόνων εἴκοσι ποδῶν,",
+          "english": "Leaving a passage for the people through the middle of the storehouse. Width between the pillars: twenty feet.",
+          "words": 3
+        },
+        {
+          "greek": "ποιήσει δὲ καὶ κιβωτοὺς τοῖς ἱστίοις καὶ τοῖς παραρρύμασιν τοῖς λευκοῖς, ἀριθμὸν ἑκατὸν τριάκοντα τέτταρας, πρὸς τὸ παράδειγμα ποιήσας,",
+          "english": "Make chests too, for the sails and the white side-hangings, one hundred and thirty-four in number, making them according to the pattern.",
+          "words": 3
+        },
+        {
+          "greek": "καὶ ποιήσει ἀνοιγνυμένας, τῶμ μὲν πρὸς τῶι τοίχωι κειμένων τὸμ πρόσθιον τοῖχον,",
+          "english": "And make them so that they open: for those lying by the wall, [through] the front wall.",
+          "words": 3
+        },
+        {
+          "greek": "τῶν δὲ κατὰ τοὺς κίονας κειμένων ἀμφοτέρους τοὺς πλαγίους τοίχους,",
+          "english": "But for those lying by the pillars, [through] both side walls.",
+          "words": 3
+        },
+        {
+          "greek": "ὅπως ἂν ἦι ὁρᾶν ἅπαντα τὰ σκεύη διεξιοῦσιν,",
+          "english": "So that those passing through can see all the equipment.",
+          "words": 3
+        }
+      ],
+      "sources": [
+        {
+          "page": 15,
+          "bytes": 233090,
+          "sha256": "ebef48fa44da0c15cb8eae800688281f60bebeff4123d46c8d2b5920e6262717",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 34,
+          "bytes": 458638,
+          "sha256": "a31e6e1531790af5f982b35bae3bc836207822900f5e2e808e2082dc9c775bc1",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 40,
+          "bytes": 457647,
+          "sha256": "d58ff0c4e938f5cab7a19ea51579980b41553690609c5c40b1e43a3d057d4538",
+          "width": 1918,
+          "height": 2500
+        },
+        {
+          "page": 41,
+          "bytes": 359766,
+          "sha256": "592c8f4f246e0d77e37cfaedb954840a861785e3360db76f9acbcd3c468a9c4f",
+          "width": 1918,
+          "height": 2500
+        }
+      ],
+      "downloads": {
+        "study.json": {
+          "bytes": 206,
+          "sha256": "462ad1b8ab14e5c77ac28e09eefbe8a8369285467eb0504a3b165b992d15f614"
+        },
+        "stations.csv": {
+          "bytes": 7538,
+          "sha256": "eee6fc759115c8545169b1db7802781003754692d155df0ac487211b8dcbfaa4"
+        },
+        "study.svg": {
+          "bytes": 4572,
+          "sha256": "22633ac847b1cb21e7b3edc7d8f0b4372f5ddebc04b045f519455750cbe0be21"
+        },
+        "reading.html": {
+          "bytes": 2663809,
+          "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18"
+        },
+        "offline-reading.html": {
+          "bytes": 2664047,
+          "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608"
+        }
+      },
+      "sharedLinkRestored": true,
+      "malformedImportAtomic": true,
+      "keyboardWordFocusRetained": true,
+      "axeViolations": 0,
+      "inventoryFiles": 25,
+      "offlineOriginStopped": false,
+      "offlineTransportProof": {
+        "workerFreeFreshNavigationFailed": true,
+        "refusedConnections": 1
+      },
+      "portableJavaScriptDisabled": true,
+      "nativeEmbeddedDownloadsIdentical": true,
+      "portableRemoteRequests": [],
+      "errors": []
+    }
+  ]
+}
