@@ -114,8 +114,14 @@ the two-tab handover check in `scripts/seeing-faults.mjs`.
 The earlier clean-checkout receipt at `1a7aade` predates the audit corrections
 above: [original clean-build receipt](review/seeing/clean-build.json). Its
 26-file inventory is historical evidence, not the current edition's identity.
-The current source and public delivery receive separate byte and browser
-checks before the catalogue is published. Build with `npm run build`; the
+A fresh independent clone of `fad6ed3` passes `npm ci`, the full source check,
+both exact model oracles, the four seeing-room configurations, the artifact
+review, source/export faults, prior-edition handover, and offline repair in both
+engines. Node 24.22.1 independently passes clean installation and the full check;
+all 26 build files match the Node 26.7.0 build byte for byte:
+[current clean-build receipt](review/seeing/audited-clean-build.json).
+Public delivery receives separate byte and browser checks before the catalogue
+is published. Build with `npm run build`; the
 complete output is **`dist/`**, served under **`/syngraphe/`**.
 
 The initial [publication-boundary receipt](review/seeing/publication-boundary.json)
