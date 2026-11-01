@@ -21,6 +21,7 @@ digitized by Internet Archive.
 | PDF 35         | p.7              | Upper wall blocks and width                                       |
 | PDF 36         | p.8              | Beginning of support breadth clause                               |
 | PDF 37         | p.9              | Breadth continued, total length, capital and segment exception    |
+| PDF 40–41      | pp.12–13         | Chest pattern, front versus both sides, purpose of seeing         |
 | PDF 46–47      | pp.18–19         | Choisy's reasoning about square pillars; editorial interpretation |
 | PDF 73         | Plate I          | Choisy's reconstructed elevation and plans                        |
 | PDF 75         | Plate II         | Choisy's reconstructed sections                                   |
@@ -29,7 +30,7 @@ The [manifest](../public/sources/manifest.json) records the original PDF URL,
 21,126,116-byte length, SHA-256, renderer and each whole image's identity. The
 PDF's SHA-256 is
 `418e65e07dbdec0e0e2adc5d8dbbb47ec8d9e00f46bb6d52c0e5eed4d7991d15`.
-Ten whole pages reproduce from that PDF with Poppler 24.02.0, `pdftoppm`,
+Twelve whole pages reproduce from that PDF with Poppler 24.02.0, `pdftoppm`,
 `-scale-to 2500 -jpeg -jpegopt quality=88`.
 The images preserve margins, original notes and French; no selected text is
 painted into the source. The 1884 publication is public domain in the United

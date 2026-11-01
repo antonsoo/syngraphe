@@ -38,7 +38,8 @@
     "verify:visibility": "node --import tsx scripts/visibility-cases.ts | python3 scripts/visibility_oracle.py",
     "test:seeing": "node scripts/seeing-browser.mjs",
     "test:seeing-faults": "node scripts/seeing-faults.mjs",
-    "verify:seeing-artifacts": "python3 scripts/seeing-artifacts.py"
+    "verify:seeing-artifacts": "python3 scripts/seeing-artifacts.py",
+    "test:offline-repair": "node scripts/offline-repair.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

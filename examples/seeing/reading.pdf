@@ -4,8 +4,8 @@
 <</Title <FEFF00530079006E006700720061007000680065002000B700200073006500650069006E00670020007700680069006C0065002000700061007300730069006E0067>
 /Creator (Chromium)
 /Producer (Skia/PDF m153)
-/CreationDate (D:20261101051331+00'00')
-/ModDate (D:20261101051331+00'00')>>
+/CreationDate (D:20261101053423+00'00')
+/ModDate (D:20261101053423+00'00')>>
 endobj
 3 0 obj
 <</ca 1
@@ -16,7 +16,7 @@ endobj
 /Subtype /Link
 /F 4
 /Border [0 0 0]
-/Rect [48 509.66998 137.25 523.16998]
+/Rect [48 493.16998 137.25 506.66998]
 /A <</Type /Action
 /S /URI
 /URI (data:application/json;charset=utf-8,%7B%0A%20%20%22format%22%3A%20%22syngraphe-sightline%22%2C%0A%20%20%22version%22%3A%201%2C%0A%20%20%22scope%22%3A%20%22illustrative-sightlines%22%2C%0A%20%20%22state%22%3A%20%7B%0A%20%20%20%20%22station%22%3A%2020%2C%0A%20%20%20%20%22wall%22%3A%20%22front%22%2C%0A%20%20%20%20%22pillar%22%3A%20%22sides%22%2C%0A%20%20%20%20%22reading%22%3A%204%2C%0A%20%20%20%20%22page%22%3A%2041%0A%20%20%7D%0A%7D%0A)>>>>
@@ -26,7 +26,7 @@ endobj
 /Subtype /Link
 /F 4
 /Border [0 0 0]
-/Rect [144 509.66998 254.25 523.16998]
+/Rect [144 493.16998 254.25 506.66998]
 /A <</Type /Action
 /S /URI
 /URI (data:text/csv;charset=utf-8,%22scope%22%2C%22wall_opening%22%2C%22pillar_opening%22%2C%22station_ft%22%2C%22sample%22%2C%22visible%22%2C%22first_obstruction%22%2C%22closed_face%22%2C%22wall_clause_matches%22%2C%22pillar_clause_matches%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-20%22%2C%22wall%22%2C%22false%22%2C%22pillar%22%2C%22back%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-20%22%2C%22pillar%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-19%22%2C%22wall%22%2C%22false%22%2C%22pillar%22%2C%22back%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-19%22%2C%22pillar%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-18%22%2C%22wall%22%2C%22false%22%2C%22pillar%22%2C%22back%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-18%22%2C%22pillar%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-17%22%2C%22wall%22%2C%22false%22%2C%22pillar%22%2C%22back%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-17%22%2C%22pillar%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-16%22%2C%22wall%22%2C%22false%22%2C%22pillar%22%2C%22back%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-16%22%2C%22pillar%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-15%22%2C%22wall%22%2C%22false%22%2C%22pillar%22%2C%22back%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-15%22%2C%22pillar%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-14%22%2C%22wall%22%2C%22false%22%2C%22pillar%22%2C%22back%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-14%22%2C%22pillar%22%2C%22false%22%2C%22pillar%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-13%22%2C%22wall%22%2C%22false%22%2C%22pillar%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-13%22%2C%22pillar%22%2C%22false%22%2C%22pillar%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-12%22%2C%22wall%22%2C%22false%22%2C%22pillar%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-12%22%2C%22pillar%22%2C%22false%22%2C%22pillar%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-11%22%2C%22wall%22%2C%22false%22%2C%22support%22%2C%22left%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-11%22%2C%22pillar%22%2C%22false%22%2C%22pillar%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-10%22%2C%22wall%22%2C%22false%22%2C%22support%22%2C%22left%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-10%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22left%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-9%22%2C%22wall%22%2C%22false%22%2C%22support%22%2C%22left%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-9%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22left%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-8%22%2C%22wall%22%2C%22false%22%2C%22support%22%2C%22left%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-8%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22left%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-7%22%2C%22wall%22%2C%22false%22%2C%22support%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-7%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22left%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-6%22%2C%22wall%22%2C%22false%22%2C%22support%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-6%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22left%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-5%22%2C%22wall%22%2C%22false%22%2C%22support%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-5%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22left%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-4%22%2C%22wall%22%2C%22false%22%2C%22support%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-4%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-3%22%2C%22wall%22%2C%22false%22%2C%22support%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-3%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-2%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-2%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-1%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%22-1%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%220%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%220%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%221%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%221%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%222%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%222%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%223%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%223%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%224%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%224%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%225%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%225%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22right%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%226%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%226%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22right%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%227%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%227%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22right%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%228%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%228%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22right%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%229%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%229%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22right%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2210%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2210%22%2C%22pillar%22%2C%22false%22%2C%22support%22%2C%22right%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2211%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2211%22%2C%22pillar%22%2C%22false%22%2C%22pillar%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2212%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2212%22%2C%22pillar%22%2C%22false%22%2C%22pillar%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2213%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2213%22%2C%22pillar%22%2C%22false%22%2C%22pillar%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2214%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2214%22%2C%22pillar%22%2C%22false%22%2C%22pillar%22%2C%22front%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2215%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2215%22%2C%22pillar%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2216%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2216%22%2C%22pillar%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2217%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2217%22%2C%22pillar%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2218%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2218%22%2C%22pillar%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2219%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2219%22%2C%22pillar%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2220%22%2C%22wall%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A%22illustrative-sightlines%22%2C%22front%22%2C%22sides%22%2C%2220%22%2C%22pillar%22%2C%22true%22%2C%22%22%2C%22%22%2C%22true%22%2C%22true%22%0D%0A)>>>>
@@ -36,21 +36,25 @@ endobj
 /Subtype /Link
 /F 4
 /Border [0 0 0]
-/Rect [261 509.66998 343.5 523.16998]
+/Rect [261 493.16998 343.5 506.66998]
 /A <</Type /Action
 /S /URI
-/URI (data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20850%20740%22%20role%3D%22img%22%20aria-label%3D%22Modern%20sightline%20study%20at%20station%2020%20feet.%20Wall%20chest%3A%20Sample%20point%20visible%20through%20an%20open%20face.%20Pillar%20chest%3A%20Sample%20point%20visible%20through%20an%20open%20face.%22%3E%3Ctitle%3ESeeing%20while%20passing%3A%20a%20modern%20sightline%20study%3C%2Ftitle%3E%3Cdesc%3EModern%20sightline%20study%20at%20station%2020%20feet.%20Wall%20chest%3A%20Sample%20point%20visible%20through%20an%20open%20face.%20Pillar%20chest%3A%20Sample%20point%20visible%20through%20an%20open%20face..%20Two%20four-foot%20square%20chests%20and%20the%20sample%20points%20are%20illustrative.%20Closed%20corner%20contact%20blocks.%20Neighbouring%20bays%20and%20vertical%20geometry%20are%20omitted.%20Based%20on%20selected%20IG%20II%C2%B2%201668%20opening-face%20clauses%2C%20Choisy%201884%20p.13%3B%20this%20geometry%20is%20modern.%3C%2Fdesc%3E%3Cmetadata%3ESyngraphe.%20New%20diagram%3A%20Anthony%20Mercer%2C%202026.%20MIT.%20Historical%20text%3A%20public%20domain.%3C%2Fmetadata%3E%3Cstyle%3E%0Atext%7Bfont-family%3AGeorgia%2Cserif%3Bfill%3A%23302a22%3Bfont-size%3A19px%7D.v-small%7Bfont-size%3A15px%7D.v-note%7Bfont-size%3A17px%7D.panel%7Bstroke%3A%23302a22%3Bstroke-width%3A4%3Bfill%3Anone%7D.opening%7Bstroke%3A%234d5d30%3Bstroke-width%3A3%3Bstroke-dasharray%3A5%205%3Bfill%3Anone%7D.v-ray%7Bstroke-width%3A3%3Bfill%3Anone%7D.v-guide%7Bstroke%3A%23862e24%3Bstroke-width%3A1.5%3Bstroke-dasharray%3A4%206%3Bfill%3Anone%7D.v-view%7Bfill%3A%23244b75%7D.v-route%7Bstroke%3A%23244b75%3Bstroke-width%3A2%7D.v-good%7Bstroke%3A%234d5d30%3Bfill%3A%234d5d30%7D.v-bad%7Bstroke%3A%23862e24%3Bfill%3A%23862e24%7D%0A%3C%2Fstyle%3E%3Crect%20width%3D%22850%22%20height%3D%22740%22%20fill%3D%22%23f6f0e4%22%2F%3E%0A%3Ctext%20x%3D%2232%22%20y%3D%2229%22%20class%3D%22v-small%22%3ELocal%20study%20from%20above%20%2F%20chest%20sizes%20and%20positions%20chosen%3C%2Ftext%3E%0A%3Crect%20x%3D%2264%22%20y%3D%2254%22%20width%3D%22704%22%20height%3D%2240%22%20fill%3D%22%2362594b%22%2F%3E%3Ctext%20x%3D%2282%22%20y%3D%2280%22%20fill%3D%22%23f6f0e4%22%20style%3D%22fill%3A%23f6f0e4%22%20class%3D%22v-small%22%3EWall%20%2F%20upper-body%20width%202%C2%BD%20ft%3C%2Ftext%3E%0A%3Crect%20x%3D%2264%22%20y%3D%2294%22%20width%3D%22704%22%20height%3D%22240%22%20fill%3D%22%23e8dfca%22%2F%3E%0A%3Crect%20x%3D%2264%22%20y%3D%22334%22%20width%3D%22704%22%20height%3D%22320%22%20fill%3D%22%23dbe2c5%22%2F%3E%0A%3Cpath%20d%3D%22M64%20334%20H768%22%20stroke%3D%22%238d7e65%22%20stroke-dasharray%3D%224%205%22%2F%3E%0A%3Ctext%20x%3D%2284%22%20y%3D%22374%22%3EPassage%3C%2Ftext%3E%3Ctext%20x%3D%2284%22%20y%3D%22399%22%20class%3D%22v-small%22%3E20%20ft%20clear%20across%3C%2Ftext%3E%0A%3Crect%20x%3D%22496%22%20y%3D%2294%22%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22%23f6f0e4%22%2F%3E%3Cpath%20class%3D%22opening%22%20d%3D%22M496.000%20158.000%20L560.000%20158.000%22%2F%3E%3Cpath%20class%3D%22panel%22%20d%3D%22M496.000%2094.000%20L560.000%2094.000%22%2F%3E%3Cpath%20class%3D%22panel%22%20d%3D%22M496.000%20158.000%20L496.000%2094.000%22%2F%3E%3Cpath%20class%3D%22panel%22%20d%3D%22M560.000%20158.000%20L560.000%2094.000%22%2F%3E%3Crect%20x%3D%22384%22%20y%3D%22226%22%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22%23f6f0e4%22%2F%3E%3Cpath%20class%3D%22panel%22%20d%3D%22M384.000%20290.000%20L448.000%20290.000%22%2F%3E%3Cpath%20class%3D%22panel%22%20d%3D%22M384.000%20226.000%20L448.000%20226.000%22%2F%3E%3Cpath%20class%3D%22opening%22%20d%3D%22M384.000%20290.000%20L384.000%20226.000%22%2F%3E%3Cpath%20class%3D%22opening%22%20d%3D%22M448.000%20290.000%20L448.000%20226.000%22%2F%3E%0A%3Crect%20x%3D%22394%22%20y%3D%22290%22%20width%3D%2244%22%20height%3D%2244%22%20fill%3D%22%2362594b%22%20stroke%3D%22%23302a22%22%20stroke-width%3D%222%22%2F%3E%0A%3Cpath%20d%3D%22M394%20334%20L438%20290%20M394%20290%20L438%20334%22%20stroke%3D%22%23b8aa91%22%2F%3E%0A%3Ctext%20x%3D%22577%22%20y%3D%22120%22%3EA%20%2F%20wall%20chest%3C%2Ftext%3E%3Ctext%20x%3D%22577%22%20y%3D%22145%22%20class%3D%22v-small%22%3EFront%20faces%20the%20passage%3C%2Ftext%3E%0A%3Ctext%20x%3D%2284%22%20y%3D%22250%22%3EB%20%2F%20pillar%20chest%3C%2Ftext%3E%0A%3Ctext%20x%3D%2284%22%20y%3D%22274%22%20class%3D%22v-small%22%3ESides%20face%20left%20and%20right%3C%2Ftext%3E%0A%3Ctext%20x%3D%2284%22%20y%3D%22317%22%20class%3D%22v-small%22%3EIsolated%20support%20%2F%202%C2%BE%20ft%3C%2Ftext%3E%0A%3Cpath%20class%3D%22v-ray%20v-good%22%20d%3D%22M736.000%20494.000%20L528.000%20126.000%22%2F%3E%3Ccircle%20cx%3D%22528%22%20cy%3D%22126%22%20r%3D%2210%22%20fill%3D%22%23f6f0e4%22%20stroke%3D%22%234d5d30%22%20stroke-width%3D%222%22%2F%3E%3Ctext%20x%3D%22528%22%20y%3D%22131%22%20text-anchor%3D%22middle%22%20class%3D%22v-small%22%3EA%3C%2Ftext%3E%3Cpath%20class%3D%22v-ray%20v-good%22%20d%3D%22M736.000%20494.000%20L416.000%20258.000%22%2F%3E%3Ccircle%20cx%3D%22416%22%20cy%3D%22258%22%20r%3D%2210%22%20fill%3D%22%23f6f0e4%22%20stroke%3D%22%234d5d30%22%20stroke-width%3D%222%22%2F%3E%3Ctext%20x%3D%22416%22%20y%3D%22263%22%20text-anchor%3D%22middle%22%20class%3D%22v-small%22%3EB%3C%2Ftext%3E%0A%3Cpath%20class%3D%22v-route%22%20d%3D%22M96%20494%20H736%22%2F%3E%0A%3Cpath%20d%3D%22M96%20489%20v10%22%20stroke%3D%22%23244b75%22%2F%3E%3Ctext%20x%3D%2296%22%20y%3D%22526%22%20text-anchor%3D%22middle%22%20class%3D%22v-small%22%3E-20%20ft%3C%2Ftext%3E%3Cpath%20d%3D%22M256%20489%20v10%22%20stroke%3D%22%23244b75%22%2F%3E%3Ctext%20x%3D%22256%22%20y%3D%22526%22%20text-anchor%3D%22middle%22%20class%3D%22v-small%22%3E-10%20ft%3C%2Ftext%3E%3Cpath%20d%3D%22M416%20489%20v10%22%20stroke%3D%22%23244b75%22%2F%3E%3Ctext%20x%3D%22416%22%20y%3D%22526%22%20text-anchor%3D%22middle%22%20class%3D%22v-small%22%3E0%20ft%3C%2Ftext%3E%3Cpath%20d%3D%22M576%20489%20v10%22%20stroke%3D%22%23244b75%22%2F%3E%3Ctext%20x%3D%22576%22%20y%3D%22526%22%20text-anchor%3D%22middle%22%20class%3D%22v-small%22%3E10%20ft%3C%2Ftext%3E%3Cpath%20d%3D%22M736%20489%20v10%22%20stroke%3D%22%23244b75%22%2F%3E%3Ctext%20x%3D%22736%22%20y%3D%22526%22%20text-anchor%3D%22middle%22%20class%3D%22v-small%22%3E20%20ft%3C%2Ftext%3E%0A%3Ccircle%20cx%3D%22736%22%20cy%3D%22494%22%20r%3D%2211%22%20class%3D%22v-view%22%2F%3E%3Ccircle%20cx%3D%22736%22%20cy%3D%22494%22%20r%3D%224%22%20fill%3D%22%23f6f0e4%22%2F%3E%0A%3Ctext%20x%3D%22416%22%20y%3D%22563%22%20text-anchor%3D%22middle%22%20style%3D%22fill%3A%23244b75%22%3EViewer%20%2F%2020%20ft%20right%20of%20the%20support%3C%2Ftext%3E%0A%3Ctext%20x%3D%2232%22%20y%3D%22696%22%20class%3D%22v-note%22%3ESolid%20ray%3A%20visible%20path%20or%20first%20obstruction.%20Dots%3A%20blocked%20continuation.%3C%2Ftext%3E%0A%3Ctext%20x%3D%2232%22%20y%3D%22721%22%20class%3D%22v-small%22%3ETwo%20sample%20points%20are%20not%20all%20the%20equipment.%20No%20height%20or%20lighting%20is%20modelled.%3C%2Ftext%3E%3C%2Fsvg%3E)>>>>
+/URI (data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20850%20740%22%20role%3D%22img%22%20aria-label%3D%22Modern%20sightline%20study%20at%20station%2020%20feet.%20Wall%20chest%3A%20Sample%20point%20visible%20through%20an%20open%20face.%20Pillar%20chest%3A%20Sample%20point%20visible%20through%20an%20open%20face.%22%3E%3Ctitle%3ESeeing%20while%20passing%3A%20a%20modern%20sightline%20study%3C%2Ftitle%3E%3Cdesc%3EModern%20sightline%20study%20at%20station%2020%20feet.%20Wall%20chest%3A%20Sample%20point%20visible%20through%20an%20open%20face.%20Pillar%20chest%3A%20Sample%20point%20visible%20through%20an%20open%20face..%20Two%20four-foot%20square%20chests%20and%20the%20sample%20points%20are%20illustrative.%20Chosen%20opening%20faces%20are%20held%20open%20in%20this%20test.%20The%20clause%20specifies%20which%20faces%20can%20open%2C%20not%20that%20panels%20stay%20open%20permanently.%20Closed%20corner%20contact%20blocks.%20Neighbouring%20bays%20and%20vertical%20geometry%20are%20omitted.%20Based%20on%20selected%20IG%20II%C2%B2%201668%20opening-face%20clauses%2C%20Choisy%201884%20p.13%3B%20this%20geometry%20is%20modern.%3C%2Fdesc%3E%3Cmetadata%3ESyngraphe.%20New%20diagram%3A%20Anthony%20Mercer%2C%202026.%20MIT.%20Historical%20text%3A%20public%20domain.%3C%2Fmetadata%3E%3Cstyle%3E%0Atext%7Bfont-family%3AGeorgia%2Cserif%3Bfill%3A%23302a22%3Bfont-size%3A19px%7D.v-small%7Bfont-size%3A15px%7D.v-note%7Bfont-size%3A17px%7D.panel%7Bstroke%3A%23302a22%3Bstroke-width%3A4%3Bfill%3Anone%7D.opening%7Bstroke%3A%234d5d30%3Bstroke-width%3A3%3Bstroke-dasharray%3A5%205%3Bfill%3Anone%7D.v-ray%7Bstroke-width%3A3%3Bfill%3Anone%7D.v-guide%7Bstroke%3A%23862e24%3Bstroke-width%3A1.5%3Bstroke-dasharray%3A4%206%3Bfill%3Anone%7D.v-view%7Bfill%3A%23244b75%7D.v-route%7Bstroke%3A%23244b75%3Bstroke-width%3A2%7D.v-good%7Bstroke%3A%234d5d30%3Bfill%3A%234d5d30%7D.v-bad%7Bstroke%3A%23862e24%3Bfill%3A%23862e24%7D%0A%3C%2Fstyle%3E%3Crect%20width%3D%22850%22%20height%3D%22740%22%20fill%3D%22%23f6f0e4%22%2F%3E%0A%3Ctext%20x%3D%2232%22%20y%3D%2229%22%20class%3D%22v-small%22%3ELocal%20study%20from%20above%20%2F%20chest%20sizes%20and%20positions%20chosen%3C%2Ftext%3E%0A%3Crect%20x%3D%2264%22%20y%3D%2254%22%20width%3D%22704%22%20height%3D%2240%22%20fill%3D%22%2362594b%22%2F%3E%3Ctext%20x%3D%2282%22%20y%3D%2280%22%20fill%3D%22%23f6f0e4%22%20style%3D%22fill%3A%23f6f0e4%22%20class%3D%22v-small%22%3EWall%20%2F%20upper-body%20width%202%C2%BD%20ft%3C%2Ftext%3E%0A%3Crect%20x%3D%2264%22%20y%3D%2294%22%20width%3D%22704%22%20height%3D%22240%22%20fill%3D%22%23e8dfca%22%2F%3E%0A%3Crect%20x%3D%2264%22%20y%3D%22334%22%20width%3D%22704%22%20height%3D%22320%22%20fill%3D%22%23dbe2c5%22%2F%3E%0A%3Cpath%20d%3D%22M64%20334%20H768%22%20stroke%3D%22%238d7e65%22%20stroke-dasharray%3D%224%205%22%2F%3E%0A%3Ctext%20x%3D%2284%22%20y%3D%22374%22%3EPassage%3C%2Ftext%3E%3Ctext%20x%3D%2284%22%20y%3D%22399%22%20class%3D%22v-small%22%3E20%20ft%20clear%20across%3C%2Ftext%3E%0A%3Crect%20x%3D%22496%22%20y%3D%2294%22%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22%23f6f0e4%22%2F%3E%3Cpath%20class%3D%22opening%22%20d%3D%22M496.000%20158.000%20L560.000%20158.000%22%2F%3E%3Cpath%20class%3D%22panel%22%20d%3D%22M496.000%2094.000%20L560.000%2094.000%22%2F%3E%3Cpath%20class%3D%22panel%22%20d%3D%22M496.000%20158.000%20L496.000%2094.000%22%2F%3E%3Cpath%20class%3D%22panel%22%20d%3D%22M560.000%20158.000%20L560.000%2094.000%22%2F%3E%3Crect%20x%3D%22384%22%20y%3D%22226%22%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22%23f6f0e4%22%2F%3E%3Cpath%20class%3D%22panel%22%20d%3D%22M384.000%20290.000%20L448.000%20290.000%22%2F%3E%3Cpath%20class%3D%22panel%22%20d%3D%22M384.000%20226.000%20L448.000%20226.000%22%2F%3E%3Cpath%20class%3D%22opening%22%20d%3D%22M384.000%20290.000%20L384.000%20226.000%22%2F%3E%3Cpath%20class%3D%22opening%22%20d%3D%22M448.000%20290.000%20L448.000%20226.000%22%2F%3E%0A%3Crect%20x%3D%22394%22%20y%3D%22290%22%20width%3D%2244%22%20height%3D%2244%22%20fill%3D%22%2362594b%22%20stroke%3D%22%23302a22%22%20stroke-width%3D%222%22%2F%3E%0A%3Cpath%20d%3D%22M394%20334%20L438%20290%20M394%20290%20L438%20334%22%20stroke%3D%22%23b8aa91%22%2F%3E%0A%3Ctext%20x%3D%22577%22%20y%3D%22120%22%3EA%20%2F%20wall%20chest%3C%2Ftext%3E%3Ctext%20x%3D%22577%22%20y%3D%22145%22%20class%3D%22v-small%22%3EFront%20faces%20the%20passage%3C%2Ftext%3E%0A%3Ctext%20x%3D%2284%22%20y%3D%22250%22%3EB%20%2F%20pillar%20chest%3C%2Ftext%3E%0A%3Ctext%20x%3D%2284%22%20y%3D%22274%22%20class%3D%22v-small%22%3ESides%20face%20left%20and%20right%3C%2Ftext%3E%0A%3Ctext%20x%3D%2284%22%20y%3D%22317%22%20class%3D%22v-small%22%3EIsolated%20support%20%2F%202%C2%BE%20ft%3C%2Ftext%3E%0A%3Cpath%20class%3D%22v-ray%20v-good%22%20d%3D%22M736.000%20494.000%20L528.000%20126.000%22%2F%3E%3Ccircle%20cx%3D%22528%22%20cy%3D%22126%22%20r%3D%2210%22%20fill%3D%22%23f6f0e4%22%20stroke%3D%22%234d5d30%22%20stroke-width%3D%222%22%2F%3E%3Ctext%20x%3D%22528%22%20y%3D%22131%22%20text-anchor%3D%22middle%22%20class%3D%22v-small%22%3EA%3C%2Ftext%3E%3Cpath%20class%3D%22v-ray%20v-good%22%20d%3D%22M736.000%20494.000%20L416.000%20258.000%22%2F%3E%3Ccircle%20cx%3D%22416%22%20cy%3D%22258%22%20r%3D%2210%22%20fill%3D%22%23f6f0e4%22%20stroke%3D%22%234d5d30%22%20stroke-width%3D%222%22%2F%3E%3Ctext%20x%3D%22416%22%20y%3D%22263%22%20text-anchor%3D%22middle%22%20class%3D%22v-small%22%3EB%3C%2Ftext%3E%0A%3Cpath%20class%3D%22v-route%22%20d%3D%22M96%20494%20H736%22%2F%3E%0A%3Cpath%20d%3D%22M96%20489%20v10%22%20stroke%3D%22%23244b75%22%2F%3E%3Ctext%20x%3D%2296%22%20y%3D%22526%22%20text-anchor%3D%22middle%22%20class%3D%22v-small%22%3E-20%20ft%3C%2Ftext%3E%3Cpath%20d%3D%22M256%20489%20v10%22%20stroke%3D%22%23244b75%22%2F%3E%3Ctext%20x%3D%22256%22%20y%3D%22526%22%20text-anchor%3D%22middle%22%20class%3D%22v-small%22%3E-10%20ft%3C%2Ftext%3E%3Cpath%20d%3D%22M416%20489%20v10%22%20stroke%3D%22%23244b75%22%2F%3E%3Ctext%20x%3D%22416%22%20y%3D%22526%22%20text-anchor%3D%22middle%22%20class%3D%22v-small%22%3E0%20ft%3C%2Ftext%3E%3Cpath%20d%3D%22M576%20489%20v10%22%20stroke%3D%22%23244b75%22%2F%3E%3Ctext%20x%3D%22576%22%20y%3D%22526%22%20text-anchor%3D%22middle%22%20class%3D%22v-small%22%3E10%20ft%3C%2Ftext%3E%3Cpath%20d%3D%22M736%20489%20v10%22%20stroke%3D%22%23244b75%22%2F%3E%3Ctext%20x%3D%22736%22%20y%3D%22526%22%20text-anchor%3D%22middle%22%20class%3D%22v-small%22%3E20%20ft%3C%2Ftext%3E%0A%3Ccircle%20cx%3D%22736%22%20cy%3D%22494%22%20r%3D%2211%22%20class%3D%22v-view%22%2F%3E%3Ccircle%20cx%3D%22736%22%20cy%3D%22494%22%20r%3D%224%22%20fill%3D%22%23f6f0e4%22%2F%3E%0A%3Ctext%20x%3D%22416%22%20y%3D%22563%22%20text-anchor%3D%22middle%22%20style%3D%22fill%3A%23244b75%22%3EViewer%20%2F%2020%20ft%20right%20of%20the%20support%3C%2Ftext%3E%0A%3Ctext%20x%3D%2232%22%20y%3D%22696%22%20class%3D%22v-note%22%3ESolid%20ray%3A%20visible%20path%20or%20first%20obstruction.%20Dots%3A%20blocked%20continuation.%3C%2Ftext%3E%0A%3Ctext%20x%3D%2232%22%20y%3D%22721%22%20class%3D%22v-small%22%3ETwo%20sample%20points%20are%20not%20all%20the%20equipment.%20No%20height%20or%20lighting%20is%20modelled.%3C%2Ftext%3E%3C%2Fsvg%3E)>>>>
 endobj
 8 0 obj
 <</Filter /FlateDecode
-/Length 1414>> stream
-xœí[Ûj9}ï¯ÐóÂvtmIlÇÎs–ý€ìÆañâýXzz®u¦}ÔB˜à„§¢K©n§ª¤î­Ë»_J+­~ïÏþ™¼é³É9©ÏÛî{çzcÃnÔô“Õz÷çó¶3jüýçG5ýðüØ½ûèÔãÝ8z‚ÊÙ«çº/Ý§î{w˜huL}9)gôÐÛœÒ8è¯ßÔ·—·ë7Võ6{£zR·Fâ9ÆGåÔ&.z“’U½|T½qÎMHâócw»éÞ=xå|?jó¥3“˜Æ¿BT›m÷^k7ü¡6ÿvf”Ùæoõ^kŸ
-(wÅ)Áì(ÖžÆÜÈYÚí('B˜†8}štËÀVþ(À n5ìÙ$?QN›‡½,†(N~¿9hÀ¸ÞÙÉ2/Õ`´¿ÔC<-;m”ä>Yns6%ìƒ<b’RHRÞIŠ2JIº#ÁØÁÏ°ëáDØ›‚^2G¢äÌÞM¦„[yÜ±(ì²·‰a^d{õ/Œ mGq8œ…¦€1Xù {H’@#,Îv¬ÜVOò‚Øñ0w‚€²œw4¡pI°ÚÈ0%2B= ëTÛ`¹&QNï(ë†Y¿3Ò•QÊ72D¢·ƒÝÑàV °]ÜVQŒ Æ`—šÈÇ5h`öåq1I¢ïÂwÅðgiÍ
-dñnfÊ™Dht—þ®#á
-¨p/’8Œ‡£Ñ­	d€Ä25f0wX|ˆ*ªÆteA§¢àÆEˆ|r[ê <P˜ìB7à$.íí”:ªuÊnÖSñÀÜD #6ƒi—ÔÂ0b45^ÐMA OàUiÐDŒxWˆ‚¯ˆ‚±‚4H³8§¨Lðf©)¨‡xÌ(:e½ÀyÁüyÚÝ t#î d€ ¿”œÔGŽÊÅŽB•„Šp_v¦À 1¹MÒ*¼à,¼.kì¶p)Œ[É.4.fjì"0KafÜ#*ò0<00OñðÇØLA¢JS7$pÀ°ÄcHEŸjU3[Ô(#[¾(š!x&µË
-‹Á4%P‰5¨ÓyYR§c`ˆº2+áÚc<Psð+Ð-íýái!:Ö$Ç<<Ò,§ pó+ï[,ÏP†´±[ëJ Íê´‡60w®o43^.ÑØ^Zdjeýñ2äì¬…K¬¡¼s!cWA;¼…f a†vðò¾UEžŽ0ü“’®¹°c ŒoŸ@ë—k.Ks€my¿&o¥UE–_9ñ4µÀ¥8ÈTTúêGÄ%ZO·H¨ßZ!êZõT‚lIÏ^óÓ»‰„àt¼$ühP×¡Ÿ®óKå÷^W"ÙkÍ'
-Š~yÈƒÈðžÊð‚þŸ%dŽÒ ýpZ„¹ž_ ¶©ê*àßúT”qÅ×Â/Ü>ô_VéP½–—DíÂt::}¸[lQÄ\P´h5À&9Ù+©òõ³íŠôº¦eÅmÑÃší%ÖîòÞÚáIOd°¿JO›ƒÿ:÷$«ty+NËAñ}žÒâuÚ*‰þ*pÀsè¶¼¹Ã›;üâîp¿é>}V¢¾uÖþk¸=NyÚýäÜaøÓÙÈëÔiÖ×Î§ÐUÆEÛ“WÛÎGÛÇüùé’œ{otÊ#ù|‘òi‘¯E_È”~àrüBÆÅA“ÇÏw¦u}ª³Šý1ÌõÐ¸+Þ•ÐLŸ_hÖ\ðòG“Ä.p|79êÙ³rW˜Qj?É¶Žù:îÜo:cÓd8>‡lµ›°®
-[ÔËoñÚÔË¯O8ÏmÑrr™Ø*íÄ&¿0ºÌN¦	ëÚ	”ýÐòLæ¥ÑòeN§5ìñc¸1*ÿ£Æ[X
+/Length 1497>> stream
+xœí[ÛjÜH}×WôóÂ*}“ÔaÁvì<gØÈnO ÎÿCÐh.rË§ÔôØÆ8!Ä©ô½NÕ©ªV·>äÝ/c5¶³¦èÚìrNæë¶ùÙ„Öùn×júÉ[»ûóuÛ83þþû³™~¸¿m>|æöW3¶îûÎäÍýÍ·æKó³9tôvHíÐåd‚³}ësJc£þ0?žž®uÑyÓúic—Ò85
+çËpq0Ád;­¢u)yÓº>¦u!„i )¼¿m.7Í‡›hBlûÞl¾5n:¦ñ¯n0›móÑÚÐÿe6ÿ7n<³Í¿æ£µ1)$W“Ä%ÛI¼?µ¹½lØIN‚njì©Ó%SÅÀqªIàgâ$9MÞíÏ¢B²bç×›ƒ\hƒŸùPÎÆ‡zNÃN%9O–ÓÌºt;A/·˜ä)$yÞIå O2Îïq¹…Ÿ–Þ{(Ø5}¤`ˆB€+‹bí.SÁ¥ÜîfÙc¢_>²=@ã-@ÛƒØv„¦`a0(®ð¤€nZà:²Øà²órZ;ä‰cÇÍ\	Èúµ#„º‡ol]fB¨X:Õ6 ×%ºÒ+ºtÇÐœ4e<åé"ÑÚwÔ¹)ôØ•Îí,Š€°0˜¥Äsƒ…ÀvÝ'ê˜£dE¹]ôCòÑvaŒ+5ýùcÛCXÁ¿[è2;êÝ¥½[ˆGx„T¸IÆÍQïV…2àÄ23ÀÆ ¢Š*®t!hT”Üøâ:z9-5î¨:é˜8×| ÉK{œRCõÁ¸>,Z*n˜C"‰»¤®f`!ÎRð‚nŽ,ˆF¥N9Bò"[°‚T³øJQ™`ÍRSqŸ¡8uºt…ñüyØ]Áuã:ÀÝÉ€ ìR®T‘*?v<T)(p÷Š°4x Æä˜>¤Y¸b/</«ìÖ0)ô[Š`
+9¶ŠÌR·'3nqnOùðy0£TièöBÅ"?d€*§6I ¼ØDÎÓ”ÓÏÅ½ªòYÔ ( Qžâ,„Û§Ì®´Àæ®Å´%KçÊæ¾`	”Ë_êúž§&É§Uð–¶šðDÒ¢@ÄB—K®_CuÞ¦=Õ=“£‚1(qŒn5Ü«°%¡*t	‚
+$TÃcœ5*[!Èü &[?(š* †û²õÎm°}Ž²6¯â)j°Rž’Á,¤È$ž[2ø-Îu<WTè–Òî’‰’ZÏ&
+‚!-fAzg¸¨¨-¸CW#`’pçúæáro×Öd­ñýñòäpVÃ$Î’qòB¿ô]ŠÛãFšúÜž®¿æ)(kñÔïÕh®[Í±
+*ãDÅoà¦”k.K8ðìCû‚2-@ÜX*Š4LU˜'™‚Âx…r+ò-?Wa”÷›ƒÇŠ
+f6,~G#ì÷â"s~üÞ=Ùk'É ÿÖ†;?8C^Ä{CÔÿR‡ÌY¨¿B‘W‘
+)
+!¼`¿ž¥³W[÷<K…ê•ÜEUtÓvôÇÛË
+IŒâ>¿Fé¬¼¥,ß^0l„×%%+>hÖ’k× ½?Tyà@È`9þ,5mNþçù¬à,UÞ‚Ýòo†y	‡~ÍYãcîº¾. û@µåÝÞÍá›Ãõ¦ù¢z…i~4Þþkl¸=v¹ÛýÂ¡ùÝ¬åãÒ©×÷&¦Ø¦¡¢q1úÝëRo¶M\;›Ã\|÷@ÜÙÖ;×£x6È‚x6ÈwÕƒRí{ÐãƒÒ“q.¯]§w­•^¶®\åþ<,ÕÜŸaÒHŸ_h–\ðò7ŸÄ,°ý0êìVPFT£ÚOç
+SùqÞ¹Þ4Î§	8q8 ‡Lµëp^ÖÈ+Ößâ+ÊÔë¯Oœv×)ˆœ¬Ã‰ºBœø÷Æêp2u8/N í‡’7p2OÖÇ(Kê8áoÇG¯üÜÁç
 endstream
 endobj
 11 0 obj
@@ -237,20 +241,20 @@ endobj
 /Subtype /Link
 /F 4
 /Border [0 0 0]
-/Rect [166.5 337.91998 207 351.41998]
+/Rect [166.5 320.66998 207 334.16998]
 /Dest /page-41>>
 endobj
 37 0 obj
 <</Filter /FlateDecode
-/Length 1836>> stream
-xœí\ÛjI}ï¯èç…´ë~eaÆžÉs–ý€lâ°Øxÿ–¾wëtª{kl’â(U*•¤’ŽT5S)›_¥(Eù¡šü3YEc(???
-]Ie›QíOJˆæÏççB–õï??–í/ÅÝG]>þ[Ô£³eŒ¦|ùR|->?Š~¢>TÞÆPj)\¥bõ ¿~+¿¯,÷Açm½bå•teåœóee]põêHœJâcT¥s®°¥’!¨²’Îø²’Zë†_‹ã¥¸;›RêJ«V9—¯…lVÿ„qåå¹ø]uÿGyù§¨¿ü]Ö„CCb ÝPô8æP‚7„ <d;Â„ÈŽ„ Î„)¬bÚf$Ü‚•!Ž#YÅº†à®ì…
-F	JHn/²ìté§-F³­F™l;]*ådˆoaÜi+ƒ´tï4:áÒº‡’ã$C—î´î×	òšò6ÒšH¬k;Íâ[EÅï\b²R'Ìhé+­©}¤±­}dpóe¥ Ëºx\>!A†{2G†#9š2X2É`Ò&—. ‹ÓØFÊ$A¸3C™D-P®¦P¶'âL‚ÆÐ~s®^Jâ'(Û‚é=#~’#< [JYØóž-ržLüÀéMÍn·/gŒuë]Î´ k0ª“%ë$øovaGÇÝ°sáìÆ¤ˆçCñx7pgº*¸Áª]Ÿ©\«G)Ù§KC³ $}šm Ç[A“M—÷&Šž8€ÈÕ7ï²Ü(rU„‰Õ,Wª‘.CC„œì?ÙqYKÒñŽý#S
-Çx-
-ìÐÒD<,<°«X*)]%‡ù‘ÍøŽ	(Ò‹¤õ‰µöv'3b9ÊçÕ:*õKÜ•ä¸ºœÞ¬ïÂ›^Ê›¼ˆž*8ó¢½Ùbäàã®9Ø“™PôA¡CEÖ»©WA@@ÏdÃNB”eÁíU›¨ÀÝù"8K‚LX&G@ Á¨R´¢ƒƒ€÷Óeq/ÛÏ7!–ÁYkC€¤§—…½€o³‚¡±Y­£)!òÆ†xAWéÂòµô˜#C„…í³ñ"ƒKõX~˜2Ô…“J„úÆÖ0wR®óq^g²õ¥Uø_¢±n¶Ã3ÑàˆÛ{‘`<y"<²”,pÍ¡Bäq	Ò4h“D]8Ý7	ÃÛ‹!”³Ë1 Àº<rå•È›†Gÿ<úÝ¡÷ÙÙª’YÂµŸDØí‚Êø¬"„ (ÈÈRÊÐUràÔ,8šŸÇºUX†Ò>ÁËø|×Ù?%ßi¡ºÚ.‹ÿó€…ˆ|L¨C¶÷ÇÐ½ù²½†+93w$<Ð!»;°jçÄºVÑº°ÿíÇ*AeÛ;ˆ#€ÇŽ¶$æ&a…O³{*¢w[ò`vÞýRñZˆ4¢	‘]áuwVŽŒî÷ævspÛ]#õ6óú‚Ìjþ¿ólì×æúÓLë!ý"C»!äè¹fp\©¾M…ÖÏ‘—sè#Õ-¯DTåiDÅ2ä>Õ%”r9*—µÛ"Ö½•3ïßÀ}¬	$õ·Ëãý¬?Ó)”G”t‰fý)+¾Vvz>_©OÄ–ÅØÛÞhE´Æ"ÜQà­ŽtŽ¶ÉöìÍƒ•=ñ- xf¹Ìd;/¨1¾ÍÎÞÃXú´îJª¶Oµ<zçÝnå•Ñ5 É<à2|5Ã!>ÄïØBwš½™¿Íã4)tœº„Qºq‰îñÍ€ßÚ²€R{AºAÙØóÜd÷.½JºlvwVžŒè5 Ã¡ é`ð‚(à½¼(+PÛÏfœ;Tl% ¥œZÓ?¼ü©ß`ü‚™lÚ3ep7éŸÖM`&½EŠ€O\'ÎMø»Ék±ùÅ6p‰ º«7‚ê¨©>(ïÄCf¦'62³mÃ„‹öX¼ÎËƒ<BPŸÈP¼N×øn¸2¢È-O1nÓg¿á]LR²ua5ÙBS¿ŒÇÜÞÚ‚æ¬h?C3‚&
-ßz¾	ð-®a&p’+˜iW¨hî¨]ä$˜[€ö2I§ó°&.DÍï
->×X® Áe±S\ÓªóÚìçy6º§A›áºîb¥L36FÍÔ¡w!Ö3%J (oÔMÞ,¼spiü4$€KEtG;áu^­ÿºO§S^å>ý>÷²§»L÷’°ØWþ>‘`é?‘Ð9‘Yß¶1Ù"î½>˜Ýõœ¿¡œÆçãõdó)é‹Êï…RýÕŸ‡)OÍOZ÷ÃŸ&#—©í¬o…¾’Ò_*b£Påsáƒ©¬ÚM¨O3jô•
-R×Ô	‡eêÈá[â×1$—B÷uÒ†ÚÃmiMÿ}i:½‰4L·«•u8ô˜ *ƒw…üYƒÜ*=uG“u¤šŠ;FœZÁÿ(`ª
+/Length 1977>> stream
+xœí\Ko7¾ï¯à±-õ’\¾ Ã€dK9õV@Ï;-l£qS ?¿Xí{¾]wK)	Aœ	9ÎóãR®t8þ…(Ä›|ðO_Ê<È¼¸Î>e:—ÊGÕ?©¢8þ¹Î¤¨~ÿòVÔ?¼>fWoµxü;«F[kD¥xý=dï²OY;QÎçÎ/´,l®‚÷Õ ß~/3Ë½Q¥u¦Z1wJZ‘[kÈõ¶Z‰CI\JXk++Qré½¹´¥¹ÔZY ñõ1Û²«})¤Îµª•sxÈd­°ê/_”Vž³ë¢P·7âðgV	~ø]T„Í‘ ‹ŽRè#E÷C`%¸’€‡¬G¸žXÂ–Š=a
+«”õˆ²'Ü‚‘GBèGx²Š±G‚=±*%¨Br{‘µ`»Ck<U‚ÑBg4SÛ¨—ÉÔÓeI¥qG‚ïwZË Ý»¸Ôî¡d?©¤K7ZwóyGMyiË@¬kÍõâEÅo\b°R#Loér­©}dijûHoÇËJwG–µa;!Aú[2Gú-	Mé™ä60i“ˆËÅj	le!ÜžÎ¡Lˆæ)WS([úq¦‚æÐ~(Æ\”ÄOP¶	Ò!68Fü(G¸¶”2±ç5[ä<˜LøÛÒ9ššÝ,_bŒuëUÎ4!k0ª“)ëDøov`Gá^²9»!*ã9ßd<Þìž®
+n0+Æ@×{*×,ÆQJ¶å²¤U Š>­6PãMA‹MS÷ŠF@	äêˆ›7Uî¹RÄÒÔ¸SÛã¡Û…)IvwËJJ÷b4Ë”š»þÆDt\Ö%¯Ø>2¥–ã] .¨0ónØU•”7Ôrë#
+g&¢ >Ôvö˜ wÔÚ¼é¨ùÑ–žJJµŒ
+)ÎR¾Íï…zLDð§0]ƒH¢Ò½qMº×3G‡EŽ)”ZÒæ!öð	rðuHl0G‚!íP¡‚`ûÔ‰0Ã>ý¤àÿ0‚õ]6AFäCØ>x»¥vañì–ïE$Á)Ë¤ÈC Uj„–AôÀU?È¬K0nD
+…Ö†¼%–=G|ðZGSBæiŠ®ÒTƒS…œOýlî‹¨,âÄX¯—½úõ¯÷/××W›ûÏÿ¼:|ø÷³øááÅÍØÞÝöRy]kg÷ómDk2ª<ºÐ”Ç‰ÂÌ*	÷Ã@	qyBÝ¼{§8QìˆÆ"VJ¾âDÁjŒjü©#“†YŠ‚‘â0ÄOá³LDN]Q.I<9E’åÅÃG”%°KÛ·ê¦t=ÐA×Æ)d–÷—@¶gèÿ—lá^QëQíàÊË/Ù@AMB)mºPmi;GÃ)…V‘äiþèƒÈÊ4$·³`Ýå½1”“Û¥Á ëò]	^‰¼i"ðÛÙX¡÷	ÙÙl #âŠœGêìvAe|U)6„ èI.I›Š®’¢ä0Šm(L ùÞ/ãëÝ…ì©$	>^Ý¢Š—2sÅÝ›o©¢×ði%EŸ2âŠ‚j…FæŠ†@çŠy­ò¢a¡²åJ˜#€ÇŠ[*0ÌYÒÊš¾ßvúj»n<¾ßl¨p*GØà6¯«½²dt»??¶ƒƒÛæÉDk?>r¹Aÿw\ÝæÔ\·iÝÇ_Úkß¥ÃgÙŽ+áÁß õSÔåúˆuËU9šQùnaŠ®4_ê"Žr)N.sX÷V¶8xû¦Þ¹ž@
+Qû’ª‹äöt
+å$A²Yûˆ¿B*ƒø¼PŸˆ=ãMÃ—é"óYàK…4ßšæàòêÍƒ•5Î- x&yÛ²ü¹TÄ]&Œ˜É1¥¶,|[jyôÎ»ÝÌ‹ÚS@“?ð€Ëð§>„ø¿bÿÝiö¡Ö9ûùÐ¤ÐqäÍöæ¡i‡ßê2R[A6ºAÙwØsßŽðd„û—V%M5»Ú+GF´~ŽGw i`ð„(à½¼(3PÛf;T¨% EE­m£ö[~’÷f²9h5Ì”ÞÜ¤}F>€™ôb) "Üqu¸ØqnÂ? ‰°[ÿXl÷j ªÛwé=¨šêƒâpy9¥¥Fldf/SÜ__¦;›&QÔ'.ÓHþB7\	Qä©w™Öûïb¢Šm³Åš‚üe,8æò¶Ð4gTxzÐDá[Ë7¾…9ÌNr3MãÊµÉÜcÐ^&étnæÄ…,°â€ÁûíË 8-vŒk#×?zø–?°¦A›àñÕwÄJ™&lŒ–C‡^…X÷”PREys nðfá+—¥¦p©¨ƒ®h'\æI+”ìû}úb^æckºËt/+>J^ði3ã»O›5NTÎï/âAõ·ò`vÕnø¨i|=ž/6ï¢¾´G¼dJµÿU|î¦<Òºþ49M­g}Ì\°y0Ú¡¤-r¤xÎœ/sŒŸÆDŸ^UÄáôIb;ýcä·EePó­CÒøÊ¹½0eûµCqê<‹4L£«–µD!ÈàI!fPV¥£žXF¢©†âöÉ¦RðU­B
 endstream
 endobj
 39 0 obj
@@ -263,15 +267,18 @@ endobj
 endobj
 40 0 obj
 <</Filter /FlateDecode
-/Length 1818>> stream
-xœí[[Õ6~Ï¯ðc[‰l|·%„tÎÙ=<õöH}F”U»¨P*õçW¹'ó%'äli±öx<×Ïc'W:V¿D!
-ñ,ü3™Gco³™Î¥²Õ¨ú'UÕŸ7™åïŸ^Šú‡Oï²›—Z¼û#+G;gEŒF|z›Ýg¯²Y;Q>äÞÆ ´,\®bå _~f–{¦¼&×Þ–«æ^I'rçœ¹uÁ• q(MˆÁç\)d)N.CP"—Îx‘K­uÅˆŸÞeÇKvs6Bê\«ZA—ûLÖJ+ÿŠ…‘âò˜=/
-uz!.¿e¥ð—_EI8TYt”BWÝ9”à! Yð=!²„#!gÂV1õÓN„`eEˆýˆ@V±®"¸…½PÁäiLP…dF´ú¸»´ÆSŒ;£ÙÚF½L¶æ'•r0ÄW„Ðï´[Zºw	pÑ0éDùžÉÞ`¨´¶Ù‘¤jPä-µ?ÎX*œU°¯Ü4È‚›ö¼26½¥Ïµ¦f–¦¨Í,c1öM/%Ù‘¸o#»íG$ž]ôì7!ý-a²¹¶tŽGíL‡ÜE'{¤#è2 ¶nƒòK’,¨$žJ¢µŠ]at§%lVŽMh¨=5â‚gLp½°º½’«œ@XOðt¡»Ê–qá¨Ù9	’œiZšÅ2èq	ê}ÐÂ¶I´ÀD2¢ÉÖ–«½°J“ÎÃSZÐ¡äó8ÂBþçÅ]ÅRIé*¶Ïo®)é{AÃYa‹Þôë : 70CÁº%˜–eµŽJ§%0á-w \BíÀ›$kPFJ>P26ù@ÏÀªÛikT7¥E*¾AÏ”‡j¼
-aÈ`™‚YfÂ%u+p	êgà#3Ô	)Ôy(²ÑÍ:ÂÝ‚k‚Êp34CbµCÕ¡!AvÊêï¼·óÆÄ…‰Uøÿ•ªÐ0àþ¼ùyÃðnÈ{ô‡ f**ˆÊ[)öÂkŒw¡«øåzÈih«f¡>v}¶‡à;QPA@4/ðÅUÀzLõ4ùDçóã¨$á”’¸@É˜w8@$D¸!— üwè¡òiÈ‚¼²á`›Þ×Òº,nã1:Ä r°•œ?È%.@‡|ÆÜP–xÑy¦*;96 Û-'l¾ú±-£×Á²	ñÀƒŸSzùs¦- öè!ÓÌzOä˜3@lDðÀu2,y{ïpÝþ¸ö€r U9@Ÿ°ý¸Ù´(oÎ*^í„xlG2@È„Dz¼NË´éO,Û
-v°s,;ç9Á ¥,FÕ3Nuaìá0¥Ë8(%:µê¢s}ãQ*ÖçY˜p•ëÚ”*°þÈó_j¼&´è­HÂIZæ« ¿>M®¿TÀ²Ø\5ƒw³a¥Â0°Ú+Â¾ÙÜ.õjÍ­Ï`D J‘wL¤M¬rO‘p9ÛvRÙiã‡™"áÈG?¨Ÿl¥çë‰p{S´¡(Ãñá‰NÏOÒmMÈ-ô­ÐÛò§GÄh¬KÍ¡ö›Ÿýáùó›Ã›Ï¾~¸¼ýë³øîþþ{ñâ…8Þžú%‚®Çßýxâ)Ö…A’*¶ñsxzƒ›ñÝK_Ü$ìÙžÀƒõÿwº	èc=`Iˆ¾È^á 3³¡‹fÀGp<Á#Ç¶r¼¦Ÿ6e;ü9>>5:$A°,Aä~¼/òRÎUãÁéÀ×~øîq²þ>i—bµá
-î¤Lw„‚R\­}’5x‡CRE÷ kðv†P´$%P€Ž”p—(ÐÃPI@~TþMÏ3öhƒ­—M|çhÑÁíqYöœ¹¾¾Æ],ß[FŒÎ#¡-©³àv—ì1I5K7¯‚SZ˜ #ŠJÐ4<Ó=îRÖôÕŽ¿Þ®Ýíh»$ŸÓ¾Ü8s/·ø¦¡ÍŠ;­Ç0-P»Ð~Ð+vn|•óù¿ç¥JB•Ïãl¯å[óeº#â3fàáíkóâ#Î½¾ö©ù ÎÙ±,³pn`a¶_ˆ(’0ugºlÔtÙ­°R=LWyÃ±å…÷}‹™“<ÓAê´<ÝAJx÷°Ç£†k$›„øä{ŽŸW9=o‘l½–’³LzÃÐÊö{§ùÖâ‰ªë?û7Iñ¦{ßlØÌË–ð lý]bÂë¨õÏî.ø÷ÞŸCØ°¹h¡ˆ¿Jú°[|È”jÿ«øØMy¨~Òºþ09M­g½Ï|tytFE¡
-ëó(%³ò3qç½ÑêÃˆêl®
-YQ¦©=‡÷+>OOþ¶¼ù<]Ú ¢µ…°¦ý>=M¯W“h9&kyû¨¤á‚¨WQÇåcÀŒ¤_–ÀgÞKÍÃ^Ü>ó”Jþk¡òd
+/Length 1899>> stream
+xœí\KÔF¾ûWô1‰„×ýî–ÒÌì§HFâŒ6,(ÚE)??òkl×g»ÚÆ3biÚÝÕõüªªí\éXý…(Ä³¼÷Ï`deŒAÜ?e3Ke«YõOª(ª?÷O™åï_^Šú‡Oï²›—Z¼û3+g;gEŒF|z›=d¯²Yû *|È½AhY¸\ÅÊI¯&¶{¦¼&×Þ–»æ^I'rçœ¹uÁ•à`ŸšƒÎ¹’È’œ\† D.ñ"—Zëj	üô.ÛŸ²›£RçZÕ:=d²fZùW,Œ§§ìyQ¨Ãqú=+‰?ý&Ê]5 ‹óH¡«ÝMgè€7d ÖõßDv`OŠ#Yv1õÓÈ€•Õ@ìf²‹uÕ€›9%L†ªÌŒ–w§VxÊ€ÐâYh¶–QG“­×“†RÙ›â«Ð´&[Zzv	í­¢á¡]÷HÎ††Rk›IÊöÞˆ¼¥ò§ÄK‰³
+vâÙ€‡ZðÐžgf³L'cés­©˜¥)j1ËXuÓKIN#C$êÛÐn»±g=ûŒÎþ–,´¹„eé32ì¶#rG@ìžÎ Û ÛÎ”_²qtÀÒG¥ÄSJ€´–±„î´„ãÀÎ±15Ã§Fba†\ÐŒ‘U€/,o/¤* Öƒ@@<Ý(AÁ.rdÜ8jö™JŽÔ-Mâô0u:hY¶q´3ÀD2£ñÖ½5,{a—Æ‡™Ei@‡ÏãþŸ;vK)¥»¬8>¸&¤ÏœaNr£Xô¦ï¨~ðÂ†mAúTOA.ÈÂ‚ÕdlË’Žr=¹ –á…½(CEÇK(k€IŠQ26.DO ±ÇiÃÚù‘ÜønM#èªQDD.½m
+f›•pdªõ # ÍhfT	^Ø®+²U<>kÂÓ‚jËð0ÔxW8 ð	´ÓE!”ñúÀk;/Ü)Cœqª¸ÿ_®
+êÏ‹Ÿ¯†,>@}Ø ¡¡t ƒ(È±å($á,<Çxºˆ^.G©†Vwfâã¹4— |ñ
+"0€ú% ¾Ø± ÉRzÿ¤óþqT’Ø$8.`2ºÃrŽañ1šÿeWÞY ƒWCÖlS.›Û—Åm<æB…X €6’ó¹_BàtÈ{Ìa‰'_tEdç1Ç
+d»&)ç£[“àÑ2jl›`<ø9¤‡?gÚð`&Ùèf–k"Ÿb Ï °Á×)È0—.òòÞ ]áþ¸ò€r3
+ U)@fØ~Xµlªš7GÉZíqßÎd€ŠôpŸvÑ¦€<²mKØÎN-y^ã8E¸”Â({†®.U#ìÆx‡¥X§Vgë\^«”ŠÕy&\¤Ã›–§<ÿ¥ZmBY6R2dp™‚üax7¹¼a±éNƒv³f¥Bß°Ú®bWÀlR]®iõfÂyÇXÚÈ.ûá#ú¹m%•=6¾ï)R.Hý ~²‘žW®+á6¶¹´"(Cúp¥ìù*ÕÖßB¯­-Ÿ="FcUj
+µßüúÇ›ÏŸßìî?ÿõæñôöïÏâ‡‡‡Å‹b{è¶ºž÷ó¡§XjIŠØÆOáéjÆW,½¤“Ø³.<aVÿW´ÐÇrÀ’`!|9‘má 2³¦‹bÀGp<ÁÅ¶R¼¦ž6eÏøs˜>5wÎH‚`Y‚Èýð\är}V'§_SøIà»Eÿdy?i“`µ¢÷
+ÒE7„‚RõT­½ÅÕ»ºC\ÅùWïºL¡h1H:@fØÓ»Dúƒî›JòÛ¢üÈ·t¶¨“_¢·I‹kƒfÌeJm—è½}^¤%Œ¤óh7,^Ýé³¸Ÿ/ÆcR“ŽHnî7¯?'ÍMZ¼|Íx÷ÊÀëð‹nÑ|JÐŽ³™°¼Å}Çåw¾^otðé[åH°^…°ÅÇú®„ŒŒ-;&`­åí9 ,95bRò3ã)yB#yƒ.q‚OY^ÄY¤—´kŒ•7ÿz%·ƒÓM[!C°<ßUÏ&¿Üq>†q‚âPa¶ËvãdˆÞ¤$úí\LèYñˆ”-oï·°‹n˜dÓÓðö ^’M”Ú+íA½Úi™Ì {f[4˜¸“EÝ‘n5Ývm&¯î»‹\›[óÎ¥âo!\ÄÙ$Ø'_•û¼Hîº†²8Œwz|¢¶ #¶²}«î:oÄ])ºþ»¯@$1ÞœßEjl¦iK¸Ã»<KL¸ºü†VB»˜¿Â¶â•0ÖÍñWIŸß2¥Úÿ*'>y¬~ÒºþØ›9>Z?õ>óÑåÑ…*¬Ï£,”xÊÊy8ïî>FÍU!«ÑÞ
+ã£Ý
+ï|D$ù ÍGD¤"Z[kÚ¯ˆ¤ñõbÍÛdMog•Ô\õ*ª¸¼Í˜‘ôe>øÇ\¿¦#·ó<%“ÿ²Ô-B
 endstream
 endobj
 42 0 obj
@@ -10236,157 +10243,157 @@ xref
 0 149
 0000000000 65535 f 
 0000000015 00000 n 
-0001572717 00000 n 
+0001573199 00000 n 
 0000000297 00000 n 
-0001589889 00000 n 
+0001590371 00000 n 
 0000000334 00000 n 
 0000000913 00000 n 
 0000013769 00000 n 
-0000020830 00000 n 
-0001572958 00000 n 
-0001602464 00000 n 
-0000022315 00000 n 
-0000022392 00000 n 
-0000022469 00000 n 
-0000022546 00000 n 
-0000022623 00000 n 
-0001573232 00000 n 
-0000027877 00000 n 
-0001573507 00000 n 
-0000036256 00000 n 
-0001573782 00000 n 
-0001638801 00000 n 
-0000042048 00000 n 
-0001574009 00000 n 
-0000043845 00000 n 
-0001574236 00000 n 
-0001716513 00000 n 
-0001728434 00000 n 
-0001730482 00000 n 
-0001759851 00000 n 
-0000045072 00000 n 
-0000045194 00000 n 
-0001574516 00000 n 
-0000047148 00000 n 
-0000047270 00000 n 
-0001574784 00000 n 
-0000049296 00000 n 
-0000049418 00000 n 
-0001575064 00000 n 
-0000051326 00000 n 
-0000051448 00000 n 
-0001575332 00000 n 
-0000053338 00000 n 
-0000053460 00000 n 
-0001575612 00000 n 
-0000055349 00000 n 
-0001575827 00000 n 
-0000057781 00000 n 
-0000057412 00000 n 
-0000291068 00000 n 
-0001576067 00000 n 
-0000291737 00000 n 
-0000750572 00000 n 
-0001576307 00000 n 
-0000751316 00000 n 
-0001209160 00000 n 
-0001576547 00000 n 
-0001209899 00000 n 
-0001569862 00000 n 
-0001577027 00000 n 
-0001570596 00000 n 
-0001570790 00000 n 
-0001570980 00000 n 
-0001576787 00000 n 
-0001576906 00000 n 
-0001577266 00000 n 
-0001577338 00000 n 
-0001577469 00000 n 
-0001577602 00000 n 
-0001588159 00000 n 
-0001588365 00000 n 
-0001589300 00000 n 
-0001590038 00000 n 
-0001601203 00000 n 
-0001601453 00000 n 
-0001602058 00000 n 
-0001602612 00000 n 
-0001602889 00000 n 
-0001602955 00000 n 
-0001604202 00000 n 
-0001605463 00000 n 
-0001605634 00000 n 
-0001607880 00000 n 
-0001610111 00000 n 
-0001613197 00000 n 
-0001615940 00000 n 
-0001617554 00000 n 
-0001619246 00000 n 
-0001620639 00000 n 
-0001621531 00000 n 
-0001624291 00000 n 
-0001626192 00000 n 
-0001627443 00000 n 
-0001629839 00000 n 
-0001631843 00000 n 
-0001634412 00000 n 
-0001635616 00000 n 
-0001638217 00000 n 
-0001638597 00000 n 
-0001639942 00000 n 
-0001640219 00000 n 
-0001643954 00000 n 
-0001648443 00000 n 
-0001650743 00000 n 
-0001652185 00000 n 
-0001655425 00000 n 
-0001659099 00000 n 
-0001662024 00000 n 
-0001665482 00000 n 
-0001669473 00000 n 
-0001671288 00000 n 
-0001673325 00000 n 
-0001674270 00000 n 
-0001676330 00000 n 
-0001678397 00000 n 
-0001680550 00000 n 
-0001683014 00000 n 
-0001688089 00000 n 
-0001689341 00000 n 
-0001691153 00000 n 
-0001693145 00000 n 
-0001695938 00000 n 
-0001698024 00000 n 
-0001699756 00000 n 
-0001702310 00000 n 
-0001705180 00000 n 
-0001707280 00000 n 
-0001711374 00000 n 
-0001713120 00000 n 
-0001716167 00000 n 
-0001718268 00000 n 
-0001718546 00000 n 
-0001722568 00000 n 
-0001728126 00000 n 
-0001728921 00000 n 
-0001729742 00000 n 
-0001729950 00000 n 
-0001730182 00000 n 
-0001730634 00000 n 
-0001730912 00000 n 
-0001735107 00000 n 
-0001739794 00000 n 
-0001741673 00000 n 
-0001743857 00000 n 
-0001747597 00000 n 
-0001749350 00000 n 
-0001752412 00000 n 
-0001757124 00000 n 
-0001759502 00000 n 
+0000021007 00000 n 
+0001573440 00000 n 
+0001602946 00000 n 
+0000022575 00000 n 
+0000022652 00000 n 
+0000022729 00000 n 
+0000022806 00000 n 
+0000022883 00000 n 
+0001573714 00000 n 
+0000028137 00000 n 
+0001573989 00000 n 
+0000036516 00000 n 
+0001574264 00000 n 
+0001639283 00000 n 
+0000042308 00000 n 
+0001574491 00000 n 
+0000044105 00000 n 
+0001574718 00000 n 
+0001716995 00000 n 
+0001728916 00000 n 
+0001730964 00000 n 
+0001760333 00000 n 
+0000045332 00000 n 
+0000045454 00000 n 
+0001574998 00000 n 
+0000047408 00000 n 
+0000047530 00000 n 
+0001575266 00000 n 
+0000049556 00000 n 
+0000049678 00000 n 
+0001575546 00000 n 
+0000051727 00000 n 
+0000051849 00000 n 
+0001575814 00000 n 
+0000053820 00000 n 
+0000053942 00000 n 
+0001576094 00000 n 
+0000055831 00000 n 
+0001576309 00000 n 
+0000058263 00000 n 
+0000057894 00000 n 
+0000291550 00000 n 
+0001576549 00000 n 
+0000292219 00000 n 
+0000751054 00000 n 
+0001576789 00000 n 
+0000751798 00000 n 
+0001209642 00000 n 
+0001577029 00000 n 
+0001210381 00000 n 
+0001570344 00000 n 
+0001577509 00000 n 
+0001571078 00000 n 
+0001571272 00000 n 
+0001571462 00000 n 
+0001577269 00000 n 
+0001577388 00000 n 
+0001577748 00000 n 
+0001577820 00000 n 
+0001577951 00000 n 
+0001578084 00000 n 
+0001588641 00000 n 
+0001588847 00000 n 
+0001589782 00000 n 
+0001590520 00000 n 
+0001601685 00000 n 
+0001601935 00000 n 
+0001602540 00000 n 
+0001603094 00000 n 
+0001603371 00000 n 
+0001603437 00000 n 
+0001604684 00000 n 
+0001605945 00000 n 
+0001606116 00000 n 
+0001608362 00000 n 
+0001610593 00000 n 
+0001613679 00000 n 
+0001616422 00000 n 
+0001618036 00000 n 
+0001619728 00000 n 
+0001621121 00000 n 
+0001622013 00000 n 
+0001624773 00000 n 
+0001626674 00000 n 
+0001627925 00000 n 
+0001630321 00000 n 
+0001632325 00000 n 
+0001634894 00000 n 
+0001636098 00000 n 
+0001638699 00000 n 
+0001639079 00000 n 
+0001640424 00000 n 
+0001640701 00000 n 
+0001644436 00000 n 
+0001648925 00000 n 
+0001651225 00000 n 
+0001652667 00000 n 
+0001655907 00000 n 
+0001659581 00000 n 
+0001662506 00000 n 
+0001665964 00000 n 
+0001669955 00000 n 
+0001671770 00000 n 
+0001673807 00000 n 
+0001674752 00000 n 
+0001676812 00000 n 
+0001678879 00000 n 
+0001681032 00000 n 
+0001683496 00000 n 
+0001688571 00000 n 
+0001689823 00000 n 
+0001691635 00000 n 
+0001693627 00000 n 
+0001696420 00000 n 
+0001698506 00000 n 
+0001700238 00000 n 
+0001702792 00000 n 
+0001705662 00000 n 
+0001707762 00000 n 
+0001711856 00000 n 
+0001713602 00000 n 
+0001716649 00000 n 
+0001718750 00000 n 
+0001719028 00000 n 
+0001723050 00000 n 
+0001728608 00000 n 
+0001729403 00000 n 
+0001730224 00000 n 
+0001730432 00000 n 
+0001730664 00000 n 
+0001731116 00000 n 
+0001731394 00000 n 
+0001735589 00000 n 
+0001740276 00000 n 
+0001742155 00000 n 
+0001744339 00000 n 
+0001748079 00000 n 
+0001749832 00000 n 
+0001752894 00000 n 
+0001757606 00000 n 
+0001759984 00000 n 
 trailer
 <</Size 149
 /Root 67 0 R
 /Info 1 0 R>>
 startxref
-1761828
+1762310
 %%EOF

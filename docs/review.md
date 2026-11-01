@@ -32,6 +32,9 @@ prescribed dimensions, derived values and modern choices separate.
 This records the local production edition reviewed on 2026-10-27 UTC. Public
 bytes, remote source, Pages delivery and remote CI are separate claims.
 The subsequent [publication review](publication.md) records them.
+The historical observations below describe the original edition. Current
+examples have since been refreshed to twelve source pages and a 25-page PDF;
+see the [sightline and offline-repair audit](visibility-review.md).
 
 | Boundary          | Observation                                                                                                                                                                                                                                                                                                    |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

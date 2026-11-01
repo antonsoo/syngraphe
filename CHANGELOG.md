@@ -13,6 +13,13 @@
 - Wrap long source hashes in portable readings on phones and use the current
   author name in newly generated measurement readings.
 
+- Check the integrity of currently retained bytes, recheck when returning to a tab,
+  and repair an incomplete offline edition without resetting either room.
+- Keep retained rooms readable when the host returns an HTTP error; preserve
+  the actual error for unknown routes.
+- Distinguish openable faces in the Greek from faces held open by the experiment.
+- Refresh the measurement reading's twelve source pages and current author.
+
 ## 0.1.0 — 2026-10-27
 
 - Read eight selected Greek clauses of the Piraeus arsenal specification with

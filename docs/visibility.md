@@ -80,6 +80,11 @@ is assigned to the ancient foot. Chest dimensions are not inferred from the
 nearby four-by-three-foot board clause: the chest clause explicitly refers
 to a supplied pattern. No arrangement of all 134 chests is claimed.
 
+The selected opening faces represent which faces can be opened. The model
+holds all those faces open during its sightline test. This is not a claim that
+the source required panels to stay permanently open. "No opening faces" means
+no openable faces in the hypothetical design, not temporarily closed panels.
+
 Closed chest faces and the support boundary are opaque line segments. An open
 face is removed, with no hinged panel. For each sample the ray is the segment
 from the current eye point to the sample. Its first intersection with a closed
@@ -130,11 +135,11 @@ It embeds the actual page/font/license bytes; a substituted HTTP 200 source
 page is refused. Saving can be cancelled. Browser print yields an untagged PDF;
 physical printer output is not verified.
 
-## Publication boundary
+## Delivery and review
 
-This room is prepared locally. The public measurement workshop is an earlier
-edition. The repository's house standards reserve pushes and publication for
-the coordinator; this work does not push source, deploy Pages or assert remote
-CI success. Publish the lesson and its review before deploying the staged
-Officina discovery entry. Local browser operation and source-byte reproduction
-are recorded separately from any future public verification.
+The [source and browser review](visibility-review.md) separates the retained
+primary artifact, exact model, local browser behavior and public delivery.
+Build with `npm run build`; serve the complete `dist/` directory under
+`/syngraphe/`. Catalogue discovery must be verified after the lesson and its
+immutable source review are available. Local checks do not establish remote
+CI success or public delivery.

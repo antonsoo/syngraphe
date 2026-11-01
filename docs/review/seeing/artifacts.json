@@ -5,14 +5,14 @@
       "configuration": "chromium-1440",
       "independentlyCheckedStationRows": 82,
       "html": {
-        "bytes": 2662946,
-        "sha256": "87dc3db3bd1b5c5bd66c23f5ef08f4a361a2b751d1da77b7d20ae69fa082e77a",
+        "bytes": 2663809,
+        "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18",
         "wholeSourceImages": 4,
         "sourceFontAndLicenseBytesMatch": true
       },
       "offlineHtml": {
-        "bytes": 2663184,
-        "sha256": "d8f948a273ed134df0888bc41e0b5a1fecf341372dbcf6b1d7b7397a710b9f58",
+        "bytes": 2664047,
+        "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608",
         "wholeSourceImages": 4,
         "sourceFontAndLicenseBytesMatch": true
       },
@@ -22,14 +22,14 @@
       "configuration": "chromium-375",
       "independentlyCheckedStationRows": 82,
       "html": {
-        "bytes": 2662946,
-        "sha256": "87dc3db3bd1b5c5bd66c23f5ef08f4a361a2b751d1da77b7d20ae69fa082e77a",
+        "bytes": 2663809,
+        "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18",
         "wholeSourceImages": 4,
         "sourceFontAndLicenseBytesMatch": true
       },
       "offlineHtml": {
-        "bytes": 2663184,
-        "sha256": "d8f948a273ed134df0888bc41e0b5a1fecf341372dbcf6b1d7b7397a710b9f58",
+        "bytes": 2664047,
+        "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608",
         "wholeSourceImages": 4,
         "sourceFontAndLicenseBytesMatch": true
       },
@@ -39,14 +39,14 @@
       "configuration": "firefox-1440",
       "independentlyCheckedStationRows": 82,
       "html": {
-        "bytes": 2662946,
-        "sha256": "87dc3db3bd1b5c5bd66c23f5ef08f4a361a2b751d1da77b7d20ae69fa082e77a",
+        "bytes": 2663809,
+        "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18",
         "wholeSourceImages": 4,
         "sourceFontAndLicenseBytesMatch": true
       },
       "offlineHtml": {
-        "bytes": 2663184,
-        "sha256": "d8f948a273ed134df0888bc41e0b5a1fecf341372dbcf6b1d7b7397a710b9f58",
+        "bytes": 2664047,
+        "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608",
         "wholeSourceImages": 4,
         "sourceFontAndLicenseBytesMatch": true
       },
@@ -56,14 +56,14 @@
       "configuration": "firefox-375",
       "independentlyCheckedStationRows": 82,
       "html": {
-        "bytes": 2662946,
-        "sha256": "87dc3db3bd1b5c5bd66c23f5ef08f4a361a2b751d1da77b7d20ae69fa082e77a",
+        "bytes": 2663809,
+        "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18",
         "wholeSourceImages": 4,
         "sourceFontAndLicenseBytesMatch": true
       },
       "offlineHtml": {
-        "bytes": 2663184,
-        "sha256": "d8f948a273ed134df0888bc41e0b5a1fecf341372dbcf6b1d7b7397a710b9f58",
+        "bytes": 2664047,
+        "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608",
         "wholeSourceImages": 4,
         "sourceFontAndLicenseBytesMatch": true
       },
@@ -75,8 +75,8 @@
     "completeGreekAndEnglishPassages": 10,
     "completeWordNotes": 15,
     "sourceCaptions": 4,
-    "wordsWithinMargins": 2285,
-    "sha256": "47fb88568af18ca18c856332b1d37b48b6f8398053aafb4246a2582875c1c554",
+    "wordsWithinMargins": 2331,
+    "sha256": "c9fa2b399914db0ec5aaa0317beafb423282b27325ff8ef0f471a6e079b44ed2",
     "untaggedPhysicalPrinterUnverified": true
   }
 }

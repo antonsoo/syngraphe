@@ -1,4 +1,4 @@
-# Seeing while passing: local review
+# Seeing while passing: source and browser review
 
 The added room develops an architectural purpose already present in the
 storehouse programme: people passing through should be able to see the naval
@@ -34,7 +34,7 @@ samples are not the supplied ancient pattern or a complete reconstruction.
 | New room           | Chromium and Firefox, 1440 and 375 pixels; measurement-room entry, face choices, keyboard station/word operation, fifteen notes, four decoded source images, explicit share, invalid imports, native downloads | [browser.json](review/seeing/browser.json)                             |
 | Accessibility      | No axe violations in those four operated configurations; no document-width overflow; enlarged drawing/page support keyboard panning                                                                            | [browser.json](review/seeing/browser.json)                             |
 | Portable reading   | Both browsers reopen the HTML with scripts disabled; native JSON/CSV/SVG downloads match the direct downloads; source/font/license bytes match; no remote asset requests                                       | [artifacts.json](review/seeing/artifacts.json)                         |
-| Print              | The 17-page PDF retains ten complete Greek/English passages, fifteen complete notes, four source captions and 2,285 extracted words within checked margins                                                     | [reading.pdf](../examples/seeing/reading.pdf)                          |
+| Print              | The 17-page PDF retains ten complete Greek/English passages, fifteen complete notes, four source captions and 2,331 extracted words within checked margins                                                     | [reading.pdf](../examples/seeing/reading.pdf)                          |
 | Offline            | Current controller and complete 25-file inventory verified; origin stopped before reload, source reading and export; cold new-room install also opens the measurement room                                     | [recovery.json](review/seeing/recovery.json)                           |
 | Recovery           | Authentic but substituted page refused despite HTTP 200; retry recovers; changing controls during a delayed source fetch preserves the save's starting state; cancellation emits no late download              | [recovery.json](review/seeing/recovery.json)                           |
 | Edition handover   | Real previous local production build -> new room in another tab; edited measurement tab retains its end gap and derived result; old cache cleanup settles; new room reloads with the origin stopped            | [recovery.json](review/seeing/recovery.json)                           |
@@ -58,6 +58,37 @@ were inspected in both browsers and both widths:
 Printed drawing and Greek-note pages were rendered and visually inspected too.
 The PDF is untagged; physical printer behavior remains unverified.
 
+## Audit corrections
+
+A second review found and corrected three learner-facing defects:
+- A cache missing a source page stayed incomplete after reconnecting, with no
+  repair control. Both rooms now offer **Check offline copy** and **Save offline
+  copy again**. Inspection verifies every retained file's SHA-256, not just its
+  presence. Returning to the tab rechecks readiness. Repair verifies a complete
+  network batch before committing it and leaves the current settings intact.
+- An HTTP error from a reachable host replaced a correctly retained room.
+  Navigation now uses the retained room for failed HTTP responses as well as
+  failed connections. Unknown URLs retain their error response.
+- “All faces closed” blurred an openable design with a temporarily closed panel.
+  The choice is now **No opening faces**. Controls, English, notes, SVG and the
+  portable reading explain that the test holds all selected opening faces open;
+  the clause specifies which faces can open, not permanent panel positions.
+
+The actual cache-mutation review covers a missing image, authentic wrong-page
+bytes already in Cache Storage, complete cache eviction, failed requests,
+HTTP-200 substitution during repair, successful retry, concurrent repair from
+both rooms, preserved settings and real downloads after the origin stops.
+Both Chromium and Firefox complete that sequence:
+[offline-repair.json](review/seeing/offline-repair.json).
+Inspection and ordinary fetches do not recreate a deleted named cache.
+
+The measurement room's on-screen save text and source inventory now correctly
+say twelve pages. Its checked-in HTML and 25-page PDF were refreshed from actual
+browser downloads; the historical review below remains a record of its earlier
+edition. Current PDF content has sixteen complete Greek/English passages,
+twenty-two notes and twelve source captions. The source account lists both new
+printed pages. The Pages workflow now matches the configured branch deployment.
+
 ## Reproduce the review
 
 ```sh
@@ -68,6 +99,7 @@ npm run verify:sources
 npm run test:seeing -- /tmp/syngraphe-seeing-review
 npm run verify:seeing-artifacts -- /tmp/syngraphe-seeing-review
 npm run test:seeing-faults -- /tmp/syngraphe-seeing-faults
+npm run test:offline-repair -- /tmp/syngraphe-offline-repair
 npm run test:browser -- /tmp/syngraphe-measurement-review
 python3 scripts/artifacts.py /tmp/syngraphe-measurement-review
 ```
@@ -77,34 +109,19 @@ Playwright Chromium/Firefox installations; no browser installation was needed
 in this review. After the output directory, an optional previous-production directory enables
 the two-tab handover check in `scripts/seeing-faults.mjs`.
 
-## Independent checkout
+## Independent checkout and publication
 
-A fresh local clone at `1a7aade` installed with `npm ci` and passed lint,
-typecheck, all eleven unit checks, both independent model oracles, the four
-new-room browser configurations, the portable artifact audit, both recovery
-browsers and the pre-existing fault review. Its complete 26-file build is
-byte-identical to the current checkout's build. The worker inventory contains
-25 files because the generated worker itself is not cached.
-[Clean-build receipt](review/seeing/clean-build.json).
+The earlier clean-checkout receipt at `1a7aade` predates the audit corrections
+above: [original clean-build receipt](review/seeing/clean-build.json). Its
+26-file inventory is historical evidence, not the current edition's identity.
+The current source and public delivery receive separate byte and browser
+checks before the catalogue is published. Build with `npm run build`; the
+complete output is **`dist/`**, served under **`/syngraphe/`**.
 
-The current example JSON, CSV, SVG, compressed HTML and PDF were copied from
-those real clean-checkout downloads. CSV keeps its actual RFC 4180 line endings;
-Git attributes preserve those bytes on checkout. The later documentation and
-example refresh does not change build inputs.
-
-## Publication boundary
-
-This is local completed work. The read-only check found remote `main` at the
-unchanged starting revision and `seeing.html` returning HTTP 404:
-[publication-boundary.json](review/seeing/publication-boundary.json).
-No push, Pages deployment, tag, registry publication or remote CI success is
-claimed. The house standards reserve publication for the coordinator.
-
-Build with `npm run build`; deploy the complete **`dist/`** directory under
-**`/syngraphe/`**. Publish the source review and this lesson before deploying
-Officina's staged search entry. Afterwards, verify canonical hosted bytes and
-the real public search -> lesson -> source/review -> portable-reading journey
-independently. The local receipt does not substitute for that public review.
+The initial [publication-boundary receipt](review/seeing/publication-boundary.json)
+records the pre-publication source heads and `seeing.html` HTTP 404. It does not
+establish current public availability. No remote CI success is inferred from
+local checks or a Pages response.
 
 Suggested repository description: “Read Greek building instructions, test their
 geometry and sightlines, and keep the source evidence.” Topics: `ancient-greek`,

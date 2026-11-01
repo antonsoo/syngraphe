@@ -47,8 +47,9 @@ export const visibilityReadings: Reading[] = [
     lines: "88–89",
     pages: [41],
     greek: "καὶ ποιήσει ἀνοιγνυμένας, τῶμ μὲν πρὸς τῶι τοίχωι κειμένων τὸμ πρόσθιον τοῖχον,",
-    english: "And make them open: for those lying by the wall, [open] the front wall.",
-    note: "The supplied English verb in brackets makes the abbreviated construction readable. The printed τῶμ and τὸμ are retained; they are assimilated forms, not misspelled menu labels. 'Front' in the drawing means the chest face toward the passage. No hinge or door swing is reconstructed.",
+    english:
+      "And make them so that they open: for those lying by the wall, [through] the front wall.",
+    note: "The supplied English preposition in brackets makes the abbreviated construction readable. This specifies which faces can open; our test holds those selected faces open. The printed τῶμ and τὸμ are retained; they are assimilated forms, not misspelled menu labels. 'Front' in the drawing means the chest face toward the passage. No hinge or door swing is reconstructed.",
     words: [
       {
         form: "ἀνοιγνυμένας",
@@ -76,7 +77,7 @@ export const visibilityReadings: Reading[] = [
     lines: "89–91",
     pages: [41],
     greek: "τῶν δὲ κατὰ τοὺς κίονας κειμένων ἀμφοτέρους τοὺς πλαγίους τοίχους,",
-    english: "But for those lying by the pillars, [open] both side walls.",
+    english: "But for those lying by the pillars, [through] both side walls.",
     note: "The μὲν … δὲ contrast divides two groups of chests. Both side walls is stronger than either one side or a generic 'open chest'. The following sightline experiment does not prove that this was the only geometry able to reveal any contents.",
     words: [
       {
@@ -89,7 +90,7 @@ export const visibilityReadings: Reading[] = [
         form: "ἀμφοτέρους",
         lemma: "ἀμφότερος",
         meaning: "both of the two",
-        work: "Opening one side alone fails this stated two-side requirement.",
+        work: "Providing only one openable side falls short of the stated two-side requirement. Closing an openable panel temporarily is a different question.",
       },
       {
         form: "τοὺς πλαγίους τοίχους",

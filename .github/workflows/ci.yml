@@ -23,3 +23,4 @@ jobs:
       - run: npm run test:seeing -- /tmp/syngraphe-seeing-review
       - run: npm run verify:seeing-artifacts -- /tmp/syngraphe-seeing-review
       - run: npm run test:seeing-faults -- /tmp/syngraphe-seeing-faults
+      - run: npm run test:offline-repair -- /tmp/syngraphe-offline-repair

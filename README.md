@@ -97,7 +97,7 @@ Offline installation belongs to production, not the Vite development server.
 
 [Actual editable example](examples/plan.json) · [Actual CSV](examples/measurements.csv) ·
 [Actual SVG](examples/study.svg) · [Retained HTML, gzip](examples/reading.html.gz) ·
-[Actual 23-page PDF](examples/reading.pdf).
+[Actual 25-page PDF](examples/reading.pdf).
 
 ```sh
 gzip -dc examples/reading.html.gz > /tmp/syngraphe-reading.html
@@ -107,7 +107,10 @@ Saving captures the settings when the action begins. Source display and
 illustrated export verify lengths and SHA-256 values before using page bytes.
 An HTTP 200 containing a different page is refused. An installed production
 edition works offline only after the current worker controls the page and its
-complete inventory is cached; the status reports that state.
+complete inventory passes a byte-integrity check; the status reports that state.
+Use **Check offline copy** to recheck it. If storage was evicted or damaged,
+**Save offline copy again** restores the complete current edition while online,
+without resetting either room's settings. Returning to a tab rechecks readiness.
 
 ## How the model works
 
@@ -155,6 +158,7 @@ python3 scripts/artifacts.py /tmp/syngraphe-review
 npm run test:seeing -- /tmp/syngraphe-seeing-review
 npm run verify:seeing-artifacts -- /tmp/syngraphe-seeing-review
 npm run test:seeing-faults -- /tmp/syngraphe-seeing-faults
+npm run test:offline-repair -- /tmp/syngraphe-offline-repair
 ```
 
 Source reproduction and artifact/PDF checks require Python 3 and Poppler. The

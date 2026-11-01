@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-11-01T05:36:52.181Z",
+  "boundary": "Local production edition; actual Cache Storage mutation and server failure/substitution/shutdown",
+  "results": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "missingFileRecheckedOnFocus": true,
+      "failedRepairPreservesIncompleteState": true,
+      "http200SubstitutionRefusedDuringRepair": true,
+      "repairPreservesSightlineSettings": true,
+      "wrongCachedBytesCannotClaimReadiness": true,
+      "wholeCacheEvictionAndRepair": true,
+      "inspectionDoesNotRecreateDeletedCache": true,
+      "twoRoomConcurrentRepairPreservesSettings": true,
+      "repairedBothRoomsReloadWithOriginStopped": true,
+      "actualPortableDownloadAfterShutdown": true,
+      "httpErrorUsesRetainedRoom": true,
+      "unknownRouteKeepsHttpError": true
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "missingFileRecheckedOnFocus": true,
+      "failedRepairPreservesIncompleteState": true,
+      "http200SubstitutionRefusedDuringRepair": true,
+      "repairPreservesSightlineSettings": true,
+      "wrongCachedBytesCannotClaimReadiness": true,
+      "wholeCacheEvictionAndRepair": true,
+      "inspectionDoesNotRecreateDeletedCache": true,
+      "twoRoomConcurrentRepairPreservesSettings": true,
+      "repairedBothRoomsReloadWithOriginStopped": true,
+      "actualPortableDownloadAfterShutdown": true,
+      "httpErrorUsesRetainedRoom": true,
+      "unknownRouteKeepsHttpError": true
+    }
+  ]
+}

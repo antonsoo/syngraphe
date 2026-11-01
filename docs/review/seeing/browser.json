@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T05:13:17.795Z",
+  "checkedAt": "2026-11-01T05:34:15.340Z",
   "boundary": "Local production edition; local origin stopped before offline replay",
   "configurations": [
     {
@@ -18,12 +18,12 @@
         },
         {
           "greek": "καὶ ποιήσει ἀνοιγνυμένας, τῶμ μὲν πρὸς τῶι τοίχωι κειμένων τὸμ πρόσθιον τοῖχον,",
-          "english": "And make them open: for those lying by the wall, [open] the front wall.",
+          "english": "And make them so that they open: for those lying by the wall, [through] the front wall.",
           "words": 3
         },
         {
           "greek": "τῶν δὲ κατὰ τοὺς κίονας κειμένων ἀμφοτέρους τοὺς πλαγίους τοίχους,",
-          "english": "But for those lying by the pillars, [open] both side walls.",
+          "english": "But for those lying by the pillars, [through] both side walls.",
           "words": 3
         },
         {
@@ -72,16 +72,16 @@
           "sha256": "eee6fc759115c8545169b1db7802781003754692d155df0ac487211b8dcbfaa4"
         },
         "study.svg": {
-          "bytes": 4441,
-          "sha256": "95eb7b6f216838e3e42a71515093543c2aa30033faa402147b03d63c92f89419"
+          "bytes": 4572,
+          "sha256": "22633ac847b1cb21e7b3edc7d8f0b4372f5ddebc04b045f519455750cbe0be21"
         },
         "reading.html": {
-          "bytes": 2662946,
-          "sha256": "87dc3db3bd1b5c5bd66c23f5ef08f4a361a2b751d1da77b7d20ae69fa082e77a"
+          "bytes": 2663809,
+          "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18"
         },
         "offline-reading.html": {
-          "bytes": 2663184,
-          "sha256": "d8f948a273ed134df0888bc41e0b5a1fecf341372dbcf6b1d7b7397a710b9f58"
+          "bytes": 2664047,
+          "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608"
         }
       },
       "sharedLinkRestored": true,
@@ -111,12 +111,12 @@
         },
         {
           "greek": "καὶ ποιήσει ἀνοιγνυμένας, τῶμ μὲν πρὸς τῶι τοίχωι κειμένων τὸμ πρόσθιον τοῖχον,",
-          "english": "And make them open: for those lying by the wall, [open] the front wall.",
+          "english": "And make them so that they open: for those lying by the wall, [through] the front wall.",
           "words": 3
         },
         {
           "greek": "τῶν δὲ κατὰ τοὺς κίονας κειμένων ἀμφοτέρους τοὺς πλαγίους τοίχους,",
-          "english": "But for those lying by the pillars, [open] both side walls.",
+          "english": "But for those lying by the pillars, [through] both side walls.",
           "words": 3
         },
         {
@@ -165,16 +165,16 @@
           "sha256": "eee6fc759115c8545169b1db7802781003754692d155df0ac487211b8dcbfaa4"
         },
         "study.svg": {
-          "bytes": 4441,
-          "sha256": "95eb7b6f216838e3e42a71515093543c2aa30033faa402147b03d63c92f89419"
+          "bytes": 4572,
+          "sha256": "22633ac847b1cb21e7b3edc7d8f0b4372f5ddebc04b045f519455750cbe0be21"
         },
         "reading.html": {
-          "bytes": 2662946,
-          "sha256": "87dc3db3bd1b5c5bd66c23f5ef08f4a361a2b751d1da77b7d20ae69fa082e77a"
+          "bytes": 2663809,
+          "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18"
         },
         "offline-reading.html": {
-          "bytes": 2663184,
-          "sha256": "d8f948a273ed134df0888bc41e0b5a1fecf341372dbcf6b1d7b7397a710b9f58"
+          "bytes": 2664047,
+          "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608"
         }
       },
       "sharedLinkRestored": true,
@@ -204,12 +204,12 @@
         },
         {
           "greek": "καὶ ποιήσει ἀνοιγνυμένας, τῶμ μὲν πρὸς τῶι τοίχωι κειμένων τὸμ πρόσθιον τοῖχον,",
-          "english": "And make them open: for those lying by the wall, [open] the front wall.",
+          "english": "And make them so that they open: for those lying by the wall, [through] the front wall.",
           "words": 3
         },
         {
           "greek": "τῶν δὲ κατὰ τοὺς κίονας κειμένων ἀμφοτέρους τοὺς πλαγίους τοίχους,",
-          "english": "But for those lying by the pillars, [open] both side walls.",
+          "english": "But for those lying by the pillars, [through] both side walls.",
           "words": 3
         },
         {
@@ -258,16 +258,16 @@
           "sha256": "eee6fc759115c8545169b1db7802781003754692d155df0ac487211b8dcbfaa4"
         },
         "study.svg": {
-          "bytes": 4441,
-          "sha256": "95eb7b6f216838e3e42a71515093543c2aa30033faa402147b03d63c92f89419"
+          "bytes": 4572,
+          "sha256": "22633ac847b1cb21e7b3edc7d8f0b4372f5ddebc04b045f519455750cbe0be21"
         },
         "reading.html": {
-          "bytes": 2662946,
-          "sha256": "87dc3db3bd1b5c5bd66c23f5ef08f4a361a2b751d1da77b7d20ae69fa082e77a"
+          "bytes": 2663809,
+          "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18"
         },
         "offline-reading.html": {
-          "bytes": 2663184,
-          "sha256": "d8f948a273ed134df0888bc41e0b5a1fecf341372dbcf6b1d7b7397a710b9f58"
+          "bytes": 2664047,
+          "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608"
         }
       },
       "sharedLinkRestored": true,
@@ -297,12 +297,12 @@
         },
         {
           "greek": "καὶ ποιήσει ἀνοιγνυμένας, τῶμ μὲν πρὸς τῶι τοίχωι κειμένων τὸμ πρόσθιον τοῖχον,",
-          "english": "And make them open: for those lying by the wall, [open] the front wall.",
+          "english": "And make them so that they open: for those lying by the wall, [through] the front wall.",
           "words": 3
         },
         {
           "greek": "τῶν δὲ κατὰ τοὺς κίονας κειμένων ἀμφοτέρους τοὺς πλαγίους τοίχους,",
-          "english": "But for those lying by the pillars, [open] both side walls.",
+          "english": "But for those lying by the pillars, [through] both side walls.",
           "words": 3
         },
         {
@@ -351,16 +351,16 @@
           "sha256": "eee6fc759115c8545169b1db7802781003754692d155df0ac487211b8dcbfaa4"
         },
         "study.svg": {
-          "bytes": 4441,
-          "sha256": "95eb7b6f216838e3e42a71515093543c2aa30033faa402147b03d63c92f89419"
+          "bytes": 4572,
+          "sha256": "22633ac847b1cb21e7b3edc7d8f0b4372f5ddebc04b045f519455750cbe0be21"
         },
         "reading.html": {
-          "bytes": 2662946,
-          "sha256": "87dc3db3bd1b5c5bd66c23f5ef08f4a361a2b751d1da77b7d20ae69fa082e77a"
+          "bytes": 2663809,
+          "sha256": "1ac7f3762ddf612bddf4cee6760f03644ec1261b3a2a9a87b024786c774a3a18"
         },
         "offline-reading.html": {
-          "bytes": 2663184,
-          "sha256": "d8f948a273ed134df0888bc41e0b5a1fecf341372dbcf6b1d7b7397a710b9f58"
+          "bytes": 2664047,
+          "sha256": "cc71b07c73c09a4cd2433290304f4c60ca4fe62844c4a61d26025abc8b9e6608"
         }
       },
       "sharedLinkRestored": true,

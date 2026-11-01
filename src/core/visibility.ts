@@ -45,14 +45,14 @@ export const visibilityInitial: VisibilityState = {
   page: 41,
 };
 export const openingNames: Record<Opening, string> = {
-  closed: "All faces closed",
+  closed: "No opening faces",
   front: "Front only",
   left: "Left side only",
   right: "Right side only",
   sides: "Both sides",
 };
 export const MODEL_SCOPE =
-  "Modern two-dimensional sightline study: one isolated support, two illustrative chests and one sample point per chest. Seeing the samples does not establish visibility of all equipment or reconstruct the building.";
+  "Modern two-dimensional sightline study: one isolated support, two illustrative chests and one sample point per chest. Selected opening faces are held open for this test; the ancient clause concerns which faces can be opened. Seeing the samples does not establish visibility of all equipment or reconstruct the building.";
 
 export const CHESTS = {
   wall: { x: 40, y: 248, w: 32, h: 32, target: { x: 56, y: 264 } },

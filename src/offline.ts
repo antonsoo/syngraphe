@@ -1,11 +1,11 @@
-/** Readiness belongs to this page's edition, not merely to any active worker. */
+/** Readiness belongs to this page's edition and the bytes currently retained. */
 interface EditionReply {
   type: "SYNGRAPHE_EDITION";
   edition: string;
   complete: boolean;
 }
 
-function inspectWorker(worker: ServiceWorker): Promise<EditionReply | null> {
+function inspectWorker(worker: ServiceWorker, repair = false): Promise<EditionReply | null> {
   return new Promise((resolve) => {
     const channel = new MessageChannel();
     const finish = (reply: EditionReply | null) => {
@@ -13,9 +13,9 @@ function inspectWorker(worker: ServiceWorker): Promise<EditionReply | null> {
       channel.port1.close();
       resolve(reply);
     };
-    // Older published workers do not implement this message. Their silence is
-    // not evidence that the newly loaded course has been cached.
-    const timeout = setTimeout(() => finish(null), 2000);
+    // Older published workers may not implement these messages. Silence does
+    // not establish readiness. A repair has its own bounded network deadline.
+    const timeout = setTimeout(() => finish(null), repair ? 30000 : 5000);
     channel.port1.onmessage = (event: MessageEvent<unknown>) => {
       const data = event.data;
       if (
@@ -32,7 +32,13 @@ function inspectWorker(worker: ServiceWorker): Promise<EditionReply | null> {
       else finish(null);
     };
     try {
-      worker.postMessage({ type: "SYNGRAPHE_INSPECT_EDITION" }, [channel.port2]);
+      worker.postMessage(
+        {
+          type: repair ? "SYNGRAPHE_REPAIR_EDITION" : "SYNGRAPHE_INSPECT_EDITION",
+          edition: __EDITION__,
+        },
+        [channel.port2],
+      );
     } catch {
       finish(null);
     }
@@ -53,13 +59,22 @@ export function prepareOffline(status: HTMLElement, reload: HTMLButtonElement): 
     return;
   }
   const container = navigator.serviceWorker;
+  const check = document.createElement("button");
+  check.type = "button";
+  check.id = "offline-check";
+  check.textContent = "Check offline copy";
+  status.after(check);
   let registration: ServiceWorkerRegistration | undefined;
   let revision = 0;
   let verifiedCurrent = false;
   let installFailed = false;
+  let incomplete = false;
+  let repairing = false;
   const observedWorkers = new WeakSet<ServiceWorker>();
   const pending = () => {
     reload.hidden = true;
+    check.disabled = Boolean(registration?.installing || registration?.waiting);
+    check.textContent = "Retry offline saving";
     status.textContent = installFailed
       ? "This edition could not be saved offline. Keep this tab open to continue reading."
       : !registration || registration.installing || registration.waiting
@@ -68,6 +83,7 @@ export function prepareOffline(status: HTMLElement, reload: HTMLButtonElement): 
   };
   const refresh = async () => {
     const currentRevision = ++revision;
+    if (repairing) return;
     if (registration?.installing || registration?.waiting) {
       pending();
       return;
@@ -75,30 +91,32 @@ export function prepareOffline(status: HTMLElement, reload: HTMLButtonElement): 
     const worker = container.controller;
     if (!worker) {
       pending();
-      // A navigation can start during installation and finish after the
-      // activation claim has already enumerated its clients. That tab then
-      // has an activated registration but no controller or later statechange.
-      // Ask the matching edition to claim again now that this document exists.
+      // A navigation may finish after activation has enumerated its clients.
       if (registration?.active?.state === "activated")
-        registration.active.postMessage({
-          type: "SYNGRAPHE_CLAIM_EDITION",
-          edition: __EDITION__,
-        });
+        registration.active.postMessage({ type: "SYNGRAPHE_CLAIM_EDITION", edition: __EDITION__ });
       return;
     }
+    status.textContent = "Checking the saved edition and source pages…";
+    check.disabled = true;
     const reply = await inspectWorker(worker);
-    // Activation can replace the controller while the older worker is replying.
+    // An older reply must not overwrite the current controller's state.
     if (currentRevision !== revision || worker !== container.controller) return;
+    check.disabled = false;
+    incomplete = reply?.edition === __EDITION__ && !reply.complete;
     if (reply?.edition === __EDITION__ && reply.complete) {
       verifiedCurrent = true;
       status.textContent = "Edition ready offline, including source pages";
       reload.hidden = true;
-    } else if (reply?.edition === __EDITION__ && !reply.complete) {
-      status.textContent = "Offline copy is incomplete. Keep this tab open to continue reading.";
+      check.textContent = "Check offline copy";
+    } else if (incomplete) {
+      status.textContent =
+        "Offline copy is incomplete. Reconnect, then save the copy again. Your settings stay in this tab.";
       reload.hidden = true;
+      check.textContent = "Save offline copy again";
     } else if (verifiedCurrent && reply?.complete && reply.edition !== __EDITION__) {
       status.textContent = "A different edition is now saved offline. Reload to read that edition.";
       reload.hidden = false;
+      check.hidden = true;
     } else {
       pending();
     }
@@ -117,6 +135,9 @@ export function prepareOffline(status: HTMLElement, reload: HTMLButtonElement): 
   };
   reload.addEventListener("click", () => location.reload());
   container.addEventListener("controllerchange", () => {
+    // The repair result belongs to the replaced worker, never to its successor.
+    repairing = false;
+    check.hidden = false;
     void refresh();
   });
   const register = () =>
@@ -134,8 +155,6 @@ export function prepareOffline(status: HTMLElement, reload: HTMLButtonElement): 
         registration = result;
         observe(result.installing);
         observe(result.waiting);
-        // During a navigation the worker may already be activating, with no
-        // installing worker left to observe and no controller assigned yet.
         observe(result.active);
         void refresh();
       })
@@ -143,10 +162,28 @@ export function prepareOffline(status: HTMLElement, reload: HTMLButtonElement): 
         installFailed = true;
         void refresh();
       });
+  check.addEventListener("click", async () => {
+    const worker = container.controller;
+    if (!incomplete || !worker) {
+      if (!verifiedCurrent) await register();
+      await refresh();
+      return;
+    }
+    repairing = true;
+    ++revision;
+    check.disabled = true;
+    status.textContent = "Saving the complete offline copy again. Your settings stay in this tab…";
+    const reply = await inspectWorker(worker, true);
+    if (worker !== container.controller) return;
+    repairing = false;
+    await refresh();
+    if (!reply?.complete && incomplete)
+      status.textContent =
+        "The offline copy could not be repaired. Reconnect and try saving again; your settings are still here.";
+  });
   window.addEventListener("online", () => {
     installFailed = false;
-    // A failed first installation has no active worker and can discard its
-    // registration. update() on that old object cannot start a fresh install.
+    // Failed first installs may discard their registration altogether.
     if (registration?.active)
       registration.update().catch(() => {
         installFailed = true;
@@ -154,6 +191,11 @@ export function prepareOffline(status: HTMLElement, reload: HTMLButtonElement): 
       });
     else void register();
     void refresh();
+  });
+  window.addEventListener("offline", () => void refresh());
+  window.addEventListener("focus", () => void refresh());
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") void refresh();
   });
   void register();
 }

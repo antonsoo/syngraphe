@@ -89,11 +89,30 @@ const EDITION = ${JSON.stringify(edition)};
 const BASE = ${JSON.stringify(base)};
 const FILES = ${JSON.stringify(urls)};
 const INTEGRITY = ${JSON.stringify(integrity)};
+let repair;
+async function complete() {
+  // Presence alone cannot establish that a retained scan belongs to this edition.
+  return (await Promise.all(FILES.map(async file => {
+    const saved = await caches.match(file, { cacheName: CACHE });
+    if (!saved?.ok) return false;
+    const digest = new Uint8Array(await crypto.subtle.digest("SHA-256", await saved.arrayBuffer()));
+    return "sha256-" + btoa(String.fromCharCode(...digest)) === INTEGRITY[file];
+  }))).every(Boolean);
+}
+async function save() {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 25000);
+  try {
+    const cache = await caches.open(CACHE);
+    const requests = FILES.map(url => new Request(url, { cache: "reload", integrity: INTEGRITY[url], signal: controller.signal }));
+    // addAll commits the complete batch only when every response passes integrity.
+    await cache.addAll(requests);
+  } finally { clearTimeout(timeout); }
+}
 self.addEventListener("install", event => {
   // HTTP success does not establish edition identity. A stale entry page or
   // substituted scan must fail the complete install before this worker activates.
-  const requests = FILES.map(url => new Request(url, { cache: "reload", integrity: INTEGRITY[url] }));
-  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(requests)).then(() => self.skipWaiting()));
+  event.waitUntil(save().then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", event => {
   event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith("syngraphe-") && key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim()));
@@ -103,20 +122,30 @@ self.addEventListener("message", event => {
     event.waitUntil(self.clients.claim());
     return;
   }
-  if (event.data?.type !== "SYNGRAPHE_INSPECT_EDITION" || !event.ports[0]) return;
-  // Inspection must not recreate a deleted or retired edition cache.
-  event.waitUntil(Promise.all(FILES.map(file => caches.match(file, { cacheName: CACHE }))).then(saved => {
-    event.ports[0].postMessage({ type: "SYNGRAPHE_EDITION", edition: EDITION, complete: saved.every(Boolean) });
-  }).catch(() => event.ports[0].postMessage({ type: "SYNGRAPHE_EDITION", edition: EDITION, complete: false })));
+  const type = event.data?.type;
+  if (!["SYNGRAPHE_INSPECT_EDITION", "SYNGRAPHE_REPAIR_EDITION"].includes(type) || !event.ports[0]) return;
+  const reply = () => complete().then(saved => event.ports[0].postMessage({ type: "SYNGRAPHE_EDITION", edition: EDITION, complete: saved }));
+  // Repairs coalesce across tabs and never silently repair a different page edition.
+  if (type === "SYNGRAPHE_REPAIR_EDITION" && event.data.edition === EDITION) {
+    if (!repair) repair = save().catch(() => {}).finally(() => { repair = null; });
+    event.waitUntil(repair.then(reply).catch(() => event.ports[0].postMessage({ type: "SYNGRAPHE_EDITION", edition: EDITION, complete: false })));
+  } else {
+    // Inspection must not recreate a deleted or retired edition cache.
+    event.waitUntil(reply().catch(() => event.ports[0].postMessage({ type: "SYNGRAPHE_EDITION", edition: EDITION, complete: false })));
+  }
 });
 self.addEventListener("fetch", event => {
   const url = new URL(event.request.url);
   if (event.request.method !== "GET" || url.origin !== self.location.origin || !url.pathname.startsWith(BASE)) return;
   if (event.request.mode === "navigate") {
     const page = url.pathname === BASE ? BASE + "index.html" : url.pathname;
-    event.respondWith(fetch(event.request).catch(() => caches.open(CACHE).then(async cache => (await cache.match(page)) || Response.error())));
+    event.respondWith(fetch(event.request).then(async response => {
+      // A reachable host can still fail. Keep a retained room readable during
+      // an HTTP error, as well as when the connection itself is unavailable.
+      return response.ok ? response : (await caches.match(page, { cacheName: CACHE })) || response;
+    }).catch(() => caches.match(page, { cacheName: CACHE }).then(saved => saved || Response.error())));
   } else if (FILES.includes(url.pathname)) {
-    event.respondWith(caches.open(CACHE).then(cache => cache.match(url.pathname)).then(cached => cached || fetch(event.request)));
+    event.respondWith(caches.match(url.pathname, { cacheName: CACHE }).then(cached => cached || fetch(event.request)));
   }
 });
 `,
