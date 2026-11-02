@@ -9,7 +9,7 @@ https://archive.org/details/etudesepigraphiq00choi.
 The publication is public domain in the United States. Choisy died in 1909.
 Whole pages contain the original Greek, his French, notes and reconstruction
 plates. The source manifest records PDF and image identities. No new copyright
-restriction is imposed on public-domain material by this project's MIT license.
+restriction is imposed on public-domain material by this project's PolyForm Noncommercial license.
 
 ## Noto Serif Regular
 

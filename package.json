@@ -5,7 +5,7 @@
   "description": "Read the Piraeus arsenal specification in Greek and build exact, source-accountable architectural diagrams.",
   "type": "module",
   "author": "Anthony Mercer <anthony@praviel.com>",
-  "license": "MIT",
+  "license": "PolyForm-Noncommercial-1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/antonsoo/syngraphe.git"

@@ -8,7 +8,7 @@ storehouse programme gives fifteen feet **including** a pillar, thirty feet
 longer. Syngraphe lets an English-speaking beginner make those reading decisions,
 see their geometric consequences and inspect the printed evidence.
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-862e24)](LICENSE)
+[![License: PolyForm Noncommercial](https://img.shields.io/badge/license-PolyForm%20Noncommercial-862e24)](LICENSE)
 [Live workshop](https://antonsoo.github.io/syngraphe/)
 
 ![The inclusive width reading closes the fifty-five-foot account](docs/assets/width.png)
@@ -183,8 +183,10 @@ standard library only.
 
 ## Contributing and license
 
+New versions are released under the [PolyForm Noncommercial License 1.0.0](LICENSE). It is free for any noncommercial purpose, including personal study, teaching and research, and for use by charities, schools, universities, research organizations and government institutions. Commercial use needs written permission from Anthony Mercer (anthony@praviel.com). Versions up to commit [`6e7f40d`](https://github.com/antonsoo/syngraphe/tree/6e7f40d) (2026-11-01) were released under the MIT License, and copies of those versions keep it.
+
 See [Contributing](CONTRIBUTING.md). Bring a concrete learner improvement or a
 source/model correction with evidence. New code, English and diagrams are
-[MIT licensed](LICENSE), Copyright (c) 2026 Anthony Mercer. Historical pages are
+[PolyForm Noncommercial 1.0.0](LICENSE), Copyright (c) 2026 Anthony Mercer. Historical pages are
 public domain; Noto Serif uses SIL OFL 1.1. See
 [third-party notices](THIRD_PARTY_NOTICES.md).
