@@ -1,5 +1,5 @@
 {
-  "name": "@antonsoloviev/syngraphe",
+  "name": "@anthonymercer/syngraphe",
   "version": "0.1.0",
   "private": true,
   "description": "Read the Piraeus arsenal specification in Greek and build exact, source-accountable architectural diagrams.",
